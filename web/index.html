@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Org-Roam Personal Knowledge Analytics Suite</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-chart-matrix@1.1.1/dist/chartjs-chart-matrix.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns"></script>
+    <script src="https://cdn.anychart.com/releases/8.11.0/js/anychart-core.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/8.11.0/js/anychart-tag-cloud.min.js"></script>
+    <style>
+      body { font-family: '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f172a; color: #f8fafc; margin: 0; padding: 2vh 2vw; height: 100vh; box-sizing: border-box; overflow: hidden; }
+      .container { background: #1e293b; padding: 1.2rem; border-radius: 16px; box-shadow: 0 20px 25px -5px rgba(0,0,0,0.3); height: 96vh; display: flex; flex-direction: column; box-sizing: border-box; }
+      .header { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #334155; padding-bottom: 0.5rem; margin-bottom: 0.8rem; }
+      .header h1 { font-size: 1.4rem; margin: 0; color: #38bdf8; font-weight: 700; }
+      
+      .summary-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; margin-bottom: 0.8rem; flex-shrink: 0; }
+      .metric-card { background: #0f172a; padding: 0.8rem; border-radius: 12px; border: 1px solid #334155; text-align: center; cursor: pointer; transition: all 0.2s ease; }
+      .metric-card:hover { transform: translateY(-2px); border-color: #38bdf8; }
+      .metric-card.filtered { border-color: #f59e0b; box-shadow: 0 0 10px rgba(245, 158, 11, 0.2); }
+      .metric-val { font-size: 1.6rem; font-weight: 800; color: #f1f5f9; }
+      .metric-lbl { font-size: 0.7rem; text-transform: uppercase; color: #94a3b8; font-weight: 600; }
+      
+      .nav-tabs { display: flex; gap: 4px; border-bottom: 2px solid #334155; margin-bottom: 0.8rem; flex-shrink: 0; }
+      .tab-link { padding: 8px 16px; font-weight: 600; background: none; border: none; color: #94a3b8; cursor: pointer; border-radius: 8px 8px 0 0; font-size: 0.85rem; }
+      .tab-link:hover { color: #f1f5f9; background: #334155; }
+      .tab-link.active { color: #38bdf8; border-bottom: 3px solid #38bdf8; background: rgba(56, 189, 248, 0.08); }
+      
+      .tab-viewport { flex-grow: 1; min-height: 0; position: relative; }
+      .viewport-panel { display: none; width: 100%; height: 100%; }
+      .viewport-panel.active { display: block; }
+      
+      .split-canvas-layout { display: grid; grid-template-columns: 2fr 1fr; gap: 14px; height: 100%; min-height: 0; }
+      .subpanel-box { background: #0f172a; border-radius: 12px; border: 1px solid #334155; padding: 0.8rem; box-sizing: border-box; display: flex; flex-direction: column; height: 100%; min-height: 0; position: relative; }
+      .subpanel-title { font-size: 0.8rem; font-weight: bold; color: #94a3b8; margin: 0 0 8px 0; text-transform: uppercase; flex-shrink: 0; }
+      
+      .chart-wrapper { position: relative; flex-grow: 1; width: 100%; height: 100%; min-height: 0; }
+      canvas { position: absolute; top: 0; left: 0; width: 100% !important; height: 100% !important; }
+      .visualization-container { width: 100%; height: 100%; }
+      
+      .tag-explorer-container { display: flex; flex-direction: column; gap: 6px; overflow-y: auto; height: calc(100% - 25px); padding-right: 4px; }
+      .tag-explorer-item { display: flex; justify-content: space-between; align-items: center; padding: 10px 14px; background: #1e293b; border-radius: 8px; cursor: pointer; border: 1px solid transparent; transition: all 0.2s; font-size: 0.85rem; color: #e2e8f0; }
+      .tag-explorer-item:hover { background: #334155; border-color: #38bdf8; }
+      .tag-explorer-item.selected { background: rgba(56, 189, 248, 0.15); border-color: #38bdf8; color: #38bdf8; font-weight: bold; }
+      .tag-badge-count { background: #0f172a; padding: 2px 8px; border-radius: 12px; font-size: 0.75rem; font-weight: bold; color: #38bdf8; border: 1px solid #334155; }
+
+      .filter-banner { background: #f59e0b; color: #0f172a; padding: 4px 12px; font-size: 0.8rem; font-weight: bold; border-radius: 6px; display: none; align-items: center; gap: 8px; margin-bottom: 8px; flex-shrink: 0; }
+      .clear-filter-btn { background: #0f172a; color: #f59e0b; border: none; padding: 2px 6px; border-radius: 4px; cursor: pointer; font-size: 0.75rem; font-weight: bold; }
+    </style>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="header">
+        <h1>Org-Roam System Analytics Suite</h1>
+        <div id="filter-status-banner" class="filter-banner">
+          Active Filter: <span id="active-tag-name">None</span>
+          <button class="clear-filter-btn" onclick="clearTagFilter()">Clear Filter</button>
+        </div>
+        <div style="font-size: 0.8rem; color: #64748b;" id="server-clock"></div>
+      </div>
+
+      <div class="summary-grid">
+        <div class="metric-card" id="card-total" onclick="switchActiveViewport('summary-view')">
+          <div class="metric-val" id="meta-total-nodes">0</div>
+          <div class="metric-lbl">Total Base Nodes</div>
+        </div>
+        <div class="metric-card" id="card-words" onclick="switchActiveViewport('structural-view')">
+          <div class="metric-val" id="meta-avg-words">0</div>
+          <div class="metric-lbl">Avg Words / Note</div>
+        </div>
+        <div class="metric-card" id="card-links" onclick="switchActiveViewport('structural-view')">
+          <div class="metric-val" id="meta-avg-edges">0</div>
+          <div class="metric-lbl">Avg Links Density</div>
+        </div>
+        <div class="metric-card" id="card-tags" onclick="switchActiveViewport('semantic-view')">
+          <div class="metric-val" id="meta-top-tag">None</div>
+          <div class="metric-lbl">Dominant Filetag</div>
+        </div>
+        <div class="metric-card" id="card-velocity" onclick="switchActiveViewport('timeline-view')">
+          <div class="metric-val" id="meta-velocity">0</div>
+          <div class="metric-lbl">Velocity (Notes/Mo)</div>
+        </div>
+      </div>
+
+      <div class="nav-tabs">
+        <button class="tab-link active" onclick="activateTabEvent(event, 'summary-view')">Summary Dashboard</button>
+        <button class="tab-link" onclick="activateTabEvent(event, 'structural-view')">Density & Formatting</button>
+        <button class="tab-link" onclick="activateTabEvent(event, 'semantic-view')">Semantic & Tags Explorer</button>
+        <button class="tab-link" onclick="activateTabEvent(event, 'timeline-view')">Temporal Velocity</button>
+      </div>
+
+      <div class="tab-viewport">
+        
+        <div id="summary-view" class="viewport-panel active">
+          <div class="split-canvas-layout">
+            <div class="subpanel-box">
+              <p class="subpanel-title">System Evolution (Cumulative Growth Curve)</p>
+              <div class="chart-wrapper"><canvas id="summaryGrowthChart"></canvas></div>
+            </div>
+            <div class="subpanel-box">
+              <p class="subpanel-title">Activity Density Spectrum (Excludes Missing Times)</p>
+              <div class="chart-wrapper"><canvas id="summaryChronographMatrix"></canvas></div>
+            </div>
+          </div>
+        </div>
+
+        <div id="structural-view" class="viewport-panel">
+          <div class="split-canvas-layout">
+            <div class="subpanel-box"><p class="subpanel-title">Word Count Distribution (Detailed Bins)</p><div class="chart-wrapper"><canvas id="structWordDensityChart"></canvas></div></div>
+            <div class="subpanel-box"><p class="subpanel-title">Link Count Density Distribution</p><div class="chart-wrapper"><canvas id="structLinkDensityChart"></canvas></div></div>
+          </div>
+        </div>
+
+        <div id="semantic-view" class="viewport-panel">
+          <div class="split-canvas-layout">
+            <div class="subpanel-box"><p class="subpanel-title">Keywords Title Wordcloud (Freq > 1)</p><div id="semanticWordcloudBox" class="visualization-container"></div></div>
+            <div class="subpanel-box">
+              <p class="subpanel-title">Interactive Filetag Explorer</p>
+              <div id="tagExplorerBox" class="tag-explorer-container"></div>
+            </div>
+          </div>
+        </div>
+
+        <div id="timeline-view" class="viewport-panel">
+          <div class="split-canvas-layout" style="grid-template-columns: 1fr 1fr 1fr;">
+            <div class="subpanel-box"><p class="subpanel-title">Entries per Month</p><div class="chart-wrapper"><canvas id="timeMonthChart"></canvas></div></div>
+            <div class="subpanel-box"><p class="subpanel-title">Weekly Rhythms Allocation</p><div class="chart-wrapper"><canvas id="timeWeekdayChart"></canvas></div></div>
+            <div class="subpanel-box"><p class="subpanel-title">Hourly Activity (Radar - Real Times Only)</p><div class="chart-wrapper"><canvas id="timeRadarChart"></canvas></div></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <script>
+      let databasePayload = { nodes: [], links: [] };
+      let globalActiveCharts = {};
+      let cloudInstance = null;
+      let activeTagFilter = null;
+      const dayLabels = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+
+      document.getElementById('server-clock').innerText = "Generated: " + new Date().toLocaleString();
+
+      function activateTabEvent(evt, tabId) {
+      document.querySelectorAll(".viewport-panel").forEach(p => p.classList.remove("active"));
+      document.querySelectorAll(".tab-link").forEach(t => t.classList.remove("active"));
+      document.getElementById(tabId).classList.add("active");
+      if(evt) evt.currentTarget.classList.add("active");
+      
+      Object.values(globalActiveCharts).forEach(chart => chart.resize());
+      }
+
+      function switchActiveViewport(viewportId) {
+      const targetLink = Array.from(document.querySelectorAll('.tab-link')).find(btn => btn.getAttribute('onclick').includes(viewportId));
+      if (targetLink) targetLink.click();
+      }
+
+      async function initializeEnginePipeline() {
+      try {
+      const response = await fetch('data.json?t=' + Date.now());
+      databasePayload = await response.json();
+      renderGlobalState();
+      } catch(err) {
+      console.error("Critical Failure Loading Database: ", err);
+      }
+      }
+
+      function getFilteredNodes() {
+      if (!activeTagFilter) return databasePayload.nodes;
+      return databasePayload.nodes.filter(n => n.tags && n.tags.includes(activeTagFilter));
+      }
+
+      function renderGlobalState() {
+      executeMetricsPipeline();
+      renderDashboardVisualizations();
+      renderTagExplorerList();
+      }
+
+      function filterByTag(tagName) {
+      activeTagFilter = tagName;
+      document.getElementById('filter-status-banner').style.display = 'flex';
+      document.getElementById('active-tag-name').innerText = '#' + tagName;
+      
+      document.querySelectorAll('.metric-card').forEach(c => c.classList.add('filtered'));
+      renderGlobalState();
+      }
+
+      function clearTagFilter() {
+      activeTagFilter = null;
+      document.getElementById('filter-status-banner').style.display = 'none';
+      document.querySelectorAll('.metric-card').forEach(c => c.classList.remove('filtered'));
+      renderGlobalState();
+      }
+
+      function executeMetricsPipeline() {
+      const nodes = getFilteredNodes();
+      
+      document.getElementById('meta-total-nodes').innerText = nodes.length;
+      
+      const totalWords = nodes.reduce((acc, curr) => acc + curr.words, 0);
+      document.getElementById('meta-avg-words').innerText = nodes.length ? Math.round(totalWords / nodes.length).toLocaleString() : 0;
+      
+      const totalLinks = nodes.reduce((acc, curr) => acc + curr.links, 0);
+      document.getElementById('meta-avg-edges').innerText = nodes.length ? (totalLinks / nodes.length).toFixed(1) : 0;
+
+      const parsingTagsCount = {};
+      nodes.forEach(n => {
+      if (n.tags && Array.isArray(n.tags)) {
+      n.tags.forEach(t => { parsingTagsCount[t] = (parsingTagsCount[t] || 0) + 1; });
+      }
+      });
+      const rankedTags = Object.entries(parsingTagsCount).sort((a,b) => b[1] - a[1]);
+      document.getElementById('meta-top-tag').innerText = rankedTags.length ? `#${rankedTags[0][0]}` : "None";
+
+      const uniqueMonths = new Set(nodes.map(n => n.timestamp.substring(0, 7)));
+      document.getElementById('meta-velocity').innerText = nodes.length ? (nodes.length / Math.max(uniqueMonths.size, 1)).toFixed(1) : 0;
+      }
+
+      function renderTagExplorerList() {
+      const container = document.getElementById('tagExplorerBox');
+      container.innerHTML = "";
+      
+      const counts = {};
+      databasePayload.nodes.forEach(n => {
+      if(n.tags) n.tags.forEach(t => counts[t] = (counts[t] || 0) + 1);
+      });
+      
+      const sortedTags = Object.entries(counts).sort((a,b) => b[1] - a[1]);
+      
+      if(!sortedTags.length) {
+      container.innerHTML = "<div style='color:#64748b; padding:1rem; text-align:center;'>No #+filetags found in nodes.</div>";
+      return;
+      }
+
+      sortedTags.forEach(([tag, count]) => {
+      const item = document.createElement('div');
+      item.className = `tag-explorer-item ${activeTagFilter === tag ? 'selected' : ''}`;
+      item.onclick = () => activeTagFilter === tag ? clearTagFilter() : filterByTag(tag);
+      
+      item.innerHTML = `
+      <span>#${tag}</span>
+      <span class="tag-badge-count">${count}</span>
+      `;
+      container.appendChild(item);
+      });
+      }
+
+      function renderDashboardVisualizations() {
+      const nodes = getFilteredNodes();
+      if(!nodes.length) return;
+
+      const timelineData = nodes.map(n => {
+      const isNoTime = n.timestamp.includes("NO_TIME");
+      const cleanTime = n.timestamp.replace("NO_TIME", "").replace(/\[|\]/g, '').trim();
+      return { ...n, parsedDate: new Date(cleanTime), hasRealTime: !isNoTime };
+      }).filter(n => !isNaN(n.parsedDate.getTime())).sort((a,b) => a.parsedDate - b.parsedDate);
+
+      // 1. CUMULATIVE GROWTH CURVE
+      const growthLabels = [];
+      const cumulativeDataSeries = [];
+      let runningAccumulationSum = 0;
+      timelineData.forEach((node) => {
+      growthLabels.push(node.parsedDate.toISOString().split('T')[0]);
+      runningAccumulationSum++;
+      cumulativeDataSeries.push(runningAccumulationSum);
+      });
+
+      rebuildCanvasChartElement('summaryGrowthChart', {
+      type: 'line',
+      data: {
+      labels: growthLabels,
+      datasets: [{
+      label: 'Total Nodes',
+      data: cumulativeDataSeries,
+      borderColor: '#38bdf8',
+      backgroundColor: 'rgba(56, 189, 248, 0.05)',
+      fill: true,
+      tension: 0.1,
+      pointRadius: 0
+      }]
+      },
+      options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: { x: { type: 'time', time: { unit: 'month' }, grid: { color: '#334155' } }, y: { grid: { color: '#334155' } } }
+      }
+      });
+
+      // 2. CHROMOGRAPH MATRIX (HEATMAP)
+      const allocationMatrix = Array.from({length: 7}, () => new Array(24).fill(0));
+      let maxHeatmapValue = 1;
+      timelineData.forEach(n => {
+      if (n.hasRealTime) {
+      const day = n.parsedDate.getDay();
+      const hour = n.parsedDate.getHours();
+      allocationMatrix[day][hour]++;
+      if(allocationMatrix[day][hour] > maxHeatmapValue) maxHeatmapValue = allocationMatrix[day][hour];
+      }
+      });
+
+      const matrixFlatDataset = [];
+      for(let d=0; d<7; d++) {
+			for(let h=0; h<24; h++) {
+					   matrixFlatDataset.push({ x: h, y: dayLabels[d], v: allocationMatrix[d][h] });
+					   }
+					   }
+
+					   rebuildCanvasChartElement('summaryChronographMatrix', {
+					   type: 'matrix',
+					   data: {
+					   datasets: [{
+					   data: matrixFlatDataset,
+					   backgroundColor: ctx => {
+			const item = ctx.dataset.data[ctx.dataIndex];
+			if (!item || item.v === 0) return 'transparent';
+			return `rgba(56, 189, 248, ${Math.max(0.15, (item.v / maxHeatmapValue))})`;
+			},
+			width: ({chart}) => chart.chartArea ? chart.chartArea.width / 24 - 1 : 10,
+        height: ({chart}) => chart.chartArea ? chart.chartArea.height / 7 - 1 : 10
+        }]
+        },
+        options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+        x: { type: 'linear', min: -0.5, max: 23.5, ticks: { stepSize: 3, callback: v => v+":00" }, grid: { display: false } },
+        y: { type: 'category', labels: dayLabels, offset: true, grid: { display: false } }
+        }
+        }
+        });
+
+        // 3. DETAILED BINS FOR WORD COUNTS
+        const wordLabels = ['0-50', '50-100', '100-150', '150-300', '300-500', '500+'];
+        const wordBins = new Array(6).fill(0);
+        nodes.forEach(n => {
+        if (n.words <= 50) wordBins[0]++;
+		       else if (n.words <= 100) wordBins[1]++;
+					   else if (n.words <= 150) wordBins[2]++;
+							       else if (n.words <= 300) wordBins[3]++;
+										   else if (n.words <= 500) wordBins[4]++;
+												       else wordBins[5]++;
+												       });
+
+												       rebuildCanvasChartElement('structWordDensityChart', {
+												       type: 'bar',
+												       data: { labels: wordLabels, datasets: [{ data: wordBins, backgroundColor: '#f59e0b' }] },
+												       options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } } }
+												       });
+
+												       // 4. LINK COUNT DISTRIBUTION
+												       const linkMap = {};
+												       nodes.forEach(n => { linkMap[n.links] = (linkMap[n.links] || 0) + 1; });
+										   const sortedLinkLabels = Object.keys(linkMap).sort((a,b) => Number(a) - Number(b));
+
+							       rebuildCanvasChartElement('structLinkDensityChart', {
+							       type: 'bar',
+							       data: { labels: sortedLinkLabels.map(l => l + ' link' + (l!=1?'s':'')), datasets: [{ data: sortedLinkLabels.map(l => linkMap[l]), backgroundColor: '#ec4899' }] },
+		       options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } } }
+		       });
+
+		       // 5. TIMELINE DRILL DOWNS
+		       const monthlyMap = {}, weekdayMap = new Array(7).fill(0), hourlyMap = new Array(24).fill(0);
+		       timelineData.forEach(n => {
+          const mKey = n.parsedDate.toLocaleString('default', { month: 'short', year: '2-digit' });
+          monthlyMap[mKey] = (monthlyMap[mKey] || 0) + 1;
+          weekdayMap[n.parsedDate.getDay()]++;
+          if (n.hasRealTime) hourlyMap[n.parsedDate.getHours()]++;
+          });
+
+          rebuildCanvasChartElement('timeMonthChart', {
+          type: 'bar',
+          data: { labels: Object.keys(monthlyMap), datasets: [{ data: Object.values(monthlyMap), backgroundColor: '#38bdf8' }] },
+          options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } } }
+          });
+
+          rebuildCanvasChartElement('timeWeekdayChart', {
+          type: 'bar',
+          data: { labels: dayLabels, datasets: [{ data: weekdayMap, backgroundColor: '#a855f7' }] },
+          options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } } }
+          });
+
+          rebuildCanvasChartElement('timeRadarChart', {
+          type: 'radar',
+          data: { labels: Array.from({length: 24}, (_,i)=>i+":00"), datasets: [{ data: hourlyMap, backgroundColor: 'rgba(16, 185, 129, 0.1)', borderColor: '#10b981', fill: true }] },
+          options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } } }
+          });
+
+          // 6. WORDCLOUD
+          renderWordCloud(nodes);
+	  }
+
+	  function rebuildCanvasChartElement(id, config) {
+          if (globalActiveCharts[id]) {
+          globalActiveCharts[id].destroy();
+          delete globalActiveCharts[id];
+          }
+          const el = document.getElementById(id);
+          if (el) globalActiveCharts[id] = new Chart(el.getContext('2d'), config);
+	  }
+
+	  function renderWordCloud(nodes) {
+          const box = document.getElementById('semanticWordcloudBox');
+          box.innerHTML = "";
+          if(cloudInstance) { cloudInstance.dispose(); cloudInstance = null; }
+
+          const stopwords = new Set(['the', 'a', 'an', 'and', 'of', 'in', 'on', 'at', 'to', 'for', 'with', 'by', 'from', 'using', 'based', 'notes', 'roam', 'analysis', 'study', 'de', 'la', 'el', 'en', 'y', 'org-roam']);
+          const tokens = {};
+
+          nodes.forEach(n => {
+          if (n.title) {
+          n.title.toLowerCase().replace(/[^a-zA-Záéíóúüñ\s-]/g, '').split(/\s+/).forEach(tok => {
+          if (tok.length > 3 && !stopwords.has(tok)) tokens[tok] = (tokens[tok] || 0) + 1;
+          });
+          }
+          });
+
+          const dataset = Object.entries(tokens)
+          .filter(e => e[1] > 1)
+          .map(e => ({ "x": e[0], "value": e[1] }));
+
+          if(!dataset.length) {
+          box.innerHTML = "<div style='color:#64748b; padding-top:20%; text-align:center;'>No recurring keywords found.</div>";
+          return;
+          }
+
+          cloudInstance = anychart.tagCloud(dataset);
+          cloudInstance.angles([0, 15, -15, 30]);
+          cloudInstance.colorRange(false);
+          cloudInstance.palette(anychart.palettes.distinctColors().items(['#38bdf8', '#0ea5e9', '#0284c7', '#f59e0b']));
+          cloudInstance.background().fill("transparent");
+          cloudInstance.container('semanticWordcloudBox');
+          cloudInstance.draw();
+	  }
+
+	  initializeEnginePipeline();
+    </script>
+  </body>
+</html>

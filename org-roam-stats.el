@@ -1,0 +1,158 @@
+;;; org-roam-stats.el --- Personal Knowledge Management Dashboard -*- lexical-binding: t; -*-
+
+(require 'simple-httpd)
+(require 'json)
+(require 'org-roam)
+
+(defgroup org-roam-stats nil
+  "Customizations for org-roam-stats dashboard."
+  :group 'org-roam)
+
+(defcustom org-roam-stats-log-file "~/.emacs.d/org/roam-creation-log.org"
+  "Path to the file where exact creation timestamps of org-roam nodes are recorded."
+  :type 'file
+  :group 'org-roam-stats)
+
+(defcustom org-roam-stats-port 8089
+  "Unique local port dedicated for the org-roam-stats web server."
+  :type 'integer
+  :group 'org-roam-stats)
+
+(defvar org-roam-stats--cache (make-hash-table :test 'equal)
+  "Memory cache store for org-roam-stats nodes data to prevent re-parsing unmodified files.")
+
+;;;###autoload
+(define-minor-mode org-roam-stats-mode
+  "Toggle exact creation time logging for org-roam nodes."
+  :global t
+  :group 'org-roam-stats)
+
+(defun org-roam-stats--log-node-creation ()
+  "Hook function to log the exact creation timestamp and ID of a newly created org-roam node."
+  (when (and org-roam-stats-mode
+             (org-roam-buffer-p)
+             (not (file-exists-p (buffer-file-name))))
+    (let ((node-id (org-id-get-create))
+          (timestamp (format-time-string "[%Y-%m-%d %a %H:%M]")))
+      (with-current-buffer (find-file-noselect org-roam-stats-log-file)
+        (goto-char (point-max))
+        (unless (bolp) (insert "\n"))
+        (insert (format "* %s\n  :PROPERTIES:\n  :ID:       %s\n  :END:\n" timestamp node-id))
+        (save-buffer)))))
+
+(add-hook 'org-roam-find-file-hook #'org-roam-stats--log-node-creation)
+
+;;; ================= METADATA EXTRACTION PARSER =================
+
+(defun org-roam-stats--get-node-creation-time (node-id file-path file-mod-time)
+  "Extract creation time. Prioritizes log, then filename ID, falls back to file date."
+  (let ((precise-time nil))
+    (when (file-exists-p org-roam-stats-log-file)
+      (with-temp-buffer
+        (insert-file-contents org-roam-stats-log-file)
+        (goto-char (point-min))
+        (when (re-search-forward (concat ":ID:[ \t]+" (regexp-quote node-id)) nil t)
+          (org-back-to-heading)
+          (when (looking-at "^\\*+[ \t]+\\[\\([0-9]\\{4\\}-[0-9]\\{2\\}-[0-9]\\{2\\}[^]]*\\)\\]")
+            (setq precise-time (match-string 1))))))
+    
+    (if precise-time
+        precise-time
+      (let ((base-name (file-name-base file-path)))
+        (if (string-match "^\\([0-9]\\{4\\}\\)\\([0-9]\\{2\\}\\)\\([0-9]\\{2\\}\\)\\([0-9]\\{2\\}\\)\\([0-9]\\{2\\}\\)\\([0-9]\\{2\\}\\)-" base-name)
+            (format "%s-%s-%s %s:%s"
+                    (match-string 1 base-name)
+                    (match-string 2 base-name)
+                    (match-string 3 base-name)
+                    (match-string 4 base-name)
+                    (match-string 5 base-name))
+          (concat (format-time-string "%Y-%m-%d" file-mod-time) " NO_TIME"))))))
+
+(defun org-roam-stats--extract-node-data (node)
+  "Extract metrics from `org-roam-node' using an incremental file-system cache system."
+  (let* ((id (org-roam-node-id node))
+         (title (org-roam-node-title node))
+         (file (org-roam-node-file node))
+         (tags (org-roam-node-tags node))
+         (attrs (when (and file (file-exists-p file)) (file-attributes file)))
+         (mod-time (when attrs (file-attribute-modification-time attrs)))
+         (cache-val (gethash id org-roam-stats--cache))
+         (word-count 0)
+         (links-count 0)
+         (timestamp ""))
+    
+    (if (and cache-val (equal (cdr (assoc 'mod-time cache-val)) mod-time))
+        (list (cons 'id id)
+              (cons 'title title)
+              (cons 'timestamp (cdr (assoc 'timestamp cache-val)))
+              (cons 'words (cdr (assoc 'words cache-val)))
+              (cons 'links (cdr (assoc 'links cache-val)))
+              (cons 'tags (or tags [])))
+      
+      (setq timestamp (org-roam-stats--get-node-creation-time id file mod-time))
+      (when (and file attrs (= (org-roam-node-level node) 0))
+        (with-temp-buffer
+          (insert-file-contents file)
+          (goto-char (point-min))
+          (let ((body-start (point-min)))
+            (while (re-search-forward "^#\\+.*$" nil t)
+              (setq body-start (match-end 0)))
+            (setq word-count (count-words body-start (point-max))))
+          (goto-char (point-min))
+          (while (re-search-forward "\\[\\[" nil t)
+            (setq links-count (1+ links-count)))))
+      
+      (let ((new-cache-entry (list (cons 'mod-time mod-time)
+                                   (cons 'timestamp timestamp)
+                                   (cons 'words word-count)
+                                   (cons 'links links-count))))
+        (puthash id new-cache-entry org-roam-stats--cache))
+      
+      (list (cons 'id id)
+            (cons 'title title)
+            (cons 'timestamp timestamp)
+            (cons 'words word-count)
+            (cons 'links links-count)
+            (cons 'tags (or tags []))))))
+
+;;; ================= JSON GENERATION ENGINE =================
+
+(defun org-roam-stats-generate-json ()
+  "Compile full database metrics into a single unified data.json package."
+  (interactive)
+  (let* ((script-dir (file-name-directory (or load-file-name (buffer-file-name) default-directory)))
+         (web-dir (expand-file-name "web/" script-dir))
+         (all-nodes (org-roam-node-list))
+         (nodes-json '())
+         (links-json '()))
+    
+    (unless (file-directory-p web-dir) (make-directory web-dir t))
+    
+    (dolist (node all-nodes)
+      (when (= (org-roam-node-level node) 0)
+        (push (org-roam-stats--extract-node-data node) nodes-json)))
+    
+    (let ((final-payload (list (cons 'nodes nodes-json)
+                               (cons 'links links-json)))
+          (json-encoding-pretty-print t))
+      (with-temp-file (expand-file-name "data.json" web-dir)
+        (insert (json-encode final-payload))))
+    (message "Org-roam Dashboard updated successfully. Compiled %d items." (length nodes-json))))
+
+;;; ================= SERVER ENGINE CONTROL (MÉTODO TRADICIONAL) =================
+
+(defun org-roam-stats-start ()
+  "Start the local server using the stable native folder mapping method."
+  (interactive)
+  (org-roam-stats-generate-json)
+  (let* ((base-dir (file-name-directory (or load-file-name
+                                            (buffer-file-name (get-buffer "org-roam-stats.el"))
+                                            default-directory)))
+         (web-path (expand-file-name "web/" base-dir)))
+    (setq httpd-port org-roam-stats-port 
+          httpd-root web-path)
+    (httpd-start)
+    (browse-url (format "http://localhost:%d/index.html" org-roam-stats-port))))
+
+(provide 'org-roam-stats)
+;;; org-roam-stats.el ends here

@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Org-Roam Personal Knowledge Analytics Suite</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-chart-matrix@1.1.1/dist/chartjs-chart-matrix.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns"></script>
+    <script src="https://cdn.anychart.com/releases/8.11.0/js/anychart-core.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/8.11.0/js/anychart-tag-cloud.min.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+      body { font-family: '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background: #0f172a; color: #f8fafc; margin: 0; padding: 1.5vh 1.5vw; overflow-x: hidden; }
+      .container { background: #1e293b; padding: 1.5rem; border-radius: 16px; box-shadow: 0 20px 25px -5px rgba(0,0,0,0.3); height: 97vh; display: flex; flex-direction: column; box-sizing: border-box; }
+      .header { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #334155; padding-bottom: 0.8rem; margin-bottom: 1rem; }
+      .header h1 { font-size: 1.5rem; margin: 0; color: #38bdf8; font-weight: 700; letter-spacing: -0.5px; }
+      
+      /* Overview Summary Metrics Layout */
+      .summary-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px; margin-bottom: 1rem; }
+      .metric-card { background: #0f172a; padding: 1rem; border-radius: 12px; border: 1px solid #334155; text-align: center; cursor: pointer; transition: all 0.25s ease; }
+      .metric-card:hover { transform: translateY(-4px); border-color: #38bdf8; box-shadow: 0 10px 15px -3px rgba(56, 189, 248, 0.2); }
+      .metric-val { font-size: 1.8rem; font-weight: 800; color: #f1f5f9; margin-bottom: 4px; }
+      .metric-lbl { font-size: 0.75rem; text-transform: uppercase; color: #94a3b8; font-weight: 600; letter-spacing: 0.5px; }
+      
+      /* Navigation Tabs System */
+      .nav-tabs { display: flex; gap: 6px; border-bottom: 2px solid #334155; margin-bottom: 1rem; }
+      .tab-link { padding: 10px 20px; font-weight: 600; background: none; border: none; color: #94a3b8; cursor: pointer; border-radius: 8px 8px 0 0; transition: all 0.2s; font-size: 0.9rem; }
+      .tab-link:hover { color: #f1f5f9; background: #334155; }
+      .tab-link.active { color: #38bdf8; border-bottom: 3px solid #38bdf8; background: rgba(56, 189, 248, 0.08); }
+      
+      /* Content Compartments */
+      .tab-viewport { flex-grow: 1; position: relative; min-height: 0; }
+      .viewport-panel { display: none; width: 100%; height: 100%; }
+      .viewport-panel.active { display: block; }
+      
+      /* Advanced Subpanels Layout structure */
+      .split-canvas-layout { display: grid; grid-template-columns: 2fr 1fr; gap: 16px; height: 100%; }
+      .subpanel-box { background: #0f172a; border-radius: 12px; border: 1px solid #334155; padding: 1rem; box-sizing: border-box; position: relative; height: 100%; }
+      .subpanel-title { font-size: 0.9rem; font-weight: bold; color: #94a3b8; margin-top: 0; margin-bottom: 10px; text-transform: uppercase; }
+      
+      canvas { width: 100% !important; height: calc(100% - 30px) !important; }
+      .visualization-container { width: 100%; height: calc(100% - 30px); }
+      
+      /* Custom D3 Engine Overlays */
+      .d3-node { fill: #38bdf8; stroke: #1e293b; stroke-width: 2px; }
+      .d3-link { stroke: #475569; stroke-opacity: 0.4; }
+      .venn-intersection { fill-opacity: 0.25; stroke-width: 2px; }
+    </style>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="header">
+        <h1>Org-Roam System Analytics Suite</h1>
+        <div style="font-size: 0.85rem; color: #64748b; font-weight: 500;" id="server-clock"></div>
+      </div>
+
+      <div class="summary-grid">
+        <div class="metric-card" onclick="switchActiveViewport('timeline-view')">
+          <div class="metric-val" id="meta-total-nodes">0</div>
+          <div class="metric-lbl">Total Base Nodes</div>
+        </div>
+        <div class="metric-card" onclick="switchActiveViewport('structural-view')">
+          <div class="metric-val" id="meta-avg-words">0</div>
+          <div class="metric-lbl">Avg Words / Note</div>
+        </div>
+        <div class="metric-card" onclick="switchActiveViewport('network-view')">
+          <div class="metric-val" id="meta-avg-edges">0</div>
+          <div class="metric-lbl">Avg Links Density</div>
+        </div>
+        <div class="metric-card" onclick="switchActiveViewport('semantic-view')">
+          <div class="metric-val" id="meta-top-tag">None</div>
+          <div class="metric-lbl">Dominant Filetag</div>
+        </div>
+        <div class="metric-card" onclick="switchActiveViewport('timeline-view')">
+          <div class="metric-val" id="meta-velocity">0</div>
+          <div class="metric-lbl">Velocity (Notes/Mo)</div>
+        </div>
+      </div>
+
+      <div class="nav-tabs">
+        <button class="tab-link active" onclick="activateTabEvent(event, 'summary-view')">Summary Dashboard</button>
+        <button class="tab-link" onclick="activateTabEvent(event, 'timeline-view')">Temporal Velocity</button>
+        <button class="tab-link" onclick="activateTabEvent(event, 'structural-view')">Density & Formatting</button>
+        <button class="tab-link" onclick="activateTabEvent(event, 'semantic-view')">Semantic & Tags Venn</button>
+        <button class="tab-link" onclick="activateTabEvent(event, 'network-view')">Knowledge Graph Redux</button>
+      </div>
+
+      <div class="tab-viewport">
+        
+        <div id="summary-view" class="viewport-panel active">
+          <div class="split-canvas-layout">
+            <div class="subpanel-box">
+              <p class="subpanel-title">System Evolution (Cumulative Growth Curve)</p>
+              <canvas id="summaryGrowthChart"></canvas>
+            </div>
+            <div class="subpanel-box">
+              <p class="subpanel-title">Activity Density Spectrum</p>
+              <canvas id="summaryChronographMatrix"></canvas>
+            </div>
+          </div>
+        </div>
+
+        <div id="timeline-view" class="viewport-panel">
+          <div class="split-canvas-layout" style="grid-template-columns: 1fr 1fr 1fr;">
+            <div class="subpanel-box"><p class="subpanel-title">Entries Allocation per Month</p><canvas id="timeMonthChart"></canvas></div>
+            <div class="subpanel-box"><p class="subpanel-title">Weekly Rhythms Allocation</p><canvas id="timeWeekdayChart"></canvas></div>
+            <div class="subpanel-box"><p class="subpanel-title">Hourly Activity Spread (Radar)</p><canvas id="timeRadarChart"></canvas></div>
+          </div>
+        </div>
+
+        <div id="structural-view" class="viewport-panel">
+          <div class="split-canvas-layout">
+            <div class="subpanel-box"><p class="subpanel-title">Word Count vs Density Distribution Curve</p><canvas id="structWordDensityChart"></canvas></div>
+            <div class="subpanel-box"><p class="subpanel-title">Link Count Density Distribution</p><canvas id="structLinkDensityChart"></canvas></div>
+          </div>
+        </div>
+
+        <div id="semantic-view" class="viewport-panel">
+          <div class="split-canvas-layout">
+            <div class="subpanel-box"><p class="subpanel-title">Top 100 Keywords Title Wordcloud Mapping</p><div id="semanticWordcloudBox" class="visualization-container"></div></div>
+            <div class="subpanel-box"><p class="subpanel-title">Venn Cross-Section Topological Intersections (Top 3 Tags)</p><div id="semanticVennBox" class="visualization-container"></div></div>
+          </div>
+        </div>
+
+        <div id="network-view" class="viewport-panel">
+          <div class="subpanel-box" style="width:100%; height:100%;">
+            <p class="subpanel-title">Structural Inter-Node Relational Database Graph Network Explorer</p>
+            <div id="networkD3Canvas" class="visualization-container" style="background:#090d16; border-radius:8px;"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <script>
+      // Global Orchestration States
+      let databasePayload = { nodes: [], links: [] };
+      let globalActiveCharts = {};
+      const dayLabels = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+
+      document.getElementById('server-clock').innerText = "Generated: " + new Date().toLocaleString();
+
+      function activateTabEvent(evt, tabId) {
+        document.querySelectorAll(".viewport-panel").forEach(p => p.classList.remove("active"));
+        document.querySelectorAll(".tab-link").forEach(t => t.classList.remove("active"));
+        document.getElementById(tabId).classList.add("active");
+        if(evt) evt.currentTarget.classList.add("active");
+        
+        // Trigger responsive layout recalibration matching engine sizes
+        Object.values(globalActiveCharts).forEach(chart => chart.resize());
+      }
+
+      function switchActiveViewport(viewportId) {
+        const structuralTabLink = Array.from(document.querySelectorAll('.tab-link')).find(btn => btn.getAttribute('onclick').includes(viewportId));
+        if (structuralTabLink) structuralTabLink.click();
+      }
+
+      async function initializeEnginePipeline() {
+        try {
+          const response = await fetch('data.json?cache-breaker=' + Date.now());
+          databasePayload = await response.json();
+          executeMetricsPipeline();
+          renderDashboardVisualizations();
+        } catch(err) {
+          console.error("Critical Failure Loading JSON Database Payload Stream Pipeline: ", err);
+        }
+      }
+
+      function executeMetricsPipeline() {
+        const nodes = databasePayload.nodes;
+        if(!nodes.length) return;
+
+        // Metric 1: Total Core Notes
+        document.getElementById('meta-total-nodes').innerText = nodes.length;
+
+        // Metric 2: Average Word Length
+        const totalWords = nodes.reduce((acc, current) => acc + current.words, 0);
+        const averageWordLength = (totalWords / nodes.length).toFixed(0);
+        document.getElementById('meta-avg-words').innerText = Number(averageWordLength).toLocaleString();
+
+        // Metric 3: Links Density Distribution Ratio
+        const totalLinks = nodes.reduce((acc, current) => acc + current.links, 0);
+        document.getElementById('meta-avg-edges').innerText = (totalLinks / nodes.length).toFixed(1);
+
+        // Metric 4: Dominant Tag Analytics Tracker
+        const parsingTagsCount = {};
+        nodes.forEach(n => {
+          if (n.tags && Array.isArray(n.tags)) {
+            n.tags.forEach(t => { parsingTagsCount[t] = (parsingTagsCount[t] || 0) + 1; });
+          }
+        });
+        const rankedTags = Object.entries(parsingTagsCount).sort((a,b) => b[1] - a[1]);
+        document.getElementById('meta-top-tag').innerText = rankedTags.length ? `#${rankedTags[0][0]}` : "None";
+
+        // Metric 5: Brain Extraction Node Accumulation Velocity
+        const uniqueMonths = new Set(nodes.map(n => n.timestamp.substring(0, 7)));
+        const structuralMonthlyVelocity = (nodes.length / Math.max(uniqueMonths.size, 1)).toFixed(1);
+        document.getElementById('meta-velocity').innerText = structuralMonthlyVelocity;
+      }
+
+      function renderDashboardVisualizations() {
+        const nodes = databasePayload.nodes;
+        if(!nodes.length) return;
+
+        // Pre-parse chronological maps
+        const timelineData = nodes.map(n => {
+          const formattedTimeStr = n.timestamp.replace(/\[|\]/g, '').trim();
+          return { ...n, parsedDate: new Date(formattedTimeStr) };
+        }).filter(n => !isNaN(n.parsedDate.getTime())).sort((a,b) => a.parsedDate - b.parsedDate);
+
+        // -------------------------------------------------------------
+        // PLOT 1: CUMULATIVE DATABASE PRODUCTION GROWTH CURVE
+        // -------------------------------------------------------------
+        const growthLabels = [];
+        const cumulativeDataSeries = [];
+        let runningAccumulationSum = 0;
+        
+        timelineData.forEach((node) => {
+          const dateString = node.parsedDate.toISOString().split('T')[0];
+          runningAccumulationSum++;
+          growthLabels.push(dateString);
+          cumulativeDataSeries.push(runningAccumulationSum);
+        });
+
+        rebuildCanvasChartElement('summaryGrowthChart', {
+          type: 'line',
+          data: {
+            labels: growthLabels,
+            datasets: [{
+              label: 'Total Integrated Nodes',
+              data: cumulativeDataSeries,
+              borderColor: '#38bdf8',
+              backgroundColor: 'rgba(56, 189, 248, 0.05)',
+              fill: true,
+              tension: 0.15,
+              pointRadius: 1
+            }]
+          },
+          options: {
+            maintainAspectRatio: false,
+            plugins: { legend: { display: false } },
+            scales: { x: { type: 'time', time: { unit: 'month' }, grid: { color: '#334155' } }, y: { grid: { color: '#334155' } } }
+          }
+        });
+
+        // -------------------------------------------------------------
+        // PLOT 2: ACTIVITY CHRONOGRAPH SPECTRAL HEATMAP MATRIX
+        // -------------------------------------------------------------
+        const allocationMatrix = Array.from({length: 7}, () => new Array(24).fill(0));
+        timelineData.forEach(n => {
+          const day = n.parsedDate.getDay();
+          const hour = n.parsedDate.getHours();
+          allocationMatrix[day][hour]++;
+        });
+
+        const matrixFlatDataset = [];
+        for(let d=0; d<7; d++) {
+          for(let h=0; h<24; h++) {
+            matrixFlatDataset.push({ x: h, y: dayLabels[d], v: allocationMatrix[d][h] });
+          }
+        }
+        const analyticalMaxDensityValue = Math.max(...allocationMatrix.flat(), 1);
+
+        rebuildCanvasChartElement('summaryChronographMatrix', {
+          type: 'matrix',
+          data: {
+            datasets: [{
+              data: matrixFlatDataset,
+              backgroundColor: context => {
+                const dataPoint = context.dataset.data[context.dataIndex];
+                if (!dataPoint || dataPoint.v === 0) return 'transparent';
+                const opacityAlpha = Math.max(0.15, (dataPoint.v / analyticalMaxDensityValue) * 0.95);
+                return `rgba(56, 189, 248, ${opacityAlpha})`;
+              },
+              width: ({chart}) => chart.chartArea ? chart.chartArea.width / 24 - 1 : 10,
+              height: ({chart}) => chart.chartArea ? chart.chartArea.height / 7 - 1 : 10
+            }]
+          },
+          options: {
+            maintainAspectRatio: false,
+            plugins: { legend: { display: false } },
+            scales: {
+              x: { type: 'linear', min: -0.5, max: 23.5, ticks: { stepSize: 2, callback: val => val+":00" }, grid: { display: false } },
+              y: { type: 'category', labels: dayLabels, offset: true, grid: { display: false } }
+            }
+          }
+        });
+
+        // -------------------------------------------------------------
+        // PLOTS 3, 4, 5: VELOCITY DRILL DOWN METRICS PANELS
+        // -------------------------------------------------------------
+        const monthlyAggregationMap = {};
+        const weekdayAggregationMap = new Array(7).fill(0);
+        const hourlyRadarAggregationMap = new Array(24).fill(0);
+
+        timelineData.forEach(n => {
+          const monthlyKey = n.parsedDate.toLocaleString('default', { month: 'short', year: '2-digit' });
+          monthlyAggregationMap[monthlyKey] = (monthlyAggregationMap[monthlyKey] || 0) + 1;
+          weekdayAggregationMap[n.parsedDate.getDay()]++;
+          hourlyRadarAggregationMap[n.parsedDate.getHours()]++;
+        });
+
+        rebuildCanvasChartElement('timeMonthChart', {
+          type: 'bar',
+          data: { labels: Object.keys(monthlyAggregationMap), datasets: [{ data: Object.values(monthlyAggregationMap), backgroundColor: '#38bdf8' }] },
+          options: { maintainAspectRatio: false, plugins: { legend: { display: false } } }
+        });
+
+        rebuildCanvasChartElement('timeWeekdayChart', {
+          type: 'bar',
+          data: { labels: dayLabels, datasets: [{ data: weekdayAggregationMap, backgroundColor: '#a855f7' }] },
+          options: { maintainAspectRatio: false, plugins: { legend: { display: false } } }
+        });
+
+        rebuildCanvasChartElement('timeRadarChart', {
+          type: 'radar',
+          data: { labels: Array.from({length: 24}, (_,i)=>i+":00"), datasets: [{ data: hourlyRadarAggregationMap, backgroundColor: 'rgba(16, 185, 129, 0.2)', borderColor: '#10b981', fill: true }] },
+          options: { maintainAspectRatio: false, plugins: { legend: { display: false } } }
+        });
+
+        // -------------------------------------------------------------
+        // PLOTS 6 & 7: STRUCTURAL WORD & LINK DENSITY DISTRIBUTIONS
+        // -------------------------------------------------------------
+        const extractDensityBuckets = (dataValues, bucketWidth) => {
+          const distributions = {};
+          dataValues.forEach(val => {
+            const bucketIndex = Math.floor(val / bucketWidth) * bucketWidth;
+            distributions[bucketIndex] = (distributions[bucketIndex] || 0) + 1;
+          });
+          return distributions;
+        };
+
+        const wordFrequencies = extractDensityBuckets(nodes.map(n => n.words), 100);
+        const linkFrequencies = extractDensityBuckets(nodes.map(n => n.links), 2);
+
+        rebuildCanvasChartElement('structWordDensityChart', {
+          type: 'bar',
+          data: { labels: Object.keys(wordFrequencies).map(k => `${k}-${Number(k)+100} w`), datasets: [{ data: Object.values(wordFrequencies), backgroundColor: '#f59e0b' }] },
+          options: { maintainAspectRatio: false, plugins: { legend: { display: false } } }
+        });
+
+        rebuildCanvasChartElement('structLinkDensityChart', {
+          type: 'bar',
+          data: { labels: Object.keys(linkFrequencies).map(k => `${k}-${Number(k)+2} links`), datasets: [{ data: Object.values(linkFrequencies), backgroundColor: '#ec4899' }] },
+          options: { maintainAspectRatio: false, plugins: { legend: { display: false } } }
+        });
+
+        // -------------------------------------------------------------
+        // PLOT 8: TITLE KEYWORDS SEMANTIC MAPPING (ANYCHART WORDCLOUD)
+        // -------------------------------------------------------------
+        document.getElementById('semanticWordcloudBox').innerHTML = "";
+        const keywordStopwords = new Set(['the', 'a', 'an', 'and', 'of', 'in', 'on', 'at', 'to', 'for', 'with', 'by', 'from', 'using', 'based', 'notes', 'roam', 'analysis', 'study', 'de', 'la', 'el', 'en', 'y', 'para', 'por', 'con']);
+        const tokenFrequencyMap = {};
+
+        nodes.forEach(n => {
+          if (n.title) {
+            const tokens = n.title.toLowerCase().replace(/[^a-zA-Záéíóúüñ\s-]/g, '').split(/\s+/);
+            tokens.forEach(tok => {
+              if (tok.length > 3 && !keywordStopwords.has(tok)) {
+                tokenFrequencyMap[tok] = (tokenFrequencyMap[tok] || 0) + 1;
+              }
+            });
+          }
+        });
+
+        const cloudDataset = Object.entries(tokenFrequencyMap)
+          .filter(entry => entry[1] > 0)
+          .map(entry => ({ "x": entry[0], "value": entry[1] }));
+
+        const cloudInstance = anychart.tagCloud(cloudDataset);
+        cloudInstance.angles([0, 15, -15, 30]);
+        cloudInstance.colorRange(false);
+        const dynamicPalette = anychart.palettes.distinctColors().items(['#38bdf8', '#0ea5e9', '#0284c7', '#7dd3fc', '#bae6fd']);
+        cloudInstance.palette(dynamicPalette);
+        cloudInstance.background().fill("transparent");
+        cloudInstance.container('semanticWordcloudBox');
+        cloudInstance.draw();
+
+        // -------------------------------------------------------------
+        // PLOT 9: TOP 3 STRUCTURAL FILETAGS INTERSECTION VENN DIAGRAM
+        // -------------------------------------------------------------
+        renderTopTagsVennTopology(nodes, rankedTags);
+
+        // -------------------------------------------------------------
+        // PLOT 10: INTER-NODE D3 STRUCTURAL RELATIONAL NETWORK EXPLORER
+        // -------------------------------------------------------------
+        renderD3NetworkTopology();
+      }
+
+      function rebuildCanvasChartElement(canvasId, configObject) {
+        if (globalActiveCharts[canvasId]) globalActiveCharts[canvasId].destroy();
+        const element = document.getElementById(canvasId);
+        if (element) {
+          globalActiveCharts[canvasId] = new Chart(element.getContext('2d'), configObject);
+        }
+      }
+
+      function renderTopTagsVennTopology(nodes, rankedTags) {
+        const displayContainer = document.getElementById('semanticVennBox');
+        displayContainer.innerHTML = "";
+
+        if(rankedTags.length < 3) {
+          displayContainer.innerHTML = "<div style='color:#64748b; padding:2rem; text-align:center;'>A minimum of 3 unique Filetags are required to map intersections.</div>";
+          return;
+        }
+
+        const tagA = rankedTags[0][0], tagB = rankedTags[1][0], tagC = rankedTags[2][0];
+        let countA = 0, countB = 0, countC = 0, countAB = 0, countAC = 0, countBC = 0, countABC = 0;
+
+        nodes.forEach(n => {
+          if (n.tags) {
+            const hasA = n.tags.includes(tagA), hasB = n.tags.includes(tagB), hasC = n.tags.includes(tagC);
+            if (hasA) countA++; if (hasB) countB++; if (hasC) countC++;
+            if (hasA && hasB) countAB++; if (hasA && hasC) countAC++;
+            if (hasB && hasC) countBC++;
+            if (hasA && hasB && hasC) countABC++;
+          }
+        });
+
+        const width = displayContainer.clientWidth || 300, height = displayContainer.clientHeight || 250;
+        const svg = d3.select("#semanticVennBox").append("svg").attr("width", "100%").attr("height", "100%").attr("viewBox", `0 0 ${width} ${height}`);
+        
+        const centerOffset = { x: width / 2, y: height / 2 };
+        const radius = Math.min(width, height) * 0.24;
+
+        const circlesPos = [
+          { x: centerOffset.x, y: centerOffset.y - radius * 0.5, color: '#38bdf8', label: tagA, count: countA },
+          { x: centerOffset.x - radius * 0.6, y: centerOffset.y + radius * 0.5, color: '#a855f7', label: tagB, count: countB },
+          { x: centerOffset.x + radius * 0.6, y: centerOffset.y + radius * 0.5, color: '#10b981', label: tagC, count: countC }
+        ];
+
+        // Draw circles layers
+        svg.selectAll("circle")
+          .data(circlesPos).enter().append("circle")
+          .attr("cx", d => d.x).attr("cy", d => d.y).attr("r", radius)
+          .attr("fill", d => d.color).attr("class", "venn-intersection").attr("stroke", d => d.color);
+
+        // Add labels text indicators
+        svg.selectAll("text.label")
+          .data(circlesPos).enter().append("text")
+          .attr("x", d => d.x).attr("y", d => d.y - 5).attr("text-anchor", "middle")
+          .style("fill", "#f8fafc").style("font-size", "11px").style("font-weight", "bold")
+          .text(d => `#${d.label}`);
+
+        svg.selectAll("text.count")
+          .data(circlesPos).enter().append("text")
+          .attr("x", d => d.x).attr("y", d => d.y + 12).attr("text-anchor", "middle")
+          .style("fill", "#94a3b8").style("font-size", "10px")
+          .text(d => `(${d.count} notes)`);
+
+        // Overlay central intersect intersection calculations count data
+        svg.append("text").attr("x", centerOffset.x).attr("y", centerOffset.y + 8).attr("text-anchor", "middle")
+          .style("fill", "#f59e0b").style("font-weight", "900").style("font-size", "12px")
+          .text(`∩ All: ${countABC}`);
+      }
+
+      function renderD3NetworkTopology() {
+        const container = document.getElementById('networkD3Canvas');
+        container.innerHTML = "";
+
+        const width = container.clientWidth || 800;
+        const height = container.clientHeight || 500;
+
+        const svg = d3.select("#networkD3Canvas")
+          .append("svg").attr("width", "100%").attr("height", "100%")
+          .call(d3.zoom().on("zoom", (e) => g.attr("transform", e.transform)));
+
+        const g = svg.append("g");
+
+        // Clone tracking mapping targets to prevent mutating core objects array vectors
+        const nodeSet = new Map(databasePayload.nodes.map(n => [n.id, { ...n }]));
+        
+        // Filter links pointing to missing/dangling node ids references safely
+        const safeLinks = databasePayload.links
+          .filter(l => nodeSet.has(l.source) && nodeSet.has(l.target))
+          .map(l => ({ source: l.source, target: l.target }));
+
+        const forceSimulation = d3.forceSimulation(Array.from(nodeSet.values()))
+          .force("link", d3.forceLink(safeLinks).id(d => d.id).distance(70))
+          .force("charge", d3.forceManyBody().strength(-120))
+          .force("center", d3.forceCenter(width / 2, height / 2))
+          .force("collision", d3.forceCollide().radius(d => Math.sqrt(d.backlinks || 1) * 4 + 8));
+
+        const linkElements = g.append("g").selectAll("line")
+          .data(safeLinks).join("line").attr("class", "d3-link")
+          .style("stroke-width", "1px");
+
+        const nodeElements = g.append("g").selectAll("circle")
+          .data(Array.from(nodeSet.values())).join("circle")
+          .attr("class", "d3-node")
+          .attr("r", d => Math.min(Math.sqrt(d.backlinks || 0) * 3 + 5, 24))
+          .style("fill", d => d.backlinks > 5 ? '#f59e0b' : '#38bdf8')
+          .call(d3.drag()
+            .on("start", (e, d) => { if (!e.active) forceSimulation.alphaTarget(0.2).restart(); d.fx = d.x; d.fy = d.y; })
+            .on("drag", (e, d) => { d.fx = e.x; d.fy = e.y; })
+            .on("end", (e, d) => { if (!e.active) forceSimulation.alphaTarget(0); d.fx = null; d.fy = null; }));
+
+        nodeElements.append("title").text(d => `${d.title}\nLinks: ${d.links} | Backlinks: ${d.backlinks}\nWords: ${d.words}`);
+
+        forceSimulation.on("tick", () => {
+          linkElements.attr("x1", d => d.source.x).attr("y1", d => d.source.y)
+                      .attr("x2", d => d.target.x).attr("y2", d => d.target.y);
+          nodeElements.attr("cx", d => d.x).attr("cy", d => d.y);
+        });
+      }
+
+      // Boot-up Pipeline Initialization
+      initializeEnginePipeline();
+    </script>
+  </body>
+</html>
