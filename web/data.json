@@ -6,6 +6,7 @@
       "timestamp": "2026-02-18 11:36",
       "words": 61,
       "links": 5,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -14,6 +15,7 @@
       "timestamp": "2025-09-02 11:06",
       "words": 14,
       "links": 1,
+      "backlinks": 13,
       "tags": []
     },
     {
@@ -22,6 +24,7 @@
       "timestamp": "2025-11-22 14:42",
       "words": 42,
       "links": 2,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -30,6 +33,7 @@
       "timestamp": "2025-10-09 14:29",
       "words": 27,
       "links": 1,
+      "backlinks": 6,
       "tags": []
     },
     {
@@ -38,6 +42,7 @@
       "timestamp": "2026-01-10 18:26",
       "words": 23,
       "links": 1,
+      "backlinks": 5,
       "tags": []
     },
     {
@@ -46,6 +51,7 @@
       "timestamp": "2026-03-25 11:05",
       "words": 24,
       "links": 2,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -54,6 +60,7 @@
       "timestamp": "2026-02-20 NO_TIME",
       "words": 308,
       "links": 14,
+      "backlinks": 0,
       "tags": [
         "finches",
         "genovesa",
@@ -66,6 +73,7 @@
       "timestamp": "2026-03-25 NO_TIME",
       "words": 109,
       "links": 4,
+      "backlinks": 0,
       "tags": [
         "beak_morphology",
         "finches",
@@ -78,6 +86,7 @@
       "timestamp": "2026-04-27 19:52",
       "words": 37,
       "links": 4,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -86,6 +95,7 @@
       "timestamp": "2025-10-25 13:23",
       "words": 20,
       "links": 2,
+      "backlinks": 21,
       "tags": []
     },
     {
@@ -94,6 +104,7 @@
       "timestamp": "2025-10-27 14:30",
       "words": 24,
       "links": 2,
+      "backlinks": 5,
       "tags": []
     },
     {
@@ -102,6 +113,7 @@
       "timestamp": "2025-09-04 20:24",
       "words": 5,
       "links": 0,
+      "backlinks": 10,
       "tags": []
     },
     {
@@ -110,6 +122,7 @@
       "timestamp": "2025-11-20 14:26",
       "words": 27,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -118,6 +131,7 @@
       "timestamp": "2026-03-24 08:31",
       "words": 29,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -126,6 +140,7 @@
       "timestamp": "2026-03-09 11:57",
       "words": 36,
       "links": 4,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -134,6 +149,7 @@
       "timestamp": "2026-02-02 14:27",
       "words": 19,
       "links": 2,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -142,6 +158,7 @@
       "timestamp": "2026-02-18 11:37",
       "words": 16,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -150,6 +167,7 @@
       "timestamp": "2026-02-16 12:14",
       "words": 51,
       "links": 4,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -158,6 +176,7 @@
       "timestamp": "2026-02-18 14:00",
       "words": 25,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -166,6 +185,7 @@
       "timestamp": "2025-10-09 14:21",
       "words": 27,
       "links": 1,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -174,6 +194,7 @@
       "timestamp": "2026-03-17 11:59",
       "words": 19,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -182,6 +203,7 @@
       "timestamp": "2026-03-20 14:51",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -190,6 +212,7 @@
       "timestamp": "2026-05-01 NO_TIME",
       "words": 167,
       "links": 9,
+      "backlinks": 0,
       "tags": [
         "evolutionary_theory",
         "evolvability",
@@ -203,6 +226,7 @@
       "timestamp": "2025-11-19 20:41",
       "words": 43,
       "links": 4,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -211,6 +235,7 @@
       "timestamp": "2025-10-29 14:05",
       "words": 23,
       "links": 2,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -219,6 +244,7 @@
       "timestamp": "2025-10-09 14:49",
       "words": 93,
       "links": 3,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -227,6 +253,7 @@
       "timestamp": "2026-01-27 10:38",
       "words": 71,
       "links": 4,
+      "backlinks": 5,
       "tags": [
         "finches"
       ]
@@ -237,6 +264,7 @@
       "timestamp": "2026-05-06 NO_TIME",
       "words": 46,
       "links": 4,
+      "backlinks": 0,
       "tags": [
         "finches",
         "paper"
@@ -248,6 +276,7 @@
       "timestamp": "2025-11-18 15:43",
       "words": 65,
       "links": 5,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -256,6 +285,7 @@
       "timestamp": "2025-10-09 12:00",
       "words": 43,
       "links": 2,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -264,6 +294,7 @@
       "timestamp": "2026-01-10 18:53",
       "words": 45,
       "links": 3,
+      "backlinks": 2,
       "tags": [
         "command"
       ]
@@ -274,6 +305,7 @@
       "timestamp": "2025-12-08 21:53",
       "words": 35,
       "links": 3,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -282,6 +314,7 @@
       "timestamp": "2026-02-19 09:18",
       "words": 19,
       "links": 1,
+      "backlinks": 1,
       "tags": [
         "phylogenetic_method",
         "phylogenetic_network",
@@ -294,6 +327,7 @@
       "timestamp": "2025-09-02 11:22",
       "words": 38,
       "links": 1,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -302,6 +336,7 @@
       "timestamp": "2025-07-28 20:53",
       "words": 35,
       "links": 1,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -310,6 +345,7 @@
       "timestamp": "2026-06-01 NO_TIME",
       "words": 119,
       "links": 8,
+      "backlinks": 0,
       "tags": [
         "finches",
         "historic_dna",
@@ -322,6 +358,7 @@
       "timestamp": "2025-10-28 12:58",
       "words": 29,
       "links": 3,
+      "backlinks": 1,
       "tags": [
         "espanola"
       ]
@@ -332,6 +369,7 @@
       "timestamp": "2026-03-09 19:46",
       "words": 11,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -340,6 +378,7 @@
       "timestamp": "2025-11-20 14:40",
       "words": 41,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -348,6 +387,7 @@
       "timestamp": "2025-11-13 18:34",
       "words": 44,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -356,6 +396,7 @@
       "timestamp": "2026-01-10 20:13",
       "words": 0,
       "links": 0,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -364,6 +405,7 @@
       "timestamp": "2025-10-25 14:03",
       "words": 0,
       "links": 0,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -372,6 +414,7 @@
       "timestamp": "2025-11-20 14:29",
       "words": 30,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -380,6 +423,7 @@
       "timestamp": "2025-11-16 14:56",
       "words": 0,
       "links": 0,
+      "backlinks": 6,
       "tags": []
     },
     {
@@ -388,6 +432,7 @@
       "timestamp": "2026-02-16 12:35",
       "words": 26,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -396,6 +441,7 @@
       "timestamp": "2026-02-03 09:55",
       "words": 43,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -404,6 +450,7 @@
       "timestamp": "2026-06-01 19:59",
       "words": 23,
       "links": 2,
+      "backlinks": 1,
       "tags": [
         "finches"
       ]
@@ -414,6 +461,7 @@
       "timestamp": "2025-11-16 14:40",
       "words": 43,
       "links": 5,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -422,6 +470,7 @@
       "timestamp": "2026-02-02 NO_TIME",
       "words": 77,
       "links": 1,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -430,6 +479,7 @@
       "timestamp": "2026-03-09 11:55",
       "words": 0,
       "links": 0,
+      "backlinks": 3,
       "tags": [
         "beta-catenin"
       ]
@@ -440,6 +490,7 @@
       "timestamp": "2026-03-12 NO_TIME",
       "words": 123,
       "links": 4,
+      "backlinks": 0,
       "tags": [
         "daphne",
         "finches",
@@ -452,6 +503,7 @@
       "timestamp": "2025-12-08 21:54",
       "words": 0,
       "links": 0,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -460,6 +512,7 @@
       "timestamp": "2026-05-04 13:07",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": [
         "person"
       ]
@@ -470,6 +523,7 @@
       "timestamp": "2025-09-07 21:25",
       "words": 30,
       "links": 3,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -478,6 +532,7 @@
       "timestamp": "2026-03-25 09:15",
       "words": 18,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -486,6 +541,7 @@
       "timestamp": "2025-10-25 13:31",
       "words": 14,
       "links": 1,
+      "backlinks": 7,
       "tags": []
     },
     {
@@ -494,6 +550,7 @@
       "timestamp": "2026-05-01 09:46",
       "words": 25,
       "links": 2,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -502,6 +559,7 @@
       "timestamp": "2026-01-14 19:43",
       "words": 22,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -510,6 +568,7 @@
       "timestamp": "2025-10-27 14:32",
       "words": 0,
       "links": 0,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -518,6 +577,7 @@
       "timestamp": "2026-04-15 10:41",
       "words": 20,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -526,6 +586,7 @@
       "timestamp": "2025-09-07 21:07",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -534,6 +595,7 @@
       "timestamp": "2026-01-25 NO_TIME",
       "words": 390,
       "links": 44,
+      "backlinks": 0,
       "tags": [
         "book_note",
         "philosophy"
@@ -545,6 +607,7 @@
       "timestamp": "2025-11-15 17:34",
       "words": 29,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -553,6 +616,7 @@
       "timestamp": "2025-11-13 10:48",
       "words": 31,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -561,6 +625,7 @@
       "timestamp": "2025-09-07 21:17",
       "words": 12,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -569,6 +634,7 @@
       "timestamp": "2025-10-25 13:20",
       "words": 0,
       "links": 0,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -577,6 +643,7 @@
       "timestamp": "2025-10-27 11:22",
       "words": 49,
       "links": 4,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -585,6 +652,7 @@
       "timestamp": "2025-11-24 12:03",
       "words": 38,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -593,6 +661,7 @@
       "timestamp": "2025-12-09 19:38",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -601,6 +670,7 @@
       "timestamp": "2026-04-23 10:17",
       "words": 18,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -609,6 +679,7 @@
       "timestamp": "2026-03-25 11:05",
       "words": 16,
       "links": 1,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -617,6 +688,7 @@
       "timestamp": "2026-03-25 08:30",
       "words": 12,
       "links": 1,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -625,6 +697,7 @@
       "timestamp": "2025-11-16 14:28",
       "words": 21,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -633,6 +706,7 @@
       "timestamp": "2025-11-14 09:08",
       "words": 29,
       "links": 2,
+      "backlinks": 9,
       "tags": []
     },
     {
@@ -641,6 +715,7 @@
       "timestamp": "2025-07-28 19:41",
       "words": 35,
       "links": 3,
+      "backlinks": 29,
       "tags": []
     },
     {
@@ -649,6 +724,7 @@
       "timestamp": "2026-03-23 12:41",
       "words": 41,
       "links": 3,
+      "backlinks": 0,
       "tags": [
         "data"
       ]
@@ -659,6 +735,7 @@
       "timestamp": "2025-10-25 13:30",
       "words": 27,
       "links": 1,
+      "backlinks": 13,
       "tags": []
     },
     {
@@ -667,6 +744,7 @@
       "timestamp": "2026-02-11 10:56",
       "words": 14,
       "links": 1,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -675,6 +753,7 @@
       "timestamp": "2025-11-20 14:47",
       "words": 31,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -683,6 +762,7 @@
       "timestamp": "2025-12-27 14:24",
       "words": 32,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -691,6 +771,7 @@
       "timestamp": "2025-11-14 09:47",
       "words": 24,
       "links": 3,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -699,6 +780,7 @@
       "timestamp": "2025-11-22 14:17",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -707,6 +789,7 @@
       "timestamp": "2026-03-25 09:20",
       "words": 40,
       "links": 2,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -715,6 +798,7 @@
       "timestamp": "2026-05-11 13:46",
       "words": 11,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -723,6 +807,7 @@
       "timestamp": "2025-11-19 20:25",
       "words": 57,
       "links": 4,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -731,6 +816,7 @@
       "timestamp": "2025-10-09 11:51",
       "words": 60,
       "links": 3,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -739,6 +825,7 @@
       "timestamp": "2025-11-15 17:40",
       "words": 74,
       "links": 6,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -747,6 +834,7 @@
       "timestamp": "2025-09-07 21:27",
       "words": 17,
       "links": 0,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -755,6 +843,7 @@
       "timestamp": "2026-01-28 10:33",
       "words": 8,
       "links": 0,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -763,6 +852,7 @@
       "timestamp": "2026-01-14 19:21",
       "words": 59,
       "links": 4,
+      "backlinks": 3,
       "tags": [
         "BSC"
       ]
@@ -773,6 +863,7 @@
       "timestamp": "2026-01-10 19:43",
       "words": 0,
       "links": 0,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -781,6 +872,7 @@
       "timestamp": "2026-02-11 11:04",
       "words": 33,
       "links": 2,
+      "backlinks": 2,
       "tags": [
         "finch_hibrydization",
         "finches",
@@ -793,6 +885,7 @@
       "timestamp": "2025-07-28 20:57",
       "words": 45,
       "links": 3,
+      "backlinks": 24,
       "tags": [
         "NS"
       ]
@@ -803,6 +896,7 @@
       "timestamp": "2025-11-14 09:20",
       "words": 52,
       "links": 4,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -811,6 +905,7 @@
       "timestamp": "2025-09-07 21:21",
       "words": 42,
       "links": 3,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -819,6 +914,7 @@
       "timestamp": "2026-01-20 18:37",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": [
         "person",
         "philosophy"
@@ -830,6 +926,7 @@
       "timestamp": "2025-10-09 14:47",
       "words": 42,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -838,6 +935,7 @@
       "timestamp": "2025-09-07 20:49",
       "words": 7,
       "links": 0,
+      "backlinks": 10,
       "tags": [
         "person"
       ]
@@ -848,6 +946,7 @@
       "timestamp": "2025-10-28 12:54",
       "words": 39,
       "links": 3,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -856,6 +955,7 @@
       "timestamp": "2026-02-18 11:41",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -864,6 +964,7 @@
       "timestamp": "2026-01-27 10:18",
       "words": 23,
       "links": 1,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -872,6 +973,7 @@
       "timestamp": "2025-11-19 20:28",
       "words": 40,
       "links": 3,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -880,6 +982,7 @@
       "timestamp": "2026-03-18 11:01",
       "words": 0,
       "links": 0,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -888,6 +991,7 @@
       "timestamp": "2026-01-14 20:01",
       "words": 47,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -896,6 +1000,7 @@
       "timestamp": "2026-04-23 09:53",
       "words": 25,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -904,6 +1009,7 @@
       "timestamp": "2026-01-14 19:40",
       "words": 31,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -912,6 +1018,7 @@
       "timestamp": "2026-02-18 11:45",
       "words": 21,
       "links": 1,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -920,6 +1027,7 @@
       "timestamp": "2026-03-05 NO_TIME",
       "words": 0,
       "links": 0,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -928,6 +1036,7 @@
       "timestamp": "2026-03-18 11:07",
       "words": 22,
       "links": 2,
+      "backlinks": 1,
       "tags": [
         "finches",
         "geospiza_fortis"
@@ -939,6 +1048,7 @@
       "timestamp": "2026-01-10 19:53",
       "words": 27,
       "links": 3,
+      "backlinks": 1,
       "tags": [
         "mexico_history",
         "usa_history",
@@ -951,6 +1061,7 @@
       "timestamp": "2026-03-18 10:43",
       "words": 9,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -959,6 +1070,7 @@
       "timestamp": "2025-11-19 20:01",
       "words": 55,
       "links": 4,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -967,6 +1079,7 @@
       "timestamp": "2025-11-18 16:14",
       "words": 35,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -975,6 +1088,7 @@
       "timestamp": "2025-11-18 15:28",
       "words": 49,
       "links": 4,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -983,6 +1097,7 @@
       "timestamp": "2026-01-20 18:21",
       "words": 16,
       "links": 1,
+      "backlinks": 0,
       "tags": [
         "person",
         "president_usa"
@@ -994,6 +1109,7 @@
       "timestamp": "2025-07-31 14:14",
       "words": 72,
       "links": 1,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -1002,6 +1118,7 @@
       "timestamp": "2026-01-12 20:11",
       "words": 16,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1010,6 +1127,7 @@
       "timestamp": "2026-05-20 10:46",
       "words": 11,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1018,6 +1136,7 @@
       "timestamp": "2026-06-01 20:33",
       "words": 2,
       "links": 0,
+      "backlinks": 1,
       "tags": [
         "evolutionary_theory",
         "person"
@@ -1029,6 +1148,7 @@
       "timestamp": "2025-11-22 14:54",
       "words": 13,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1037,6 +1157,7 @@
       "timestamp": "2026-01-12 20:08",
       "words": 0,
       "links": 0,
+      "backlinks": 2,
       "tags": [
         "person"
       ]
@@ -1047,6 +1168,7 @@
       "timestamp": "2026-03-23 10:56",
       "words": 32,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1055,6 +1177,7 @@
       "timestamp": "2025-10-09 14:30",
       "words": 16,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1063,6 +1186,7 @@
       "timestamp": "2026-01-29 11:54",
       "words": 3,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1071,6 +1195,7 @@
       "timestamp": "2026-03-05 19:58",
       "words": 65,
       "links": 4,
+      "backlinks": 1,
       "tags": [
         "citation"
       ]
@@ -1081,6 +1206,7 @@
       "timestamp": "2025-12-27 14:27",
       "words": 19,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1089,6 +1215,7 @@
       "timestamp": "2026-03-23 09:05",
       "words": 18,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1097,6 +1224,7 @@
       "timestamp": "2026-05-29 19:26",
       "words": 17,
       "links": 1,
+      "backlinks": 3,
       "tags": [
         "galapagos"
       ]
@@ -1107,6 +1235,7 @@
       "timestamp": "2025-11-18 15:48",
       "words": 43,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1115,6 +1244,7 @@
       "timestamp": "2025-11-15 17:52",
       "words": 48,
       "links": 4,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1123,6 +1253,7 @@
       "timestamp": "2025-07-29 12:59",
       "words": 37,
       "links": 1,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -1131,6 +1262,7 @@
       "timestamp": "2025-12-09 19:26",
       "words": 41,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1139,6 +1271,7 @@
       "timestamp": "2026-01-20 18:15",
       "words": 47,
       "links": 1,
+      "backlinks": 1,
       "tags": [
         "person",
         "usa_history"
@@ -1150,6 +1283,7 @@
       "timestamp": "2025-11-18 15:49",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1158,6 +1292,7 @@
       "timestamp": "2026-03-23 18:48",
       "words": 0,
       "links": 0,
+      "backlinks": 3,
       "tags": [
         "evolutionary_theory",
         "person"
@@ -1169,6 +1304,7 @@
       "timestamp": "2026-05-20 10:39",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1177,6 +1313,7 @@
       "timestamp": "2025-09-03 11:46",
       "words": 16,
       "links": 1,
+      "backlinks": 5,
       "tags": []
     },
     {
@@ -1185,6 +1322,7 @@
       "timestamp": "2026-03-04 20:27",
       "words": 20,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1193,6 +1331,7 @@
       "timestamp": "2025-10-29 14:10",
       "words": 0,
       "links": 0,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -1201,6 +1340,7 @@
       "timestamp": "2025-12-09 19:27",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1209,6 +1349,7 @@
       "timestamp": "2026-02-02 11:44",
       "words": 18,
       "links": 2,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -1217,6 +1358,7 @@
       "timestamp": "2025-10-09 14:54",
       "words": 29,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1225,6 +1367,7 @@
       "timestamp": "2025-11-20 14:33",
       "words": 46,
       "links": 4,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -1233,6 +1376,7 @@
       "timestamp": "2026-01-10 19:46",
       "words": 16,
       "links": 0,
+      "backlinks": 2,
       "tags": [
         "person"
       ]
@@ -1243,6 +1387,7 @@
       "timestamp": "2025-11-19 19:55",
       "words": 55,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1251,6 +1396,7 @@
       "timestamp": "2025-11-13 10:46",
       "words": 0,
       "links": 0,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -1259,6 +1405,7 @@
       "timestamp": "2025-11-14 09:45",
       "words": 3,
       "links": 0,
+      "backlinks": 5,
       "tags": []
     },
     {
@@ -1267,6 +1414,7 @@
       "timestamp": "2026-03-25 09:15",
       "words": 10,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1275,6 +1423,7 @@
       "timestamp": "2025-12-08 21:46",
       "words": 28,
       "links": 2,
+      "backlinks": 2,
       "tags": [
         "person",
         "philosophy"
@@ -1286,6 +1435,7 @@
       "timestamp": "2026-05-04 15:10",
       "words": 18,
       "links": 2,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -1294,6 +1444,7 @@
       "timestamp": "2026-05-27 20:03",
       "words": 75,
       "links": 4,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1302,6 +1453,7 @@
       "timestamp": "2025-10-28 10:58",
       "words": 30,
       "links": 2,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -1310,6 +1462,7 @@
       "timestamp": "2025-10-09 14:46",
       "words": 26,
       "links": 1,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -1318,6 +1471,7 @@
       "timestamp": "2025-09-07 20:52",
       "words": 60,
       "links": 5,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -1326,6 +1480,7 @@
       "timestamp": "2025-11-20 14:37",
       "words": 46,
       "links": 4,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1334,6 +1489,7 @@
       "timestamp": "2026-02-18 11:36",
       "words": 23,
       "links": 2,
+      "backlinks": 2,
       "tags": [
         "phylogenetic_network",
         "software",
@@ -1346,6 +1502,7 @@
       "timestamp": "2026-02-11 10:57",
       "words": 17,
       "links": 2,
+      "backlinks": 5,
       "tags": []
     },
     {
@@ -1354,6 +1511,7 @@
       "timestamp": "2026-04-23 09:44",
       "words": 46,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1362,6 +1520,7 @@
       "timestamp": "2025-09-08 10:20",
       "words": 40,
       "links": 1,
+      "backlinks": 6,
       "tags": []
     },
     {
@@ -1370,6 +1529,7 @@
       "timestamp": "2025-10-29 13:58",
       "words": 18,
       "links": 2,
+      "backlinks": 13,
       "tags": []
     },
     {
@@ -1378,6 +1538,7 @@
       "timestamp": "2026-05-20 10:29",
       "words": 48,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1386,6 +1547,7 @@
       "timestamp": "2026-02-02 11:43",
       "words": 89,
       "links": 5,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -1394,6 +1556,7 @@
       "timestamp": "2026-01-27 10:27",
       "words": 0,
       "links": 0,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -1402,6 +1565,7 @@
       "timestamp": "2026-01-20 18:24",
       "words": 74,
       "links": 2,
+      "backlinks": 0,
       "tags": [
         "person"
       ]
@@ -1412,6 +1576,7 @@
       "timestamp": "2026-03-17 11:59",
       "words": 50,
       "links": 4,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1420,6 +1585,7 @@
       "timestamp": "2025-11-19 19:50",
       "words": 59,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1428,6 +1594,7 @@
       "timestamp": "2026-01-12 20:20",
       "words": 45,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1436,6 +1603,7 @@
       "timestamp": "2026-05-21 11:44",
       "words": 36,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1444,6 +1612,7 @@
       "timestamp": "2026-03-23 09:19",
       "words": 23,
       "links": 1,
+      "backlinks": 1,
       "tags": [
         "citation"
       ]
@@ -1454,6 +1623,7 @@
       "timestamp": "2025-10-25 14:01",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1462,6 +1632,7 @@
       "timestamp": "2026-03-23 12:47",
       "words": 0,
       "links": 0,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -1470,6 +1641,7 @@
       "timestamp": "2026-04-15 10:35",
       "words": 11,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1478,6 +1650,7 @@
       "timestamp": "2026-05-27 20:08",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1486,6 +1659,7 @@
       "timestamp": "2026-04-17 11:47",
       "words": 37,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1494,6 +1668,7 @@
       "timestamp": "2025-12-09 19:30",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": [
         "pueblo"
       ]
@@ -1504,6 +1679,7 @@
       "timestamp": "2026-04-23 NO_TIME",
       "words": 139,
       "links": 11,
+      "backlinks": 0,
       "tags": [
         "daphne",
         "finch_song",
@@ -1516,6 +1692,7 @@
       "timestamp": "2025-10-10 14:17",
       "words": 11,
       "links": 1,
+      "backlinks": 5,
       "tags": []
     },
     {
@@ -1524,6 +1701,7 @@
       "timestamp": "2026-03-23 18:34",
       "words": 14,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1532,6 +1710,7 @@
       "timestamp": "2026-03-25 NO_TIME",
       "words": 66,
       "links": 3,
+      "backlinks": 0,
       "tags": [
         "finches",
         "geospiza_fortis",
@@ -1545,6 +1724,7 @@
       "timestamp": "2026-03-23 12:38",
       "words": 18,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1553,6 +1733,7 @@
       "timestamp": "2025-10-09 14:38",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1561,6 +1742,7 @@
       "timestamp": "2025-11-13 11:24",
       "words": 20,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1569,6 +1751,7 @@
       "timestamp": "2026-03-27 10:55",
       "words": 18,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1577,6 +1760,7 @@
       "timestamp": "2026-06-01 19:54",
       "words": 33,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1585,6 +1769,7 @@
       "timestamp": "2025-11-13 10:43",
       "words": 54,
       "links": 6,
+      "backlinks": 5,
       "tags": []
     },
     {
@@ -1593,6 +1778,7 @@
       "timestamp": "2025-10-27 14:32",
       "words": 16,
       "links": 0,
+      "backlinks": 13,
       "tags": []
     },
     {
@@ -1601,6 +1787,7 @@
       "timestamp": "2026-05-01 09:52",
       "words": 21,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1609,6 +1796,7 @@
       "timestamp": "2026-02-24 11:21",
       "words": 12,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1617,6 +1805,7 @@
       "timestamp": "2026-01-13 20:49",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1625,6 +1814,7 @@
       "timestamp": "2026-01-10 19:50",
       "words": 19,
       "links": 2,
+      "backlinks": 1,
       "tags": [
         "USA",
         "usa_history"
@@ -1636,6 +1826,7 @@
       "timestamp": "2026-05-20 10:49",
       "words": 2,
       "links": 0,
+      "backlinks": 1,
       "tags": [
         "person"
       ]
@@ -1646,6 +1837,7 @@
       "timestamp": "2026-02-10 09:34",
       "words": 73,
       "links": 4,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1654,6 +1846,7 @@
       "timestamp": "2026-02-18 14:05",
       "words": 14,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1662,6 +1855,7 @@
       "timestamp": "2025-08-01 11:43",
       "words": 45,
       "links": 1,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -1670,6 +1864,7 @@
       "timestamp": "2025-08-05 12:04",
       "words": 88,
       "links": 1,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -1678,6 +1873,7 @@
       "timestamp": "2026-01-29 11:34",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1686,6 +1882,7 @@
       "timestamp": "2026-01-24 10:26",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1694,6 +1891,7 @@
       "timestamp": "2025-07-29 12:48",
       "words": 31,
       "links": 1,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -1702,6 +1900,7 @@
       "timestamp": "2026-01-10 19:10",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1710,6 +1909,7 @@
       "timestamp": "2026-05-21 NO_TIME",
       "words": 2031,
       "links": 2,
+      "backlinks": 0,
       "tags": [
         "book_note",
         "finches",
@@ -1723,6 +1923,7 @@
       "timestamp": "2026-05-21 13:43",
       "words": 31,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1731,6 +1932,7 @@
       "timestamp": "2026-03-23 09:15",
       "words": 45,
       "links": 1,
+      "backlinks": 1,
       "tags": [
         "analogy",
         "evolution"
@@ -1742,6 +1944,7 @@
       "timestamp": "2025-11-16 14:56",
       "words": 23,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1750,6 +1953,7 @@
       "timestamp": "2025-09-07 21:06",
       "words": 38,
       "links": 3,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -1758,6 +1962,7 @@
       "timestamp": "2025-07-30 20:59",
       "words": 30,
       "links": 1,
+      "backlinks": 5,
       "tags": []
     },
     {
@@ -1766,6 +1971,7 @@
       "timestamp": "2026-03-09 20:56",
       "words": 59,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1774,6 +1980,7 @@
       "timestamp": "2026-03-23 NO_TIME",
       "words": 104,
       "links": 5,
+      "backlinks": 0,
       "tags": [
         "evolution",
         "evolutionary_theory",
@@ -1786,6 +1993,7 @@
       "timestamp": "2026-01-13 21:00",
       "words": 38,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1794,6 +2002,7 @@
       "timestamp": "2026-03-23 18:36",
       "words": 14,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1802,6 +2011,7 @@
       "timestamp": "2026-01-28 11:03",
       "words": 48,
       "links": 3,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -1810,6 +2020,7 @@
       "timestamp": "2026-01-28 08:31",
       "words": 14,
       "links": 0,
+      "backlinks": 2,
       "tags": [
         "nino"
       ]
@@ -1820,6 +2031,7 @@
       "timestamp": "2026-01-10 19:08",
       "words": 47,
       "links": 2,
+      "backlinks": 0,
       "tags": [
         "command"
       ]
@@ -1830,6 +2042,7 @@
       "timestamp": "2025-12-09 19:36",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1838,6 +2051,7 @@
       "timestamp": "2026-03-24 08:28",
       "words": 30,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1846,6 +2060,7 @@
       "timestamp": "2026-01-12 17:08",
       "words": 53,
       "links": 1,
+      "backlinks": 1,
       "tags": [
         "command"
       ]
@@ -1856,6 +2071,7 @@
       "timestamp": "2025-09-07 21:02",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1864,6 +2080,7 @@
       "timestamp": "2025-10-20 22:31",
       "words": 17,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1872,6 +2089,7 @@
       "timestamp": "2025-09-04 20:23",
       "words": 21,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1880,6 +2098,7 @@
       "timestamp": "2026-04-15 10:36",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1888,6 +2107,7 @@
       "timestamp": "2026-03-18 11:05",
       "words": 23,
       "links": 2,
+      "backlinks": 1,
       "tags": [
         "finches",
         "geospiza_fortis"
@@ -1899,6 +2119,7 @@
       "timestamp": "2025-12-13 17:04",
       "words": 68,
       "links": 1,
+      "backlinks": 8,
       "tags": [
         "evolutionary_theory",
         "person"
@@ -1910,6 +2131,7 @@
       "timestamp": "2026-01-12 16:39",
       "words": 109,
       "links": 1,
+      "backlinks": 1,
       "tags": [
         "command"
       ]
@@ -1920,6 +2142,7 @@
       "timestamp": "2025-07-30 21:01",
       "words": 64,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -1928,6 +2151,7 @@
       "timestamp": "2026-02-11 10:53",
       "words": 18,
       "links": 2,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -1936,6 +2160,7 @@
       "timestamp": "2025-10-25 13:52",
       "words": 13,
       "links": 1,
+      "backlinks": 11,
       "tags": []
     },
     {
@@ -1944,6 +2169,7 @@
       "timestamp": "2025-11-21 16:52",
       "words": 88,
       "links": 3,
+      "backlinks": 10,
       "tags": [
         "person"
       ]
@@ -1954,6 +2180,7 @@
       "timestamp": "2026-01-10 20:08",
       "words": 0,
       "links": 0,
+      "backlinks": 5,
       "tags": [
         "person"
       ]
@@ -1964,6 +2191,7 @@
       "timestamp": "2026-05-11 13:47",
       "words": 30,
       "links": 2,
+      "backlinks": 2,
       "tags": [
         "daphne",
         "geospiza_fortis",
@@ -1976,6 +2204,7 @@
       "timestamp": "2025-11-19 20:18",
       "words": 25,
       "links": 2,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -1984,6 +2213,7 @@
       "timestamp": "2026-03-24 10:24",
       "words": 10,
       "links": 3,
+      "backlinks": 6,
       "tags": []
     },
     {
@@ -1992,6 +2222,7 @@
       "timestamp": "2026-05-04 15:08",
       "words": 23,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2000,6 +2231,7 @@
       "timestamp": "2026-01-10 19:56",
       "words": 14,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2008,6 +2240,7 @@
       "timestamp": "2025-09-07 20:58",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2016,6 +2249,7 @@
       "timestamp": "2025-11-19 20:32",
       "words": 46,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2024,6 +2258,7 @@
       "timestamp": "2026-01-29 11:33",
       "words": 27,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2032,6 +2267,7 @@
       "timestamp": "2025-11-17 19:06",
       "words": 23,
       "links": 2,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -2040,6 +2276,7 @@
       "timestamp": "2025-11-22 13:54",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2048,6 +2285,7 @@
       "timestamp": "2026-02-02 14:27",
       "words": 81,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2056,6 +2294,7 @@
       "timestamp": "2026-02-02 14:23",
       "words": 29,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2064,6 +2303,7 @@
       "timestamp": "2026-03-23 10:52",
       "words": 37,
       "links": 3,
+      "backlinks": 6,
       "tags": []
     },
     {
@@ -2072,6 +2312,7 @@
       "timestamp": "2025-12-08 21:44",
       "words": 24,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2080,6 +2321,7 @@
       "timestamp": "2025-12-08 21:40",
       "words": 0,
       "links": 0,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -2088,6 +2330,7 @@
       "timestamp": "2026-01-28 10:32",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2096,6 +2339,7 @@
       "timestamp": "2026-01-09 13:52",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2104,6 +2348,7 @@
       "timestamp": "2025-09-03 11:42",
       "words": 59,
       "links": 4,
+      "backlinks": 8,
       "tags": []
     },
     {
@@ -2112,6 +2357,7 @@
       "timestamp": "2025-10-27 11:31",
       "words": 19,
       "links": 2,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -2120,6 +2366,7 @@
       "timestamp": "2025-11-24 12:59",
       "words": 12,
       "links": 1,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -2128,6 +2375,7 @@
       "timestamp": "2025-12-27 14:36",
       "words": 34,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2136,6 +2384,7 @@
       "timestamp": "2025-11-17 19:17",
       "words": 7,
       "links": 1,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -2144,6 +2393,7 @@
       "timestamp": "2026-05-06 14:14",
       "words": 36,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2152,6 +2402,7 @@
       "timestamp": "2026-03-27 14:58",
       "words": 46,
       "links": 3,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -2160,6 +2411,7 @@
       "timestamp": "2026-03-25 08:30",
       "words": 99,
       "links": 6,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -2168,6 +2420,7 @@
       "timestamp": "2026-01-12 17:14",
       "words": 110,
       "links": 1,
+      "backlinks": 8,
       "tags": [
         "command"
       ]
@@ -2178,6 +2431,7 @@
       "timestamp": "2026-05-22 NO_TIME",
       "words": 0,
       "links": 0,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -2186,6 +2440,7 @@
       "timestamp": "2026-01-13 19:53",
       "words": 17,
       "links": 1,
+      "backlinks": 1,
       "tags": [
         "command"
       ]
@@ -2196,6 +2451,7 @@
       "timestamp": "2025-11-13 11:21",
       "words": 10,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2204,6 +2460,7 @@
       "timestamp": "2026-06-01 20:14",
       "words": 44,
       "links": 4,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2212,6 +2469,7 @@
       "timestamp": "2026-05-04 18:42",
       "words": 34,
       "links": 2,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -2220,6 +2478,7 @@
       "timestamp": "2025-11-22 14:46",
       "words": 69,
       "links": 4,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -2228,6 +2487,7 @@
       "timestamp": "2026-01-13 20:35",
       "words": 55,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2236,6 +2496,7 @@
       "timestamp": "2025-10-20 22:48",
       "words": 17,
       "links": 2,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -2244,6 +2505,7 @@
       "timestamp": "2026-02-02 11:55",
       "words": 28,
       "links": 2,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -2252,6 +2514,7 @@
       "timestamp": "2025-10-25 13:20",
       "words": 23,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2260,6 +2523,7 @@
       "timestamp": "2026-03-23 12:37",
       "words": 8,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2268,6 +2532,7 @@
       "timestamp": "2026-02-05 09:39",
       "words": 98,
       "links": 5,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2276,6 +2541,7 @@
       "timestamp": "2025-09-03 11:40",
       "words": 55,
       "links": 4,
+      "backlinks": 7,
       "tags": []
     },
     {
@@ -2284,6 +2550,7 @@
       "timestamp": "2025-11-22 14:18",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2292,6 +2559,7 @@
       "timestamp": "2025-10-30 08:29",
       "words": 21,
       "links": 1,
+      "backlinks": 0,
       "tags": [
         "finches"
       ]
@@ -2302,6 +2570,7 @@
       "timestamp": "2025-11-19 19:45",
       "words": 27,
       "links": 2,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -2310,6 +2579,7 @@
       "timestamp": "2025-08-04 12:32",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2318,6 +2588,7 @@
       "timestamp": "2026-04-28 17:38",
       "words": 63,
       "links": 4,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -2326,6 +2597,7 @@
       "timestamp": "2026-02-11 20:17",
       "words": 0,
       "links": 0,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -2334,6 +2606,7 @@
       "timestamp": "2025-11-19 19:47",
       "words": 28,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2342,6 +2615,7 @@
       "timestamp": "2026-03-11 11:48",
       "words": 18,
       "links": 2,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -2350,6 +2624,7 @@
       "timestamp": "2025-10-09 14:40",
       "words": 47,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2358,6 +2633,7 @@
       "timestamp": "2026-03-23 10:54",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2366,6 +2642,7 @@
       "timestamp": "2025-12-13 16:52",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2374,6 +2651,7 @@
       "timestamp": "2025-11-16 14:33",
       "words": 25,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2382,6 +2660,7 @@
       "timestamp": "2026-03-18 11:02",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2390,6 +2669,7 @@
       "timestamp": "2026-01-27 10:27",
       "words": 32,
       "links": 3,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -2398,6 +2678,7 @@
       "timestamp": "2026-03-05 19:52",
       "words": 14,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2406,6 +2687,7 @@
       "timestamp": "2026-03-18 10:43",
       "words": 19,
       "links": 2,
+      "backlinks": 3,
       "tags": [
         "extinct"
       ]
@@ -2416,6 +2698,7 @@
       "timestamp": "2026-06-01 19:58",
       "words": 39,
       "links": 3,
+      "backlinks": 1,
       "tags": [
         "finches"
       ]
@@ -2426,6 +2709,7 @@
       "timestamp": "2026-03-20 14:53",
       "words": 15,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2434,6 +2718,7 @@
       "timestamp": "2026-04-28 09:21",
       "words": 15,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2442,6 +2727,7 @@
       "timestamp": "2025-11-16 14:44",
       "words": 78,
       "links": 4,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2450,6 +2736,7 @@
       "timestamp": "2026-02-05 09:46",
       "words": 33,
       "links": 3,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -2458,6 +2745,7 @@
       "timestamp": "2025-10-25 13:14",
       "words": 24,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2466,6 +2754,7 @@
       "timestamp": "2026-05-27 19:59",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": [
         "finches"
       ]
@@ -2476,6 +2765,7 @@
       "timestamp": "2026-02-05 09:47",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2484,6 +2774,7 @@
       "timestamp": "2026-03-23 18:54",
       "words": 24,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2492,6 +2783,7 @@
       "timestamp": "2026-04-13 09:39",
       "words": 17,
       "links": 1,
+      "backlinks": 1,
       "tags": [
         "daphne",
         "finches",
@@ -2504,6 +2796,7 @@
       "timestamp": "2025-09-07 21:24",
       "words": 0,
       "links": 0,
+      "backlinks": 8,
       "tags": []
     },
     {
@@ -2512,6 +2805,7 @@
       "timestamp": "2026-02-24 11:23",
       "words": 7,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2520,6 +2814,7 @@
       "timestamp": "2025-10-09 12:01",
       "words": 57,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2528,6 +2823,7 @@
       "timestamp": "2026-01-09 13:50",
       "words": 22,
       "links": 1,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -2536,6 +2832,7 @@
       "timestamp": "2025-07-28 20:33",
       "words": 109,
       "links": 4,
+      "backlinks": 10,
       "tags": []
     },
     {
@@ -2544,6 +2841,7 @@
       "timestamp": "2025-10-25 13:26",
       "words": 35,
       "links": 3,
+      "backlinks": 8,
       "tags": []
     },
     {
@@ -2552,6 +2850,7 @@
       "timestamp": "2026-01-12 20:05",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2560,6 +2859,7 @@
       "timestamp": "2026-01-27 10:18",
       "words": 0,
       "links": 0,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -2568,6 +2868,7 @@
       "timestamp": "2025-10-25 13:38",
       "words": 9,
       "links": 1,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -2576,6 +2877,7 @@
       "timestamp": "2025-10-09 14:20",
       "words": 0,
       "links": 0,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -2584,6 +2886,7 @@
       "timestamp": "2026-05-01 09:47",
       "words": 14,
       "links": 0,
+      "backlinks": 1,
       "tags": [
         "person"
       ]
@@ -2594,6 +2897,7 @@
       "timestamp": "2026-02-10 09:27",
       "words": 17,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2602,6 +2906,7 @@
       "timestamp": "2025-12-27 14:26",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2610,6 +2915,7 @@
       "timestamp": "2026-02-13 NO_TIME",
       "words": 121,
       "links": 5,
+      "backlinks": 0,
       "tags": [
         "finch_diet",
         "finches",
@@ -2620,9 +2926,10 @@
     {
       "id": "c25d41a3-c75f-409c-bd25-1980deb4ce05",
       "title": "BN Ochoa, Carlos, El eclipse del antidarwinismo: La historia detrás de la síntesis moderna",
-      "timestamp": "2026-01-24 NO_TIME",
+      "timestamp": "2026-06-02 NO_TIME",
       "words": 1009,
       "links": 93,
+      "backlinks": 0,
       "tags": [
         "book_note"
       ]
@@ -2633,6 +2940,7 @@
       "timestamp": "2026-01-28 10:56",
       "words": 0,
       "links": 0,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -2641,6 +2949,7 @@
       "timestamp": "2025-09-07 21:20",
       "words": 0,
       "links": 0,
+      "backlinks": 5,
       "tags": [
         "person"
       ]
@@ -2651,6 +2960,7 @@
       "timestamp": "2025-11-13 11:21",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2659,6 +2969,7 @@
       "timestamp": "2025-10-10 14:07",
       "words": 28,
       "links": 2,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -2667,6 +2978,7 @@
       "timestamp": "2026-01-12 20:36",
       "words": 65,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2675,6 +2987,7 @@
       "timestamp": "2026-02-11 20:18",
       "words": 12,
       "links": 1,
+      "backlinks": 1,
       "tags": [
         "flower"
       ]
@@ -2685,6 +2998,7 @@
       "timestamp": "2026-02-02 14:32",
       "words": 39,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2693,6 +3007,7 @@
       "timestamp": "2026-05-06 14:11",
       "words": 25,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2701,6 +3016,7 @@
       "timestamp": "2026-04-13 09:30",
       "words": 29,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2709,6 +3025,7 @@
       "timestamp": "2025-09-10 10:45",
       "words": 59,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2717,6 +3034,7 @@
       "timestamp": "2025-11-19 20:05",
       "words": 28,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2725,6 +3043,7 @@
       "timestamp": "2025-10-25 13:39",
       "words": 9,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2733,6 +3052,7 @@
       "timestamp": "2025-09-03 11:43",
       "words": 0,
       "links": 0,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -2741,6 +3061,7 @@
       "timestamp": "2026-06-01 20:03",
       "words": 30,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2749,6 +3070,7 @@
       "timestamp": "2025-10-27 09:43",
       "words": 18,
       "links": 2,
+      "backlinks": 6,
       "tags": []
     },
     {
@@ -2757,6 +3079,7 @@
       "timestamp": "2025-08-27 11:50",
       "words": 24,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2765,6 +3088,7 @@
       "timestamp": "2025-09-07 21:24",
       "words": 24,
       "links": 2,
+      "backlinks": 5,
       "tags": []
     },
     {
@@ -2773,6 +3097,7 @@
       "timestamp": "2026-04-27 19:49",
       "words": 6,
       "links": 0,
+      "backlinks": 6,
       "tags": [
         "evolutionary_theory",
         "person"
@@ -2784,6 +3109,7 @@
       "timestamp": "2026-01-12 20:21",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2792,6 +3118,7 @@
       "timestamp": "2026-06-01 20:02",
       "words": 41,
       "links": 3,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -2800,6 +3127,7 @@
       "timestamp": "2026-03-05 19:51",
       "words": 36,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2808,6 +3136,7 @@
       "timestamp": "2025-12-08 21:45",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2816,6 +3145,7 @@
       "timestamp": "2025-11-15 17:37",
       "words": 13,
       "links": 1,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -2824,6 +3154,7 @@
       "timestamp": "2025-12-09 19:21",
       "words": 69,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2832,6 +3163,7 @@
       "timestamp": "2025-10-20 22:26",
       "words": 42,
       "links": 4,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2840,6 +3172,7 @@
       "timestamp": "2025-07-31 14:03",
       "words": 30,
       "links": 2,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -2848,6 +3181,7 @@
       "timestamp": "2026-03-09 NO_TIME",
       "words": 122,
       "links": 7,
+      "backlinks": 0,
       "tags": [
         "evolutionary_theory",
         "hopeful_monster",
@@ -2862,6 +3196,7 @@
       "timestamp": "2025-10-28 12:42",
       "words": 22,
       "links": 2,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -2870,6 +3205,7 @@
       "timestamp": "2025-12-11 18:31",
       "words": 11,
       "links": 1,
+      "backlinks": 6,
       "tags": [
         "person",
         "president_usa"
@@ -2881,6 +3217,7 @@
       "timestamp": "2026-01-14 19:33",
       "words": 80,
       "links": 8,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2889,6 +3226,7 @@
       "timestamp": "2026-01-29 11:46",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2897,6 +3235,7 @@
       "timestamp": "2025-10-25 13:38",
       "words": 9,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2905,6 +3244,7 @@
       "timestamp": "2026-04-15 10:39",
       "words": 10,
       "links": 4,
+      "backlinks": 1,
       "tags": [
         "finches",
         "geospiza_fortis",
@@ -2917,6 +3257,7 @@
       "timestamp": "2026-02-24 09:56",
       "words": 86,
       "links": 3,
+      "backlinks": 0,
       "tags": [
         "phylogenetic_method",
         "phylogenetic_network",
@@ -2929,6 +3270,7 @@
       "timestamp": "2026-03-24 08:31",
       "words": 10,
       "links": 4,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2937,6 +3279,7 @@
       "timestamp": "2025-12-09 19:31",
       "words": 0,
       "links": 0,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -2945,6 +3288,7 @@
       "timestamp": "2025-12-27 14:19",
       "words": 60,
       "links": 1,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -2953,6 +3297,7 @@
       "timestamp": "2026-01-15 09:56",
       "words": 167,
       "links": 2,
+      "backlinks": 1,
       "tags": [
         "command"
       ]
@@ -2963,6 +3308,7 @@
       "timestamp": "2026-05-20 10:47",
       "words": 2,
       "links": 0,
+      "backlinks": 1,
       "tags": [
         "person"
       ]
@@ -2973,6 +3319,7 @@
       "timestamp": "2026-02-02 14:30",
       "words": 41,
       "links": 2,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -2981,6 +3328,7 @@
       "timestamp": "2026-03-24 09:34",
       "words": 24,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2989,6 +3337,7 @@
       "timestamp": "2026-05-04 15:04",
       "words": 32,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -2997,6 +3346,7 @@
       "timestamp": "2026-01-10 19:41",
       "words": 56,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3005,6 +3355,7 @@
       "timestamp": "2025-11-22 14:59",
       "words": 18,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3013,6 +3364,7 @@
       "timestamp": "2026-03-05 09:55",
       "words": 44,
       "links": 3,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -3021,6 +3373,7 @@
       "timestamp": "2025-12-09 19:33",
       "words": 46,
       "links": 5,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -3029,6 +3382,7 @@
       "timestamp": "2025-10-10 14:26",
       "words": 31,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3037,6 +3391,7 @@
       "timestamp": "2026-01-10 19:11",
       "words": 19,
       "links": 1,
+      "backlinks": 0,
       "tags": [
         "command"
       ]
@@ -3047,6 +3402,7 @@
       "timestamp": "2025-11-17 19:05",
       "words": 32,
       "links": 2,
+      "backlinks": 16,
       "tags": []
     },
     {
@@ -3055,6 +3411,7 @@
       "timestamp": "2026-05-04 15:09",
       "words": 37,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3063,6 +3420,7 @@
       "timestamp": "2025-07-30 20:31",
       "words": 0,
       "links": 0,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -3071,6 +3429,7 @@
       "timestamp": "2025-11-13 11:10",
       "words": 21,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3079,6 +3438,7 @@
       "timestamp": "2025-11-13 10:49",
       "words": 0,
       "links": 0,
+      "backlinks": 8,
       "tags": []
     },
     {
@@ -3087,6 +3447,7 @@
       "timestamp": "2026-01-12 20:29",
       "words": 28,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3095,6 +3456,7 @@
       "timestamp": "2025-11-17 19:35",
       "words": 35,
       "links": 4,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3103,6 +3465,7 @@
       "timestamp": "2025-12-08 22:02",
       "words": 0,
       "links": 0,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -3111,6 +3474,7 @@
       "timestamp": "2025-10-25 13:25",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3119,6 +3483,7 @@
       "timestamp": "2026-02-11 10:51",
       "words": 44,
       "links": 4,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -3127,6 +3492,7 @@
       "timestamp": "2025-10-25 13:38",
       "words": 9,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3135,6 +3501,7 @@
       "timestamp": "2026-02-18 11:44",
       "words": 42,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3143,6 +3510,7 @@
       "timestamp": "2026-03-25 NO_TIME",
       "words": 88,
       "links": 5,
+      "backlinks": 0,
       "tags": [
         "finches",
         "geospiza_fortis",
@@ -3156,6 +3524,7 @@
       "timestamp": "2026-04-17 15:04",
       "words": 37,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3164,6 +3533,7 @@
       "timestamp": "2026-01-25 11:21",
       "words": 74,
       "links": 4,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3172,6 +3542,7 @@
       "timestamp": "2026-01-10 18:25",
       "words": 14,
       "links": 1,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -3180,6 +3551,7 @@
       "timestamp": "2025-11-20 14:46",
       "words": 66,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3188,6 +3560,7 @@
       "timestamp": "2026-03-23 12:38",
       "words": 24,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3196,6 +3569,7 @@
       "timestamp": "2025-09-07 21:26",
       "words": 19,
       "links": 1,
+      "backlinks": 6,
       "tags": []
     },
     {
@@ -3204,6 +3578,7 @@
       "timestamp": "2026-05-29 19:28",
       "words": 68,
       "links": 6,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3212,6 +3587,7 @@
       "timestamp": "2026-01-29 11:36",
       "words": 11,
       "links": 1,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -3220,6 +3596,7 @@
       "timestamp": "2026-05-21 NO_TIME",
       "words": 49,
       "links": 3,
+      "backlinks": 0,
       "tags": [
         "homoploid_hybridization",
         "paper"
@@ -3231,6 +3608,7 @@
       "timestamp": "2025-10-10 14:02",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3239,6 +3617,7 @@
       "timestamp": "2026-02-18 14:02",
       "words": 14,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3247,6 +3626,7 @@
       "timestamp": "2025-11-19 20:16",
       "words": 74,
       "links": 3,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -3255,6 +3635,7 @@
       "timestamp": "2026-03-25 NO_TIME",
       "words": 77,
       "links": 6,
+      "backlinks": 0,
       "tags": [
         "finches",
         "paper"
@@ -3266,6 +3647,7 @@
       "timestamp": "2025-11-14 09:09",
       "words": 0,
       "links": 0,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -3274,6 +3656,7 @@
       "timestamp": "2025-12-08 21:54",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3282,6 +3665,7 @@
       "timestamp": "2025-11-14 09:25",
       "words": 37,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3290,6 +3674,7 @@
       "timestamp": "2025-10-30 08:19",
       "words": 45,
       "links": 2,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -3298,6 +3683,7 @@
       "timestamp": "2025-11-20 14:43",
       "words": 57,
       "links": 4,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -3306,6 +3692,7 @@
       "timestamp": "2026-02-02 11:59",
       "words": 43,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3314,6 +3701,7 @@
       "timestamp": "2025-11-22 13:53",
       "words": 23,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3322,6 +3710,7 @@
       "timestamp": "2026-04-17 11:39",
       "words": 25,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3330,6 +3719,7 @@
       "timestamp": "2025-11-17 19:08",
       "words": 0,
       "links": 0,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -3338,6 +3728,7 @@
       "timestamp": "2026-03-20 14:58",
       "words": 18,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3346,6 +3737,7 @@
       "timestamp": "2026-03-23 10:54",
       "words": 48,
       "links": 4,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3354,6 +3746,7 @@
       "timestamp": "2026-01-13 19:42",
       "words": 24,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3362,6 +3755,7 @@
       "timestamp": "2026-05-27 19:59",
       "words": 10,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3370,6 +3764,7 @@
       "timestamp": "2026-04-23 09:43",
       "words": 11,
       "links": 0,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -3378,6 +3773,7 @@
       "timestamp": "2026-03-23 18:35",
       "words": 39,
       "links": 3,
+      "backlinks": 1,
       "tags": [
         "citation",
         "evolutionary_theory"
@@ -3389,6 +3785,7 @@
       "timestamp": "2026-01-12 20:37",
       "words": 21,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3397,6 +3794,7 @@
       "timestamp": "2025-10-10 14:27",
       "words": 0,
       "links": 0,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -3405,6 +3803,7 @@
       "timestamp": "2025-11-22 13:58",
       "words": 47,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3413,6 +3812,7 @@
       "timestamp": "2026-01-29 NO_TIME",
       "words": 62,
       "links": 5,
+      "backlinks": 0,
       "tags": [
         "finches",
         "genovesa",
@@ -3425,6 +3825,7 @@
       "timestamp": "2026-03-20 13:39",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3433,6 +3834,7 @@
       "timestamp": "2025-11-13 13:13",
       "words": 34,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3441,6 +3843,7 @@
       "timestamp": "2025-11-18 16:09",
       "words": 44,
       "links": 4,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3449,6 +3852,7 @@
       "timestamp": "2025-11-13 11:22",
       "words": 4,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3457,6 +3861,7 @@
       "timestamp": "2025-11-24 13:11",
       "words": 88,
       "links": 4,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3465,6 +3870,7 @@
       "timestamp": "2025-10-29 14:06",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3473,6 +3879,7 @@
       "timestamp": "2026-03-23 09:06",
       "words": 109,
       "links": 5,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -3481,6 +3888,7 @@
       "timestamp": "2025-10-25 13:31",
       "words": 11,
       "links": 1,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -3489,6 +3897,7 @@
       "timestamp": "2025-11-17 19:39",
       "words": 130,
       "links": 5,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -3497,6 +3906,7 @@
       "timestamp": "2025-12-27 14:19",
       "words": 19,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3505,6 +3915,7 @@
       "timestamp": "2026-04-23 09:42",
       "words": 9,
       "links": 0,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -3513,6 +3924,7 @@
       "timestamp": "2026-03-18 10:56",
       "words": 19,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3521,6 +3933,7 @@
       "timestamp": "2026-01-14 13:34",
       "words": 24,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3529,6 +3942,7 @@
       "timestamp": "2025-10-28 12:40",
       "words": 63,
       "links": 3,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -3537,6 +3951,7 @@
       "timestamp": "2026-02-26 09:28",
       "words": 32,
       "links": 2,
+      "backlinks": 0,
       "tags": [
         "phylogenetic_method",
         "tool"
@@ -3548,6 +3963,7 @@
       "timestamp": "2025-11-13 11:20",
       "words": 4,
       "links": 0,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -3556,6 +3972,7 @@
       "timestamp": "2025-12-09 19:39",
       "words": 0,
       "links": 0,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -3564,6 +3981,7 @@
       "timestamp": "2025-10-31 12:19",
       "words": 33,
       "links": 2,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -3572,6 +3990,7 @@
       "timestamp": "2026-02-11 20:16",
       "words": 11,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3580,6 +3999,7 @@
       "timestamp": "2026-01-29 11:54",
       "words": 1,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3588,6 +4008,7 @@
       "timestamp": "2026-05-21 13:43",
       "words": 34,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3596,6 +4017,7 @@
       "timestamp": "2025-10-25 13:52",
       "words": 0,
       "links": 0,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -3604,6 +4026,7 @@
       "timestamp": "2025-07-28 19:43",
       "words": 22,
       "links": 1,
+      "backlinks": 23,
       "tags": []
     },
     {
@@ -3612,6 +4035,7 @@
       "timestamp": "2026-01-27 10:17",
       "words": 62,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3620,6 +4044,7 @@
       "timestamp": "2026-03-04 20:30",
       "words": 23,
       "links": 2,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -3628,6 +4053,7 @@
       "timestamp": "2026-03-23 13:03",
       "words": 8,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3636,6 +4062,7 @@
       "timestamp": "2026-01-14 13:29",
       "words": 74,
       "links": 2,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -3644,6 +4071,7 @@
       "timestamp": "2025-11-17 19:21",
       "words": 53,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3652,6 +4080,7 @@
       "timestamp": "2026-05-04 13:15",
       "words": 14,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3660,6 +4089,7 @@
       "timestamp": "2026-02-03 10:15",
       "words": 45,
       "links": 3,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -3668,6 +4098,7 @@
       "timestamp": "2025-07-30 20:29",
       "words": 87,
       "links": 2,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -3676,6 +4107,7 @@
       "timestamp": "2025-10-29 14:04",
       "words": 24,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3684,6 +4116,7 @@
       "timestamp": "2025-11-17 19:25",
       "words": 37,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3692,6 +4125,7 @@
       "timestamp": "2025-10-09 14:53",
       "words": 134,
       "links": 5,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3700,6 +4134,7 @@
       "timestamp": "2026-05-29 NO_TIME",
       "words": 84,
       "links": 6,
+      "backlinks": 0,
       "tags": [
         "bigbirds",
         "finches",
@@ -3712,6 +4147,7 @@
       "timestamp": "2025-11-16 14:59",
       "words": 22,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3720,6 +4156,7 @@
       "timestamp": "2026-03-25 09:23",
       "words": 30,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3728,6 +4165,7 @@
       "timestamp": "2026-03-18 11:08",
       "words": 24,
       "links": 2,
+      "backlinks": 1,
       "tags": [
         "finches",
         "geospiza_scandens"
@@ -3739,6 +4177,7 @@
       "timestamp": "2026-05-20 10:41",
       "words": 51,
       "links": 4,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3747,6 +4186,7 @@
       "timestamp": "2025-11-22 14:19",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3755,6 +4195,7 @@
       "timestamp": "2025-10-29 14:10",
       "words": 24,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3763,6 +4204,7 @@
       "timestamp": "2026-01-27 10:52",
       "words": 222,
       "links": 4,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -3771,6 +4213,7 @@
       "timestamp": "2025-07-29 20:56",
       "words": 11,
       "links": 1,
+      "backlinks": 14,
       "tags": [
         "genetics"
       ]
@@ -3781,6 +4224,7 @@
       "timestamp": "2026-04-23 09:50",
       "words": 34,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3789,6 +4233,7 @@
       "timestamp": "2025-12-09 19:40",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3797,6 +4242,7 @@
       "timestamp": "2026-02-10 09:27",
       "words": 22,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3805,6 +4251,7 @@
       "timestamp": "2025-10-25 13:40",
       "words": 22,
       "links": 1,
+      "backlinks": 11,
       "tags": []
     },
     {
@@ -3813,6 +4260,7 @@
       "timestamp": "2025-12-09 19:38",
       "words": 13,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3821,6 +4269,7 @@
       "timestamp": "2026-03-05 08:53",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3829,6 +4278,7 @@
       "timestamp": "2025-10-27 09:41",
       "words": 59,
       "links": 4,
+      "backlinks": 28,
       "tags": [
         "OTU"
       ]
@@ -3839,6 +4289,7 @@
       "timestamp": "2026-03-23 NO_TIME",
       "words": 167,
       "links": 9,
+      "backlinks": 0,
       "tags": [
         "evolutionary_theory",
         "paper"
@@ -3847,9 +4298,10 @@
     {
       "id": "a3723572-663d-420c-bc84-14565cdc92f9",
       "title": "BN Ochoa, Carlos, Hierarchical Evolutionary-Developmental Theory: Towards a New Theory of Evolution",
-      "timestamp": "2026-06-01 NO_TIME",
+      "timestamp": "2026-06-02 NO_TIME",
       "words": 250,
       "links": 13,
+      "backlinks": 0,
       "tags": [
         "book_note",
         "evolution",
@@ -3862,6 +4314,7 @@
       "timestamp": "2026-01-12 20:04",
       "words": 31,
       "links": 3,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -3870,6 +4323,7 @@
       "timestamp": "2026-01-12 17:27",
       "words": 12,
       "links": 1,
+      "backlinks": 1,
       "tags": [
         "command"
       ]
@@ -3880,6 +4334,7 @@
       "timestamp": "2026-03-18 10:50",
       "words": 45,
       "links": 1,
+      "backlinks": 0,
       "tags": [
         "data"
       ]
@@ -3890,6 +4345,7 @@
       "timestamp": "2026-03-20 14:55",
       "words": 53,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3898,6 +4354,7 @@
       "timestamp": "2025-10-25 13:16",
       "words": 65,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3906,6 +4363,7 @@
       "timestamp": "2025-11-22 14:16",
       "words": 43,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3914,6 +4372,7 @@
       "timestamp": "2026-02-24 NO_TIME",
       "words": 93,
       "links": 6,
+      "backlinks": 0,
       "tags": [
         "finches",
         "genovesa",
@@ -3926,6 +4385,7 @@
       "timestamp": "2026-02-26 09:29",
       "words": 27,
       "links": 2,
+      "backlinks": 1,
       "tags": [
         "phylogenetic_method",
         "tool"
@@ -3937,6 +4397,7 @@
       "timestamp": "2026-01-10 18:26",
       "words": 9,
       "links": 1,
+      "backlinks": 12,
       "tags": []
     },
     {
@@ -3945,6 +4406,7 @@
       "timestamp": "2025-10-20 22:50",
       "words": 97,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3953,6 +4415,7 @@
       "timestamp": "2026-05-20 10:50",
       "words": 42,
       "links": 2,
+      "backlinks": 1,
       "tags": [
         "citation"
       ]
@@ -3963,6 +4426,7 @@
       "timestamp": "2025-07-30 20:47",
       "words": 40,
       "links": 1,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -3971,6 +4435,7 @@
       "timestamp": "2026-01-12 20:13",
       "words": 51,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -3979,6 +4444,7 @@
       "timestamp": "2025-12-13 16:46",
       "words": 60,
       "links": 3,
+      "backlinks": 7,
       "tags": [
         "person"
       ]
@@ -3989,6 +4455,7 @@
       "timestamp": "2026-02-06 10:33",
       "words": 55,
       "links": 2,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -3997,6 +4464,7 @@
       "timestamp": "2025-11-15 17:48",
       "words": 30,
       "links": 2,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -4005,6 +4473,7 @@
       "timestamp": "2025-07-29 13:22",
       "words": 35,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4013,6 +4482,7 @@
       "timestamp": "2026-02-10 13:06",
       "words": 30,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4021,6 +4491,7 @@
       "timestamp": "2026-01-28 NO_TIME",
       "words": 10,
       "links": 0,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -4029,6 +4500,7 @@
       "timestamp": "2026-05-01 09:49",
       "words": 41,
       "links": 3,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -4037,6 +4509,7 @@
       "timestamp": "2025-12-08 21:49",
       "words": 23,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4045,6 +4518,7 @@
       "timestamp": "2026-03-09 19:44",
       "words": 32,
       "links": 3,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -4053,6 +4527,7 @@
       "timestamp": "2026-02-11 20:15",
       "words": 30,
       "links": 3,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -4061,6 +4536,7 @@
       "timestamp": "2025-12-09 19:31",
       "words": 39,
       "links": 4,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4069,6 +4545,7 @@
       "timestamp": "2026-01-13 19:39",
       "words": 43,
       "links": 2,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -4077,6 +4554,7 @@
       "timestamp": "2026-01-12 20:23",
       "words": 9,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4085,6 +4563,7 @@
       "timestamp": "2025-10-28 10:34",
       "words": 8,
       "links": 1,
+      "backlinks": 5,
       "tags": []
     },
     {
@@ -4093,6 +4572,7 @@
       "timestamp": "2026-01-09 13:49",
       "words": 9,
       "links": 0,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -4101,6 +4581,7 @@
       "timestamp": "2025-10-25 13:40",
       "words": 9,
       "links": 1,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -4109,6 +4590,7 @@
       "timestamp": "2026-02-11 20:23",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4117,6 +4599,7 @@
       "timestamp": "2026-02-11 10:53",
       "words": 23,
       "links": 2,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -4125,6 +4608,7 @@
       "timestamp": "2025-07-28 20:39",
       "words": 36,
       "links": 2,
+      "backlinks": 8,
       "tags": []
     },
     {
@@ -4133,6 +4617,7 @@
       "timestamp": "2026-03-12 11:35",
       "words": 16,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4141,6 +4626,7 @@
       "timestamp": "2026-01-10 20:13",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4149,6 +4635,7 @@
       "timestamp": "2025-11-19 20:04",
       "words": 40,
       "links": 3,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -4157,6 +4644,7 @@
       "timestamp": "2026-03-11 10:52",
       "words": 24,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4165,6 +4653,7 @@
       "timestamp": "2026-02-18 14:04",
       "words": 20,
       "links": 1,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -4173,6 +4662,7 @@
       "timestamp": "2026-01-29 11:37",
       "words": 60,
       "links": 4,
+      "backlinks": 5,
       "tags": []
     },
     {
@@ -4181,6 +4671,7 @@
       "timestamp": "2026-05-04 18:43",
       "words": 18,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4189,6 +4680,7 @@
       "timestamp": "2026-03-12 10:35",
       "words": 21,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4197,6 +4689,7 @@
       "timestamp": "2026-05-04 13:13",
       "words": 23,
       "links": 2,
+      "backlinks": 1,
       "tags": [
         "citation"
       ]
@@ -4207,6 +4700,7 @@
       "timestamp": "2026-04-23 10:15",
       "words": 47,
       "links": 4,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4215,6 +4709,7 @@
       "timestamp": "2025-07-29 12:53",
       "words": 42,
       "links": 1,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -4223,6 +4718,7 @@
       "timestamp": "2026-02-18 11:40",
       "words": 13,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4231,6 +4727,7 @@
       "timestamp": "2025-11-19 19:52",
       "words": 17,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4239,6 +4736,7 @@
       "timestamp": "2026-05-20 NO_TIME",
       "words": 140,
       "links": 10,
+      "backlinks": 0,
       "tags": [
         "hybridization",
         "speciation"
@@ -4250,6 +4748,7 @@
       "timestamp": "2025-11-22 14:16",
       "words": 12,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4258,6 +4757,7 @@
       "timestamp": "2025-11-20 14:38",
       "words": 44,
       "links": 4,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4266,6 +4766,7 @@
       "timestamp": "2025-09-07 21:33",
       "words": 30,
       "links": 2,
+      "backlinks": 5,
       "tags": []
     },
     {
@@ -4274,6 +4775,7 @@
       "timestamp": "2026-03-23 10:49",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4282,6 +4784,7 @@
       "timestamp": "2026-01-10 20:12",
       "words": 44,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4290,6 +4793,7 @@
       "timestamp": "2026-04-13 09:33",
       "words": 10,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4298,6 +4802,7 @@
       "timestamp": "2026-01-29 11:38",
       "words": 26,
       "links": 2,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -4306,6 +4811,7 @@
       "timestamp": "2026-01-12 20:33",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4314,6 +4820,7 @@
       "timestamp": "2026-03-23 18:48",
       "words": 64,
       "links": 6,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4322,6 +4829,7 @@
       "timestamp": "2026-02-13 NO_TIME",
       "words": 0,
       "links": 0,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -4330,6 +4838,7 @@
       "timestamp": "2025-11-15 17:27",
       "words": 36,
       "links": 3,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -4338,6 +4847,7 @@
       "timestamp": "2026-01-10 19:48",
       "words": 95,
       "links": 4,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4346,6 +4856,7 @@
       "timestamp": "2026-03-04 20:28",
       "words": 59,
       "links": 4,
+      "backlinks": 5,
       "tags": []
     },
     {
@@ -4354,6 +4865,7 @@
       "timestamp": "2025-11-17 19:18",
       "words": 0,
       "links": 0,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -4362,6 +4874,7 @@
       "timestamp": "2025-10-09 14:55",
       "words": 23,
       "links": 2,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -4370,6 +4883,7 @@
       "timestamp": "2026-05-04 15:05",
       "words": 19,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4378,6 +4892,7 @@
       "timestamp": "2025-10-29 14:02",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4386,6 +4901,7 @@
       "timestamp": "2025-11-13 10:53",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4394,6 +4910,7 @@
       "timestamp": "2026-03-20 14:51",
       "words": 0,
       "links": 0,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -4402,6 +4919,7 @@
       "timestamp": "2026-01-28 10:55",
       "words": 0,
       "links": 0,
+      "backlinks": 7,
       "tags": []
     },
     {
@@ -4410,6 +4928,7 @@
       "timestamp": "2026-01-15 NO_TIME",
       "words": 593,
       "links": 28,
+      "backlinks": 0,
       "tags": [
         "book_note"
       ]
@@ -4420,6 +4939,7 @@
       "timestamp": "2026-04-23 NO_TIME",
       "words": 138,
       "links": 8,
+      "backlinks": 0,
       "tags": [
         "finch_song",
         "finches",
@@ -4432,6 +4952,7 @@
       "timestamp": "2026-05-27 NO_TIME",
       "words": 70,
       "links": 6,
+      "backlinks": 0,
       "tags": [
         "finches",
         "paper"
@@ -4443,6 +4964,7 @@
       "timestamp": "2025-11-15 17:35",
       "words": 28,
       "links": 2,
+      "backlinks": 5,
       "tags": []
     },
     {
@@ -4451,6 +4973,7 @@
       "timestamp": "2025-11-16 14:46",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4459,6 +4982,7 @@
       "timestamp": "2025-10-28 10:49",
       "words": 117,
       "links": 7,
+      "backlinks": 0,
       "tags": [
         "finches",
         "paper"
@@ -4470,6 +4994,7 @@
       "timestamp": "2026-01-29 11:40",
       "words": 20,
       "links": 1,
+      "backlinks": 2,
       "tags": [
         "finches",
         "genovesa"
@@ -4481,6 +5006,7 @@
       "timestamp": "2026-05-27 20:05",
       "words": 54,
       "links": 5,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4489,6 +5015,7 @@
       "timestamp": "2025-11-13 11:10",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4497,6 +5024,7 @@
       "timestamp": "2025-09-07 21:27",
       "words": 41,
       "links": 3,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -4505,6 +5033,7 @@
       "timestamp": "2026-06-01 20:01",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4513,6 +5042,7 @@
       "timestamp": "2026-01-10 20:00",
       "words": 0,
       "links": 0,
+      "backlinks": 2,
       "tags": [
         "person"
       ]
@@ -4523,6 +5053,7 @@
       "timestamp": "2026-03-24 NO_TIME",
       "words": 72,
       "links": 6,
+      "backlinks": 0,
       "tags": [
         "beak_morphology",
         "bmp4",
@@ -4536,6 +5067,7 @@
       "timestamp": "2026-04-17 NO_TIME",
       "words": 59,
       "links": 3,
+      "backlinks": 0,
       "tags": [
         "finches",
         "paper",
@@ -4548,6 +5080,7 @@
       "timestamp": "2026-03-25 09:14",
       "words": 27,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4556,6 +5089,7 @@
       "timestamp": "2026-01-28 10:33",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4564,6 +5098,7 @@
       "timestamp": "2025-11-17 19:24",
       "words": 0,
       "links": 0,
+      "backlinks": 7,
       "tags": [
         "person"
       ]
@@ -4574,6 +5109,7 @@
       "timestamp": "2026-01-10 19:53",
       "words": 11,
       "links": 1,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -4582,6 +5118,7 @@
       "timestamp": "2025-11-13 18:31",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4590,6 +5127,7 @@
       "timestamp": "2025-12-08 21:58",
       "words": 4,
       "links": 0,
+      "backlinks": 2,
       "tags": [
         "person",
         "philosophy"
@@ -4601,6 +5139,7 @@
       "timestamp": "2025-11-13 11:09",
       "words": 40,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4609,6 +5148,7 @@
       "timestamp": "2025-10-25 13:40",
       "words": 9,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4617,6 +5157,7 @@
       "timestamp": "2025-10-29 14:10",
       "words": 22,
       "links": 2,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -4625,6 +5166,7 @@
       "timestamp": "2026-01-12 20:05",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4633,6 +5175,7 @@
       "timestamp": "2025-11-16 15:00",
       "words": 0,
       "links": 0,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -4641,6 +5184,7 @@
       "timestamp": "2025-07-31 12:23",
       "words": 25,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4649,6 +5193,7 @@
       "timestamp": "2026-01-14 19:23",
       "words": 28,
       "links": 3,
+      "backlinks": 5,
       "tags": []
     },
     {
@@ -4657,6 +5202,7 @@
       "timestamp": "2025-10-09 11:44",
       "words": 22,
       "links": 1,
+      "backlinks": 6,
       "tags": []
     },
     {
@@ -4665,6 +5211,7 @@
       "timestamp": "2026-02-02 14:28",
       "words": 41,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4673,6 +5220,7 @@
       "timestamp": "2025-12-27 14:25",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4681,6 +5229,7 @@
       "timestamp": "2026-02-10 09:40",
       "words": 52,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4689,6 +5238,7 @@
       "timestamp": "2026-03-23 18:52",
       "words": 0,
       "links": 0,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -4697,6 +5247,7 @@
       "timestamp": "2026-04-23 09:43",
       "words": 35,
       "links": 2,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -4705,6 +5256,7 @@
       "timestamp": "2025-09-07 21:09",
       "words": 30,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4713,6 +5265,7 @@
       "timestamp": "2026-03-23 18:56",
       "words": 15,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4721,6 +5274,7 @@
       "timestamp": "2026-03-05 09:54",
       "words": 13,
       "links": 1,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -4729,6 +5283,7 @@
       "timestamp": "2025-11-16 14:29",
       "words": 34,
       "links": 3,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -4737,6 +5292,7 @@
       "timestamp": "2026-03-05 09:55",
       "words": 11,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4745,6 +5301,7 @@
       "timestamp": "2025-12-08 21:54",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4753,6 +5310,7 @@
       "timestamp": "2025-11-13 10:53",
       "words": 0,
       "links": 0,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -4761,6 +5319,7 @@
       "timestamp": "2026-04-27 19:59",
       "words": 73,
       "links": 3,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -4769,6 +5328,7 @@
       "timestamp": "2025-10-28 10:50",
       "words": 0,
       "links": 0,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -4777,6 +5337,7 @@
       "timestamp": "2025-11-15 17:56",
       "words": 14,
       "links": 0,
+      "backlinks": 12,
       "tags": [
         "person"
       ]
@@ -4787,6 +5348,7 @@
       "timestamp": "2026-03-25 11:05",
       "words": 15,
       "links": 2,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -4795,6 +5357,7 @@
       "timestamp": "2026-03-11 10:52",
       "words": 9,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4803,6 +5366,7 @@
       "timestamp": "2025-11-13 10:41",
       "words": 91,
       "links": 9,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4811,6 +5375,7 @@
       "timestamp": "2026-05-02 15:21",
       "words": 16,
       "links": 2,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -4819,6 +5384,7 @@
       "timestamp": "2026-03-27 10:43",
       "words": 19,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4827,6 +5393,7 @@
       "timestamp": "2026-02-16 12:18",
       "words": 8,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4835,6 +5402,7 @@
       "timestamp": "2026-02-06 11:00",
       "words": 35,
       "links": 2,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -4843,6 +5411,7 @@
       "timestamp": "2025-11-19 20:23",
       "words": 41,
       "links": 2,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -4851,6 +5420,7 @@
       "timestamp": "2025-11-18 15:59",
       "words": 75,
       "links": 4,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4859,6 +5429,7 @@
       "timestamp": "2025-10-15 13:54",
       "words": 0,
       "links": 0,
+      "backlinks": 19,
       "tags": []
     },
     {
@@ -4867,6 +5438,7 @@
       "timestamp": "2025-10-20 22:27",
       "words": 0,
       "links": 0,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -4875,6 +5447,7 @@
       "timestamp": "2026-03-24 09:35",
       "words": 27,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4883,6 +5456,7 @@
       "timestamp": "2026-02-11 10:52",
       "words": 12,
       "links": 1,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -4891,6 +5465,7 @@
       "timestamp": "2026-01-12 20:27",
       "words": 49,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4899,6 +5474,7 @@
       "timestamp": "2025-09-04 20:20",
       "words": 22,
       "links": 2,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -4907,6 +5483,7 @@
       "timestamp": "2025-11-13 13:10",
       "words": 21,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4915,6 +5492,7 @@
       "timestamp": "2025-07-29 13:54",
       "words": 48,
       "links": 1,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -4923,6 +5501,7 @@
       "timestamp": "2026-04-17 11:38",
       "words": 21,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4931,6 +5510,7 @@
       "timestamp": "2026-03-18 10:52",
       "words": 44,
       "links": 1,
+      "backlinks": 0,
       "tags": [
         "data"
       ]
@@ -4941,6 +5521,7 @@
       "timestamp": "2025-11-22 14:43",
       "words": 20,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4949,6 +5530,7 @@
       "timestamp": "2025-11-14 09:49",
       "words": 0,
       "links": 0,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -4957,6 +5539,7 @@
       "timestamp": "2025-11-19 19:43",
       "words": 0,
       "links": 0,
+      "backlinks": 13,
       "tags": [
         "person"
       ]
@@ -4967,6 +5550,7 @@
       "timestamp": "2025-07-31 14:21",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -4975,6 +5559,7 @@
       "timestamp": "2025-10-28 11:06",
       "words": 55,
       "links": 3,
+      "backlinks": 5,
       "tags": []
     },
     {
@@ -4983,6 +5568,7 @@
       "timestamp": "2026-03-20 13:39",
       "words": 21,
       "links": 2,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -4991,6 +5577,7 @@
       "timestamp": "2025-10-29 14:12",
       "words": 21,
       "links": 2,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -4999,6 +5586,7 @@
       "timestamp": "2026-01-13 19:37",
       "words": 16,
       "links": 1,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -5007,6 +5595,7 @@
       "timestamp": "2026-01-29 11:52",
       "words": 24,
       "links": 1,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -5015,6 +5604,7 @@
       "timestamp": "2025-11-19 19:48",
       "words": 35,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5023,6 +5613,7 @@
       "timestamp": "2025-12-13 17:25",
       "words": 52,
       "links": 4,
+      "backlinks": 0,
       "tags": [
         "usa_history"
       ]
@@ -5033,6 +5624,7 @@
       "timestamp": "2026-01-10 18:25",
       "words": 13,
       "links": 1,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -5041,6 +5633,7 @@
       "timestamp": "2025-11-13 11:18",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5049,6 +5642,7 @@
       "timestamp": "2025-10-25 13:52",
       "words": 11,
       "links": 1,
+      "backlinks": 12,
       "tags": []
     },
     {
@@ -5057,6 +5651,7 @@
       "timestamp": "2026-03-09 20:51",
       "words": 33,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5065,6 +5660,7 @@
       "timestamp": "2025-11-14 09:15",
       "words": 0,
       "links": 0,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -5073,6 +5669,7 @@
       "timestamp": "2026-02-11 10:53",
       "words": 10,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5081,6 +5678,7 @@
       "timestamp": "2025-07-30 21:08",
       "words": 21,
       "links": 1,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -5089,6 +5687,7 @@
       "timestamp": "2026-03-24 10:26",
       "words": 36,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5097,6 +5696,7 @@
       "timestamp": "2026-03-09 12:38",
       "words": 67,
       "links": 4,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5105,6 +5705,7 @@
       "timestamp": "2025-10-27 11:28",
       "words": 21,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5113,6 +5714,7 @@
       "timestamp": "2026-02-16 12:17",
       "words": 36,
       "links": 4,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5121,6 +5723,7 @@
       "timestamp": "2025-11-19 19:41",
       "words": 54,
       "links": 5,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -5129,6 +5732,7 @@
       "timestamp": "2025-11-18 15:44",
       "words": 0,
       "links": 0,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -5137,6 +5741,7 @@
       "timestamp": "2026-02-02 11:57",
       "words": 24,
       "links": 2,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -5145,6 +5750,7 @@
       "timestamp": "2025-12-09 19:36",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5153,6 +5759,7 @@
       "timestamp": "2026-02-16 NO_TIME",
       "words": 216,
       "links": 9,
+      "backlinks": 0,
       "tags": [
         "evolution",
         "paper"
@@ -5164,6 +5771,7 @@
       "timestamp": "2026-02-02 11:52",
       "words": 51,
       "links": 4,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -5172,6 +5780,7 @@
       "timestamp": "2026-01-14 19:42",
       "words": 20,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5180,6 +5789,7 @@
       "timestamp": "2026-03-11 10:51",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5188,6 +5798,7 @@
       "timestamp": "2026-03-05 08:53",
       "words": 80,
       "links": 3,
+      "backlinks": 0,
       "tags": [
         "phylogenetic_method",
         "tool"
@@ -5199,6 +5810,7 @@
       "timestamp": "2026-05-29 NO_TIME",
       "words": 89,
       "links": 7,
+      "backlinks": 0,
       "tags": [
         "finches",
         "paper"
@@ -5210,6 +5822,7 @@
       "timestamp": "2025-09-07 21:15",
       "words": 0,
       "links": 0,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -5218,6 +5831,7 @@
       "timestamp": "2026-04-17 11:40",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5226,6 +5840,7 @@
       "timestamp": "2026-03-27 14:56",
       "words": 33,
       "links": 2,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -5234,6 +5849,7 @@
       "timestamp": "2026-01-13 20:51",
       "words": 87,
       "links": 5,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -5242,6 +5858,7 @@
       "timestamp": "2026-03-23 18:41",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": [
         "person"
       ]
@@ -5252,6 +5869,7 @@
       "timestamp": "2025-11-14 09:27",
       "words": 50,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5260,6 +5878,7 @@
       "timestamp": "2025-11-15 17:58",
       "words": 20,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5268,6 +5887,7 @@
       "timestamp": "2025-11-19 19:44",
       "words": 3,
       "links": 0,
+      "backlinks": 7,
       "tags": [
         "person"
       ]
@@ -5278,6 +5898,7 @@
       "timestamp": "2026-01-12 20:31",
       "words": 0,
       "links": 0,
+      "backlinks": 2,
       "tags": [
         "USA",
         "person"
@@ -5289,6 +5910,7 @@
       "timestamp": "2026-04-17 11:39",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5297,6 +5919,7 @@
       "timestamp": "2026-05-20 10:45",
       "words": 23,
       "links": 1,
+      "backlinks": 1,
       "tags": [
         "evolution"
       ]
@@ -5307,6 +5930,7 @@
       "timestamp": "2026-05-04 NO_TIME",
       "words": 351,
       "links": 13,
+      "backlinks": 0,
       "tags": [
         "evolutionary_theory",
         "paper",
@@ -5319,6 +5943,7 @@
       "timestamp": "2026-02-02 NO_TIME",
       "words": 228,
       "links": 15,
+      "backlinks": 0,
       "tags": [
         "finches",
         "genovesa",
@@ -5331,6 +5956,7 @@
       "timestamp": "2026-01-28 10:34",
       "words": 8,
       "links": 0,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -5339,6 +5965,7 @@
       "timestamp": "2026-03-25 08:28",
       "words": 31,
       "links": 2,
+      "backlinks": 0,
       "tags": [
         "finches",
         "geospiza_fortis",
@@ -5351,6 +5978,7 @@
       "timestamp": "2026-04-17 NO_TIME",
       "words": 168,
       "links": 7,
+      "backlinks": 0,
       "tags": [
         "finches",
         "paper"
@@ -5362,6 +5990,7 @@
       "timestamp": "2025-11-16 14:42",
       "words": 13,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5370,6 +5999,7 @@
       "timestamp": "2026-05-22 10:39",
       "words": 21,
       "links": 2,
+      "backlinks": 0,
       "tags": [
         "homoploid_hybridization",
         "hybridization"
@@ -5381,6 +6011,7 @@
       "timestamp": "2026-04-27 20:06",
       "words": 156,
       "links": 5,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -5389,6 +6020,7 @@
       "timestamp": "2026-02-06 10:46",
       "words": 34,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5397,6 +6029,7 @@
       "timestamp": "2026-05-01 09:53",
       "words": 22,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5405,6 +6038,7 @@
       "timestamp": "2025-10-25 14:01",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5413,6 +6047,7 @@
       "timestamp": "2025-10-25 13:29",
       "words": 11,
       "links": 1,
+      "backlinks": 12,
       "tags": []
     },
     {
@@ -5421,6 +6056,7 @@
       "timestamp": "2026-05-22 09:40",
       "words": 28,
       "links": 0,
+      "backlinks": 0,
       "tags": [
         "person"
       ]
@@ -5431,6 +6067,7 @@
       "timestamp": "2026-05-27 20:02",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5439,6 +6076,7 @@
       "timestamp": "2026-01-20 18:19",
       "words": 22,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5447,6 +6085,7 @@
       "timestamp": "2026-02-16 12:16",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": [
         "person"
       ]
@@ -5457,6 +6096,7 @@
       "timestamp": "2026-03-23 13:01",
       "words": 20,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5465,6 +6105,7 @@
       "timestamp": "2025-11-17 19:17",
       "words": 76,
       "links": 4,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -5473,6 +6114,7 @@
       "timestamp": "2025-09-02 11:13",
       "words": 44,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5481,6 +6123,7 @@
       "timestamp": "2025-10-09 14:54",
       "words": 0,
       "links": 0,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -5489,6 +6132,7 @@
       "timestamp": "2025-11-19 20:37",
       "words": 48,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5497,6 +6141,7 @@
       "timestamp": "2025-10-20 22:27",
       "words": 51,
       "links": 5,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5505,6 +6150,7 @@
       "timestamp": "2025-10-30 08:22",
       "words": 47,
       "links": 4,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -5513,6 +6159,7 @@
       "timestamp": "2025-11-17 19:45",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5521,6 +6168,7 @@
       "timestamp": "2025-11-19 20:16",
       "words": 0,
       "links": 0,
+      "backlinks": 7,
       "tags": []
     },
     {
@@ -5529,6 +6177,7 @@
       "timestamp": "2025-12-27 14:26",
       "words": 25,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5537,6 +6186,7 @@
       "timestamp": "2025-11-24 12:53",
       "words": 34,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5545,6 +6195,7 @@
       "timestamp": "2025-10-15 13:53",
       "words": 32,
       "links": 2,
+      "backlinks": 7,
       "tags": []
     },
     {
@@ -5553,6 +6204,7 @@
       "timestamp": "2026-05-11 13:48",
       "words": 49,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5561,6 +6213,7 @@
       "timestamp": "2026-02-10 09:25",
       "words": 59,
       "links": 5,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -5569,6 +6222,7 @@
       "timestamp": "2026-01-14 19:38",
       "words": 27,
       "links": 2,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -5577,6 +6231,7 @@
       "timestamp": "2025-11-19 20:22",
       "words": 79,
       "links": 7,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -5585,6 +6240,7 @@
       "timestamp": "2026-03-18 11:01",
       "words": 52,
       "links": 4,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5593,6 +6249,7 @@
       "timestamp": "2025-11-17 19:27",
       "words": 0,
       "links": 0,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -5601,6 +6258,7 @@
       "timestamp": "2026-04-23 09:47",
       "words": 45,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5609,6 +6267,7 @@
       "timestamp": "2025-11-22 14:35",
       "words": 74,
       "links": 4,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -5617,6 +6276,7 @@
       "timestamp": "2025-11-22 13:45",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5625,6 +6285,7 @@
       "timestamp": "2026-03-25 08:28",
       "words": 12,
       "links": 1,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -5633,6 +6294,7 @@
       "timestamp": "2025-11-15 17:25",
       "words": 45,
       "links": 4,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5641,6 +6303,7 @@
       "timestamp": "2026-01-10 19:42",
       "words": 24,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5649,6 +6312,7 @@
       "timestamp": "2026-03-12 10:24",
       "words": 41,
       "links": 3,
+      "backlinks": 1,
       "tags": [
         "daphne",
         "finches"
@@ -5660,6 +6324,7 @@
       "timestamp": "2026-01-10 18:56",
       "words": 89,
       "links": 5,
+      "backlinks": 3,
       "tags": [
         "command"
       ]
@@ -5670,6 +6335,7 @@
       "timestamp": "2026-03-09 19:45",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5678,6 +6344,7 @@
       "timestamp": "2025-10-27 09:42",
       "words": 18,
       "links": 2,
+      "backlinks": 6,
       "tags": []
     },
     {
@@ -5686,6 +6353,7 @@
       "timestamp": "2025-11-20 14:17",
       "words": 21,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5694,6 +6362,7 @@
       "timestamp": "2025-10-15 13:56",
       "words": 20,
       "links": 2,
+      "backlinks": 18,
       "tags": []
     },
     {
@@ -5702,6 +6371,7 @@
       "timestamp": "2026-03-20 14:53",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5710,6 +6380,7 @@
       "timestamp": "2025-09-07 20:56",
       "words": 39,
       "links": 3,
+      "backlinks": 6,
       "tags": []
     },
     {
@@ -5718,6 +6389,7 @@
       "timestamp": "2025-11-17 19:05",
       "words": 24,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5726,6 +6398,7 @@
       "timestamp": "2026-02-16 12:28",
       "words": 0,
       "links": 0,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -5734,6 +6407,7 @@
       "timestamp": "2025-11-19 19:40",
       "words": 0,
       "links": 0,
+      "backlinks": 6,
       "tags": [
         "person"
       ]
@@ -5744,6 +6418,7 @@
       "timestamp": "2025-12-27 14:32",
       "words": 23,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5752,6 +6427,7 @@
       "timestamp": "2025-12-12 NO_TIME",
       "words": 103,
       "links": 10,
+      "backlinks": 0,
       "tags": [
         "paper"
       ]
@@ -5762,6 +6438,7 @@
       "timestamp": "2025-10-25 14:00",
       "words": 18,
       "links": 2,
+      "backlinks": 11,
       "tags": []
     },
     {
@@ -5770,6 +6447,7 @@
       "timestamp": "2026-04-15 NO_TIME",
       "words": 125,
       "links": 11,
+      "backlinks": 0,
       "tags": [
         "finches",
         "paper"
@@ -5781,6 +6459,7 @@
       "timestamp": "2026-01-29 11:45",
       "words": 37,
       "links": 2,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -5789,6 +6468,7 @@
       "timestamp": "2025-09-07 21:35",
       "words": 12,
       "links": 0,
+      "backlinks": 5,
       "tags": []
     },
     {
@@ -5797,6 +6477,7 @@
       "timestamp": "2026-03-23 12:35",
       "words": 0,
       "links": 0,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -5805,6 +6486,7 @@
       "timestamp": "2026-03-23 18:38",
       "words": 1,
       "links": 0,
+      "backlinks": 1,
       "tags": [
         "evolutionary_theory",
         "person"
@@ -5816,6 +6498,7 @@
       "timestamp": "2026-02-16 12:32",
       "words": 25,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5824,6 +6507,7 @@
       "timestamp": "2026-03-09 11:58",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5832,6 +6516,7 @@
       "timestamp": "2025-11-20 14:25",
       "words": 60,
       "links": 4,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -5840,6 +6525,7 @@
       "timestamp": "2026-01-14 18:50",
       "words": 67,
       "links": 3,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -5848,6 +6534,7 @@
       "timestamp": "2025-07-28 20:58",
       "words": 29,
       "links": 2,
+      "backlinks": 8,
       "tags": [
         "person"
       ]
@@ -5858,6 +6545,7 @@
       "timestamp": "2025-08-01 12:05",
       "words": 28,
       "links": 1,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -5866,6 +6554,7 @@
       "timestamp": "2026-05-11 NO_TIME",
       "words": 113,
       "links": 8,
+      "backlinks": 0,
       "tags": [
         "finches"
       ]
@@ -5876,6 +6565,7 @@
       "timestamp": "2026-03-20 14:14",
       "words": 19,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5884,6 +6574,7 @@
       "timestamp": "2026-05-11 NO_TIME",
       "words": 67,
       "links": 1,
+      "backlinks": 0,
       "tags": [
         "homoploid_hybridization",
         "paper"
@@ -5895,6 +6586,7 @@
       "timestamp": "2026-04-17 11:46",
       "words": 36,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5903,6 +6595,7 @@
       "timestamp": "2025-10-28 10:56",
       "words": 36,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5911,6 +6604,7 @@
       "timestamp": "2025-10-28 11:02",
       "words": 11,
       "links": 1,
+      "backlinks": 16,
       "tags": []
     },
     {
@@ -5919,6 +6613,7 @@
       "timestamp": "2025-10-09 14:37",
       "words": 22,
       "links": 1,
+      "backlinks": 8,
       "tags": []
     },
     {
@@ -5927,6 +6622,7 @@
       "timestamp": "2025-11-18 16:13",
       "words": 43,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5935,6 +6631,7 @@
       "timestamp": "2026-03-05 19:55",
       "words": 23,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5943,6 +6640,7 @@
       "timestamp": "2026-02-23 NO_TIME",
       "words": 0,
       "links": 0,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -5951,6 +6649,7 @@
       "timestamp": "2025-11-13 10:56",
       "words": 18,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5959,6 +6658,7 @@
       "timestamp": "2026-03-09 NO_TIME",
       "words": 99,
       "links": 8,
+      "backlinks": 0,
       "tags": [
         "beak_morphology",
         "development",
@@ -5972,6 +6672,7 @@
       "timestamp": "2026-04-27 20:17",
       "words": 37,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5980,6 +6681,7 @@
       "timestamp": "2025-09-07 20:49",
       "words": 28,
       "links": 2,
+      "backlinks": 5,
       "tags": []
     },
     {
@@ -5988,6 +6690,7 @@
       "timestamp": "2025-10-25 13:52",
       "words": 82,
       "links": 6,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -5996,6 +6699,7 @@
       "timestamp": "2025-12-13 17:06",
       "words": 2,
       "links": 0,
+      "backlinks": 1,
       "tags": [
         "world_history"
       ]
@@ -6006,6 +6710,7 @@
       "timestamp": "2025-10-15 13:47",
       "words": 15,
       "links": 1,
+      "backlinks": 30,
       "tags": []
     },
     {
@@ -6014,6 +6719,7 @@
       "timestamp": "2025-10-28 10:35",
       "words": 12,
       "links": 1,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -6022,6 +6728,7 @@
       "timestamp": "2025-10-09 14:32",
       "words": 0,
       "links": 0,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -6030,6 +6737,7 @@
       "timestamp": "2025-10-09 14:23",
       "words": 49,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -6038,6 +6746,7 @@
       "timestamp": "2025-10-29 14:00",
       "words": 21,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -6046,6 +6755,7 @@
       "timestamp": "2025-11-13 11:05",
       "words": 61,
       "links": 4,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -6054,6 +6764,7 @@
       "timestamp": "2025-10-09 14:27",
       "words": 43,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -6062,6 +6773,7 @@
       "timestamp": "2026-01-12 17:14",
       "words": 43,
       "links": 3,
+      "backlinks": 2,
       "tags": [
         "command"
       ]
@@ -6072,6 +6784,7 @@
       "timestamp": "2026-05-04 13:09",
       "words": 32,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -6080,6 +6793,7 @@
       "timestamp": "2026-03-09 11:54",
       "words": 0,
       "links": 0,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -6088,6 +6802,7 @@
       "timestamp": "2026-01-20 18:53",
       "words": 7,
       "links": 1,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -6096,6 +6811,7 @@
       "timestamp": "2025-10-09 14:33",
       "words": 14,
       "links": 1,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -6104,6 +6820,7 @@
       "timestamp": "2026-01-12 17:38",
       "words": 36,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -6112,6 +6829,7 @@
       "timestamp": "2026-03-05 NO_TIME",
       "words": 0,
       "links": 0,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -6120,6 +6838,7 @@
       "timestamp": "2026-03-09 11:57",
       "words": 20,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -6128,6 +6847,7 @@
       "timestamp": "2025-09-03 12:04",
       "words": 82,
       "links": 2,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -6136,6 +6856,7 @@
       "timestamp": "2026-05-27 20:00",
       "words": 75,
       "links": 7,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -6144,6 +6865,7 @@
       "timestamp": "2025-07-29 20:23",
       "words": 62,
       "links": 2,
+      "backlinks": 6,
       "tags": []
     },
     {
@@ -6152,6 +6874,7 @@
       "timestamp": "2025-10-28 12:52",
       "words": 29,
       "links": 3,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -6160,6 +6883,7 @@
       "timestamp": "2026-04-24 09:15",
       "words": 10,
       "links": 3,
+      "backlinks": 2,
       "tags": [
         "ARG"
       ]
@@ -6170,6 +6894,7 @@
       "timestamp": "2026-03-17 11:45",
       "words": 36,
       "links": 2,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -6178,6 +6903,7 @@
       "timestamp": "2026-02-18 NO_TIME",
       "words": 64,
       "links": 3,
+      "backlinks": 0,
       "tags": [
         "paper",
         "phylogenetic_method",
@@ -6190,6 +6916,7 @@
       "timestamp": "2026-03-12 10:28",
       "words": 13,
       "links": 1,
+      "backlinks": 1,
       "tags": [
         "finches",
         "nino"
@@ -6201,6 +6928,7 @@
       "timestamp": "2026-01-28 10:32",
       "words": 43,
       "links": 4,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -6209,6 +6937,7 @@
       "timestamp": "2026-03-25 08:32",
       "words": 33,
       "links": 1,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -6217,6 +6946,7 @@
       "timestamp": "2026-01-20 18:48",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": [
         "person",
         "philosophy"
@@ -6228,6 +6958,7 @@
       "timestamp": "2026-03-06 10:09",
       "words": 22,
       "links": 2,
+      "backlinks": 6,
       "tags": []
     },
     {
@@ -6236,6 +6967,7 @@
       "timestamp": "2025-12-09 19:40",
       "words": 40,
       "links": 4,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -6244,6 +6976,7 @@
       "timestamp": "2025-10-28 12:53",
       "words": 18,
       "links": 2,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -6252,6 +6985,7 @@
       "timestamp": "2025-11-20 14:27",
       "words": 25,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -6260,6 +6994,7 @@
       "timestamp": "2026-01-09 13:50",
       "words": 15,
       "links": 1,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -6268,6 +7003,7 @@
       "timestamp": "2025-08-27 09:50",
       "words": 50,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -6276,6 +7012,7 @@
       "timestamp": "2025-08-28 11:26",
       "words": 17,
       "links": 0,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -6284,6 +7021,7 @@
       "timestamp": "2026-03-09 19:44",
       "words": 11,
       "links": 1,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -6292,6 +7030,7 @@
       "timestamp": "2025-11-18 15:48",
       "words": 0,
       "links": 0,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -6300,6 +7039,7 @@
       "timestamp": "2025-10-25 13:55",
       "words": 43,
       "links": 2,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -6308,6 +7048,7 @@
       "timestamp": "2025-10-27 09:44",
       "words": 69,
       "links": 5,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -6316,6 +7057,7 @@
       "timestamp": "2026-01-10 20:02",
       "words": 50,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -6324,6 +7066,7 @@
       "timestamp": "2025-10-10 14:24",
       "words": 21,
       "links": 2,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -6332,6 +7075,7 @@
       "timestamp": "2025-11-14 08:51",
       "words": 45,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -6340,6 +7084,7 @@
       "timestamp": "2025-10-25 13:33",
       "words": 9,
       "links": 1,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -6348,6 +7093,7 @@
       "timestamp": "2025-10-10 14:26",
       "words": 20,
       "links": 2,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -6356,6 +7102,7 @@
       "timestamp": "2026-01-20 19:06",
       "words": 0,
       "links": 0,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -6364,6 +7111,7 @@
       "timestamp": "2026-01-24 10:25",
       "words": 51,
       "links": 5,
+      "backlinks": 1,
       "tags": [
         "citation"
       ]
@@ -6374,6 +7122,7 @@
       "timestamp": "2026-04-17 12:54",
       "words": 143,
       "links": 9,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -6382,6 +7131,7 @@
       "timestamp": "2026-03-23 13:03",
       "words": 19,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -6390,6 +7140,7 @@
       "timestamp": "2025-09-07 21:31",
       "words": 21,
       "links": 1,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -6398,6 +7149,7 @@
       "timestamp": "2025-11-14 09:48",
       "words": 0,
       "links": 0,
+      "backlinks": 6,
       "tags": []
     },
     {
@@ -6406,6 +7158,7 @@
       "timestamp": "2026-03-23 12:35",
       "words": 24,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -6414,6 +7167,7 @@
       "timestamp": "2025-09-07 21:08",
       "words": 34,
       "links": 2,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -6422,6 +7176,7 @@
       "timestamp": "2026-01-10 18:42",
       "words": 16,
       "links": 1,
+      "backlinks": 2,
       "tags": [
         "command"
       ]
@@ -6432,6 +7187,7 @@
       "timestamp": "2025-12-09 19:19",
       "words": 13,
       "links": 1,
+      "backlinks": 7,
       "tags": []
     },
     {
@@ -6440,6 +7196,7 @@
       "timestamp": "2025-11-13 19:03",
       "words": 0,
       "links": 0,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -6448,6 +7205,7 @@
       "timestamp": "2025-10-25 13:41",
       "words": 9,
       "links": 1,
+      "backlinks": 8,
       "tags": []
     },
     {
@@ -6456,6 +7214,7 @@
       "timestamp": "2025-07-28 20:55",
       "words": 50,
       "links": 2,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -6464,6 +7223,7 @@
       "timestamp": "2026-02-18 14:01",
       "words": 29,
       "links": 2,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -6472,6 +7232,7 @@
       "timestamp": "2026-01-24 10:27",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -6480,6 +7241,7 @@
       "timestamp": "2026-01-12 17:04",
       "words": 51,
       "links": 2,
+      "backlinks": 1,
       "tags": [
         "command"
       ]
@@ -6490,6 +7252,7 @@
       "timestamp": "2026-05-06 14:13",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -6498,6 +7261,7 @@
       "timestamp": "2025-11-18 15:43",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -6506,6 +7270,7 @@
       "timestamp": "2026-01-10 18:28",
       "words": 16,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -6514,6 +7279,7 @@
       "timestamp": "2025-11-16 14:38",
       "words": 60,
       "links": 3,
+      "backlinks": 2,
       "tags": [
         "citation"
       ]
@@ -6524,6 +7290,7 @@
       "timestamp": "2026-03-20 12:40",
       "words": 23,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -6532,6 +7299,7 @@
       "timestamp": "2026-03-05 09:53",
       "words": 82,
       "links": 4,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -6540,6 +7308,7 @@
       "timestamp": "2026-03-04 20:30",
       "words": 16,
       "links": 2,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -6548,6 +7317,7 @@
       "timestamp": "2025-07-31 14:05",
       "words": 63,
       "links": 3,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -6556,6 +7326,7 @@
       "timestamp": "2026-05-01 09:50",
       "words": 37,
       "links": 3,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -6564,6 +7335,7 @@
       "timestamp": "2025-07-28 20:03",
       "words": 14,
       "links": 1,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -6572,6 +7344,7 @@
       "timestamp": "2026-02-24 11:23",
       "words": 29,
       "links": 2,
+      "backlinks": 5,
       "tags": []
     },
     {
@@ -6580,6 +7353,7 @@
       "timestamp": "2025-11-17 19:35",
       "words": 0,
       "links": 0,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -6588,6 +7362,7 @@
       "timestamp": "2025-12-09 19:21",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -6596,6 +7371,7 @@
       "timestamp": "2025-10-29 14:06",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -6604,6 +7380,7 @@
       "timestamp": "2026-02-11 20:15",
       "words": 21,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -6612,6 +7389,7 @@
       "timestamp": "2026-05-04 18:41",
       "words": 22,
       "links": 2,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -6620,6 +7398,7 @@
       "timestamp": "2026-03-20 NO_TIME",
       "words": 75,
       "links": 4,
+      "backlinks": 0,
       "tags": [
         "beak_morphology",
         "finches",
@@ -6632,6 +7411,7 @@
       "timestamp": "2026-03-18 11:10",
       "words": 35,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -6640,6 +7420,7 @@
       "timestamp": "2025-10-15 13:51",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -6648,6 +7429,7 @@
       "timestamp": "2025-10-10 14:13",
       "words": 42,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -6656,6 +7438,7 @@
       "timestamp": "2026-03-23 12:37",
       "words": 33,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -6664,6 +7447,7 @@
       "timestamp": "2026-03-23 13:01",
       "words": 9,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -6672,6 +7456,7 @@
       "timestamp": "2026-03-23 13:01",
       "words": 29,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -6680,6 +7465,7 @@
       "timestamp": "2026-03-23 10:58",
       "words": 0,
       "links": 0,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -6688,6 +7474,7 @@
       "timestamp": "2025-10-20 22:48",
       "words": 12,
       "links": 1,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -6696,6 +7483,7 @@
       "timestamp": "2026-01-13 20:36",
       "words": 16,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -6704,6 +7492,7 @@
       "timestamp": "2026-03-18 10:48",
       "words": 44,
       "links": 1,
+      "backlinks": 0,
       "tags": [
         "data"
       ]
@@ -6714,6 +7503,7 @@
       "timestamp": "2026-01-09 13:47",
       "words": 33,
       "links": 3,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -6722,6 +7512,7 @@
       "timestamp": "2026-05-04 13:06",
       "words": 23,
       "links": 2,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -6730,6 +7521,7 @@
       "timestamp": "2025-10-25 14:02",
       "words": 22,
       "links": 2,
+      "backlinks": 14,
       "tags": []
     },
     {
@@ -6738,6 +7530,7 @@
       "timestamp": "2026-01-29 11:39",
       "words": 25,
       "links": 2,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -6746,6 +7539,7 @@
       "timestamp": "2025-11-14 09:08",
       "words": 23,
       "links": 2,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -6754,6 +7548,7 @@
       "timestamp": "2025-11-17 19:15",
       "words": 47,
       "links": 4,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -6762,6 +7557,7 @@
       "timestamp": "2026-03-04 11:10",
       "words": 25,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -6770,6 +7566,7 @@
       "timestamp": "2025-10-15 10:27",
       "words": 33,
       "links": 1,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -6778,6 +7575,7 @@
       "timestamp": "2026-05-20 10:32",
       "words": 23,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -6786,6 +7584,7 @@
       "timestamp": "2025-11-18 15:45",
       "words": 0,
       "links": 0,
+      "backlinks": 6,
       "tags": []
     },
     {
@@ -6794,6 +7593,7 @@
       "timestamp": "2025-08-05 11:57",
       "words": 31,
       "links": 1,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -6802,6 +7602,7 @@
       "timestamp": "2026-05-20 10:36",
       "words": 0,
       "links": 0,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -6810,6 +7611,7 @@
       "timestamp": "2026-03-27 NO_TIME",
       "words": 156,
       "links": 6,
+      "backlinks": 0,
       "tags": [
         "finches",
         "paper"
@@ -6821,6 +7623,7 @@
       "timestamp": "2026-01-14 19:29",
       "words": 28,
       "links": 2,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -6829,6 +7632,7 @@
       "timestamp": "2025-10-09 14:35",
       "words": 24,
       "links": 1,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -6837,6 +7641,7 @@
       "timestamp": "2025-10-30 08:16",
       "words": 47,
       "links": 2,
+      "backlinks": 1,
       "tags": [
         "daphne",
         "finch_migration",
@@ -6849,6 +7654,7 @@
       "timestamp": "2026-05-02 15:21",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -6857,6 +7663,7 @@
       "timestamp": "2026-03-23 12:39",
       "words": 9,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -6865,6 +7672,7 @@
       "timestamp": "2026-01-10 18:44",
       "words": 40,
       "links": 1,
+      "backlinks": 3,
       "tags": [
         "command"
       ]
@@ -6875,6 +7683,7 @@
       "timestamp": "2026-04-17 10:41",
       "words": 35,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -6883,6 +7692,7 @@
       "timestamp": "2025-11-22 14:26",
       "words": 45,
       "links": 1,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -6891,6 +7701,7 @@
       "timestamp": "2025-12-09 19:41",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -6899,6 +7710,7 @@
       "timestamp": "2026-05-21 11:41",
       "words": 20,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -6907,6 +7719,7 @@
       "timestamp": "2025-10-10 14:11",
       "words": 47,
       "links": 1,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -6915,6 +7728,7 @@
       "timestamp": "2025-09-07 21:02",
       "words": 0,
       "links": 0,
+      "backlinks": 8,
       "tags": [
         "evolutionary_theory",
         "person"
@@ -6926,6 +7740,7 @@
       "timestamp": "2026-03-23 08:50",
       "words": 37,
       "links": 1,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -6934,6 +7749,7 @@
       "timestamp": "2025-11-13 18:38",
       "words": 65,
       "links": 6,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -6942,6 +7758,7 @@
       "timestamp": "2026-05-04 15:07",
       "words": 13,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -6950,6 +7767,7 @@
       "timestamp": "2025-11-13 11:02",
       "words": 40,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -6958,6 +7776,7 @@
       "timestamp": "2025-12-13 16:48",
       "words": 0,
       "links": 0,
+      "backlinks": 2,
       "tags": [
         "person"
       ]
@@ -6968,6 +7787,7 @@
       "timestamp": "2025-09-07 20:53",
       "words": 63,
       "links": 5,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -6976,6 +7796,7 @@
       "timestamp": "2026-03-27 14:58",
       "words": 7,
       "links": 1,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -6984,6 +7805,7 @@
       "timestamp": "2026-04-30 08:54",
       "words": 30,
       "links": 0,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -6992,6 +7814,7 @@
       "timestamp": "2026-04-23 09:46",
       "words": 30,
       "links": 2,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -7000,6 +7823,7 @@
       "timestamp": "2026-02-10 09:35",
       "words": 18,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7008,6 +7832,7 @@
       "timestamp": "2025-12-13 17:15",
       "words": 54,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7016,6 +7841,7 @@
       "timestamp": "2025-11-14 09:19",
       "words": 25,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7024,6 +7850,7 @@
       "timestamp": "2025-10-28 12:52",
       "words": 18,
       "links": 2,
+      "backlinks": 15,
       "tags": []
     },
     {
@@ -7032,6 +7859,7 @@
       "timestamp": "2025-11-16 14:34",
       "words": 54,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7040,6 +7868,7 @@
       "timestamp": "2025-09-02 11:05",
       "words": 21,
       "links": 1,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -7048,6 +7877,7 @@
       "timestamp": "2025-12-27 14:23",
       "words": 38,
       "links": 3,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -7056,6 +7886,7 @@
       "timestamp": "2025-09-02 11:11",
       "words": 35,
       "links": 1,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -7064,6 +7895,7 @@
       "timestamp": "2026-03-24 09:35",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7072,6 +7904,7 @@
       "timestamp": "2026-04-27 NO_TIME",
       "words": 201,
       "links": 6,
+      "backlinks": 0,
       "tags": [
         "evolutionary_theory",
         "paper"
@@ -7083,6 +7916,7 @@
       "timestamp": "2025-11-13 10:47",
       "words": 22,
       "links": 2,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -7091,6 +7925,7 @@
       "timestamp": "2025-10-20 22:29",
       "words": 32,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7099,6 +7934,7 @@
       "timestamp": "2025-11-20 14:28",
       "words": 44,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7107,6 +7943,7 @@
       "timestamp": "2025-10-10 14:01",
       "words": 36,
       "links": 3,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -7115,6 +7952,7 @@
       "timestamp": "2025-08-04 12:29",
       "words": 82,
       "links": 2,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -7123,6 +7961,7 @@
       "timestamp": "2026-05-04 15:11",
       "words": 33,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7131,6 +7970,7 @@
       "timestamp": "2025-07-29 20:34",
       "words": 26,
       "links": 1,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -7139,6 +7979,7 @@
       "timestamp": "2025-10-29 14:02",
       "words": 45,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7147,6 +7988,7 @@
       "timestamp": "2026-01-09 13:47",
       "words": 50,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7155,6 +7997,7 @@
       "timestamp": "2026-02-05 09:44",
       "words": 13,
       "links": 1,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -7163,6 +8006,7 @@
       "timestamp": "2026-03-23 13:27",
       "words": 10,
       "links": 2,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -7171,6 +8015,7 @@
       "timestamp": "2026-03-18 10:42",
       "words": 29,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7179,6 +8024,7 @@
       "timestamp": "2025-12-08 21:55",
       "words": 4,
       "links": 0,
+      "backlinks": 2,
       "tags": [
         "person",
         "philosophy"
@@ -7190,6 +8036,7 @@
       "timestamp": "2025-11-15 17:25",
       "words": 15,
       "links": 1,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -7198,6 +8045,7 @@
       "timestamp": "2026-03-18 10:54",
       "words": 45,
       "links": 4,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -7206,6 +8054,7 @@
       "timestamp": "2026-05-20 10:30",
       "words": 0,
       "links": 0,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -7214,6 +8063,7 @@
       "timestamp": "2026-01-12 17:24",
       "words": 19,
       "links": 1,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -7222,6 +8072,7 @@
       "timestamp": "2025-10-25 13:32",
       "words": 11,
       "links": 1,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -7230,6 +8081,7 @@
       "timestamp": "2025-07-31 10:25",
       "words": 29,
       "links": 1,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -7238,6 +8090,7 @@
       "timestamp": "2026-03-12 NO_TIME",
       "words": 100,
       "links": 5,
+      "backlinks": 0,
       "tags": [
         "daphne",
         "finches",
@@ -7250,6 +8103,7 @@
       "timestamp": "2026-01-12 20:18",
       "words": 38,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7258,6 +8112,7 @@
       "timestamp": "2025-11-20 14:16",
       "words": 33,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7266,6 +8121,7 @@
       "timestamp": "2026-01-12 20:14",
       "words": 23,
       "links": 2,
+      "backlinks": 3,
       "tags": [
         "person",
         "president_usa"
@@ -7277,6 +8133,7 @@
       "timestamp": "2025-10-10 13:45",
       "words": 68,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7285,6 +8142,7 @@
       "timestamp": "2025-11-24 12:55",
       "words": 47,
       "links": 4,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -7293,6 +8151,7 @@
       "timestamp": "2025-11-15 17:59",
       "words": 22,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7301,6 +8160,7 @@
       "timestamp": "2026-05-06 14:15",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7309,6 +8169,7 @@
       "timestamp": "2025-11-13 11:23",
       "words": 19,
       "links": 2,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -7317,6 +8178,7 @@
       "timestamp": "2026-03-23 NO_TIME",
       "words": 119,
       "links": 8,
+      "backlinks": 0,
       "tags": [
         "beak_morphology",
         "finches",
@@ -7331,6 +8193,7 @@
       "timestamp": "2025-09-04 20:18",
       "words": 19,
       "links": 1,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -7339,6 +8202,7 @@
       "timestamp": "2026-03-20 14:12",
       "words": 22,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7347,6 +8211,7 @@
       "timestamp": "2025-11-13 18:51",
       "words": 38,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7355,6 +8220,7 @@
       "timestamp": "2025-10-25 14:01",
       "words": 28,
       "links": 3,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -7363,6 +8229,7 @@
       "timestamp": "2025-11-22 13:41",
       "words": 27,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7371,6 +8238,7 @@
       "timestamp": "2026-02-18 11:40",
       "words": 39,
       "links": 4,
+      "backlinks": 5,
       "tags": []
     },
     {
@@ -7379,6 +8247,7 @@
       "timestamp": "2026-05-20 10:38",
       "words": 54,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7387,6 +8256,7 @@
       "timestamp": "2026-01-10 19:53",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7395,6 +8265,7 @@
       "timestamp": "2025-11-17 19:22",
       "words": 28,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7403,6 +8274,7 @@
       "timestamp": "2026-01-10 20:02",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7411,6 +8283,7 @@
       "timestamp": "2025-11-18 16:11",
       "words": 31,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7419,6 +8292,7 @@
       "timestamp": "2026-01-13 20:49",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7427,6 +8301,7 @@
       "timestamp": "2025-07-29 12:50",
       "words": 30,
       "links": 1,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -7435,6 +8310,7 @@
       "timestamp": "2026-04-13 09:37",
       "words": 19,
       "links": 1,
+      "backlinks": 1,
       "tags": [
         "daphne",
         "finches",
@@ -7447,6 +8323,7 @@
       "timestamp": "2025-11-22 14:19",
       "words": 68,
       "links": 4,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7455,6 +8332,7 @@
       "timestamp": "2025-10-25 14:00",
       "words": 55,
       "links": 4,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7463,6 +8341,7 @@
       "timestamp": "2026-05-29 19:31",
       "words": 37,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7471,6 +8350,7 @@
       "timestamp": "2026-01-12 20:32",
       "words": 51,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7479,6 +8359,7 @@
       "timestamp": "2025-11-16 14:28",
       "words": 19,
       "links": 2,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -7487,6 +8368,7 @@
       "timestamp": "2026-02-11 20:19",
       "words": 38,
       "links": 3,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -7495,6 +8377,7 @@
       "timestamp": "2025-10-27 11:29",
       "words": 39,
       "links": 2,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -7503,6 +8386,7 @@
       "timestamp": "2025-10-09 14:55",
       "words": 0,
       "links": 0,
+      "backlinks": 6,
       "tags": []
     },
     {
@@ -7511,6 +8395,7 @@
       "timestamp": "2025-10-25 13:50",
       "words": 19,
       "links": 2,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -7519,6 +8404,7 @@
       "timestamp": "2025-11-17 19:44",
       "words": 82,
       "links": 5,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -7527,6 +8413,7 @@
       "timestamp": "2025-12-08 21:56",
       "words": 45,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7535,6 +8422,7 @@
       "timestamp": "2025-11-20 14:31",
       "words": 56,
       "links": 4,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7543,6 +8431,7 @@
       "timestamp": "2026-03-20 14:13",
       "words": 42,
       "links": 4,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7551,6 +8440,7 @@
       "timestamp": "2026-01-12 16:59",
       "words": 124,
       "links": 3,
+      "backlinks": 2,
       "tags": [
         "command"
       ]
@@ -7561,6 +8451,7 @@
       "timestamp": "2025-10-10 13:42",
       "words": 58,
       "links": 2,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -7569,6 +8460,7 @@
       "timestamp": "2025-11-19 20:05",
       "words": 0,
       "links": 0,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -7577,6 +8469,7 @@
       "timestamp": "2026-03-09 20:49",
       "words": 21,
       "links": 1,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -7585,6 +8478,7 @@
       "timestamp": "2025-12-27 14:16",
       "words": 24,
       "links": 2,
+      "backlinks": 3,
       "tags": [
         "person",
         "president_usa"
@@ -7596,6 +8490,7 @@
       "timestamp": "2025-12-13 17:18",
       "words": 33,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7604,6 +8499,7 @@
       "timestamp": "2026-03-09 NO_TIME",
       "words": 0,
       "links": 0,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -7612,6 +8508,7 @@
       "timestamp": "2026-03-23 12:37",
       "words": 18,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7620,6 +8517,7 @@
       "timestamp": "2025-10-25 13:39",
       "words": 9,
       "links": 1,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -7628,6 +8526,7 @@
       "timestamp": "2026-01-12 20:20",
       "words": 23,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7636,6 +8535,7 @@
       "timestamp": "2025-07-28 20:37",
       "words": 17,
       "links": 1,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -7644,6 +8544,7 @@
       "timestamp": "2025-11-22 14:39",
       "words": 28,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7652,6 +8553,7 @@
       "timestamp": "2025-11-22 15:00",
       "words": 40,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7660,6 +8562,7 @@
       "timestamp": "2025-10-25 13:39",
       "words": 9,
       "links": 1,
+      "backlinks": 10,
       "tags": []
     },
     {
@@ -7668,14 +8571,16 @@
       "timestamp": "2026-03-23 08:48",
       "words": 17,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
       "id": "3e023a4d-2a0d-457c-be7b-ebc9a23e29a9",
-      "title": "conservation embriological mechanisms prove common ancestry",
+      "title": "conservation embryological mechanisms prove common ancestry",
       "timestamp": "2025-11-17 19:10",
       "words": 47,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7684,6 +8589,7 @@
       "timestamp": "2025-07-29 13:41",
       "words": 53,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7692,6 +8598,7 @@
       "timestamp": "2026-02-19 NO_TIME",
       "words": 208,
       "links": 2,
+      "backlinks": 0,
       "tags": [
         "paper",
         "phylogenetic_method",
@@ -7704,6 +8611,7 @@
       "timestamp": "2026-02-16 12:23",
       "words": 42,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7712,6 +8620,7 @@
       "timestamp": "2025-11-22 14:49",
       "words": 89,
       "links": 4,
+      "backlinks": 5,
       "tags": []
     },
     {
@@ -7720,6 +8629,7 @@
       "timestamp": "2025-10-25 13:56",
       "words": 14,
       "links": 1,
+      "backlinks": 9,
       "tags": []
     },
     {
@@ -7728,6 +8638,7 @@
       "timestamp": "2025-12-08 21:44",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7736,6 +8647,7 @@
       "timestamp": "2025-11-14 09:46",
       "words": 11,
       "links": 1,
+      "backlinks": 18,
       "tags": [
         "trait"
       ]
@@ -7746,6 +8658,7 @@
       "timestamp": "2025-07-31 12:24",
       "words": 32,
       "links": 1,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -7754,6 +8667,7 @@
       "timestamp": "2026-04-13 09:32",
       "words": 28,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7762,6 +8676,7 @@
       "timestamp": "2025-11-13 13:08",
       "words": 22,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7770,6 +8685,7 @@
       "timestamp": "2026-01-28 10:55",
       "words": 27,
       "links": 2,
+      "backlinks": 6,
       "tags": []
     },
     {
@@ -7778,6 +8694,7 @@
       "timestamp": "2026-02-16 12:08",
       "words": 10,
       "links": 1,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -7786,6 +8703,7 @@
       "timestamp": "2026-02-18 11:39",
       "words": 15,
       "links": 1,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -7794,6 +8712,7 @@
       "timestamp": "2026-04-17 11:44",
       "words": 40,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7802,6 +8721,7 @@
       "timestamp": "2026-03-05 19:49",
       "words": 64,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7810,6 +8730,7 @@
       "timestamp": "2025-07-28 20:44",
       "words": 40,
       "links": 1,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -7818,6 +8739,7 @@
       "timestamp": "2025-10-20 22:47",
       "words": 18,
       "links": 1,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -7826,6 +8748,7 @@
       "timestamp": "2026-01-20 NO_TIME",
       "words": 69,
       "links": 4,
+      "backlinks": 0,
       "tags": [
         "book_note"
       ]
@@ -7836,6 +8759,7 @@
       "timestamp": "2026-03-09 11:55",
       "words": 0,
       "links": 0,
+      "backlinks": 2,
       "tags": [
         "dkk3"
       ]
@@ -7846,6 +8770,7 @@
       "timestamp": "2026-04-17 11:42",
       "words": 10,
       "links": 3,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -7854,6 +8779,7 @@
       "timestamp": "2025-10-27 09:48",
       "words": 0,
       "links": 0,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -7862,6 +8788,7 @@
       "timestamp": "2026-05-06 14:12",
       "words": 31,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7870,6 +8797,7 @@
       "timestamp": "2026-03-18 10:58",
       "words": 30,
       "links": 3,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -7878,6 +8806,7 @@
       "timestamp": "2025-10-25 13:22",
       "words": 9,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7886,6 +8815,7 @@
       "timestamp": "2026-03-23 10:58",
       "words": 41,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7894,6 +8824,7 @@
       "timestamp": "2025-10-09 14:31",
       "words": 67,
       "links": 4,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7902,6 +8833,7 @@
       "timestamp": "2025-08-27 12:08",
       "words": 30,
       "links": 2,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -7910,6 +8842,7 @@
       "timestamp": "2025-12-09 19:35",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7918,6 +8851,7 @@
       "timestamp": "2026-02-11 20:26",
       "words": 14,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7926,6 +8860,7 @@
       "timestamp": "2025-10-10 14:17",
       "words": 32,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7934,6 +8869,7 @@
       "timestamp": "2025-11-13 19:03",
       "words": 27,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7942,6 +8878,7 @@
       "timestamp": "2025-11-16 14:43",
       "words": 7,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7950,6 +8887,7 @@
       "timestamp": "2026-03-09 11:58",
       "words": 26,
       "links": 2,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -7958,6 +8896,7 @@
       "timestamp": "2026-03-24 08:30",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7966,6 +8905,7 @@
       "timestamp": "2026-05-27 19:58",
       "words": 30,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -7974,6 +8914,7 @@
       "timestamp": "2026-01-12 16:57",
       "words": 16,
       "links": 1,
+      "backlinks": 2,
       "tags": [
         "command"
       ]
@@ -7984,6 +8925,7 @@
       "timestamp": "2026-05-04 NO_TIME",
       "words": 158,
       "links": 11,
+      "backlinks": 0,
       "tags": [
         "finch_migration",
         "finches",
@@ -7997,6 +8939,7 @@
       "timestamp": "2025-11-13 13:05",
       "words": 29,
       "links": 3,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -8005,6 +8948,7 @@
       "timestamp": "2025-11-14 09:45",
       "words": 23,
       "links": 3,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -8013,6 +8957,7 @@
       "timestamp": "2025-10-30 08:22",
       "words": 19,
       "links": 2,
+      "backlinks": 28,
       "tags": []
     },
     {
@@ -8021,6 +8966,7 @@
       "timestamp": "2025-10-29 14:06",
       "words": 16,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8029,6 +8975,7 @@
       "timestamp": "2026-05-04 13:07",
       "words": 44,
       "links": 3,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -8037,6 +8984,7 @@
       "timestamp": "2025-07-28 20:57",
       "words": 12,
       "links": 1,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -8045,6 +8993,7 @@
       "timestamp": "2025-11-22 14:31",
       "words": 72,
       "links": 5,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -8053,6 +9002,7 @@
       "timestamp": "2025-07-28 20:30",
       "words": 10,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8061,6 +9011,7 @@
       "timestamp": "2026-04-27 19:53",
       "words": 14,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8069,6 +9020,7 @@
       "timestamp": "2026-02-03 09:49",
       "words": 44,
       "links": 2,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -8077,6 +9029,7 @@
       "timestamp": "2026-01-29 NO_TIME",
       "words": 0,
       "links": 0,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -8085,6 +9038,7 @@
       "timestamp": "2026-03-23 19:03",
       "words": 42,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8093,6 +9047,7 @@
       "timestamp": "2026-03-24 08:32",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8101,6 +9056,7 @@
       "timestamp": "2025-08-28 11:18",
       "words": 51,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8109,6 +9065,7 @@
       "timestamp": "2025-12-09 19:36",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8117,6 +9074,7 @@
       "timestamp": "2026-02-16 12:17",
       "words": 37,
       "links": 2,
+      "backlinks": 7,
       "tags": []
     },
     {
@@ -8125,6 +9083,7 @@
       "timestamp": "2025-07-29 13:23",
       "words": 38,
       "links": 2,
+      "backlinks": 5,
       "tags": []
     },
     {
@@ -8133,6 +9092,7 @@
       "timestamp": "2026-03-18 10:45",
       "words": 60,
       "links": 2,
+      "backlinks": 0,
       "tags": [
         "data"
       ]
@@ -8143,6 +9103,7 @@
       "timestamp": "2025-11-13 19:00",
       "words": 16,
       "links": 1,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -8151,6 +9112,7 @@
       "timestamp": "2026-02-18 13:55",
       "words": 13,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8159,6 +9121,7 @@
       "timestamp": "2026-03-23 13:03",
       "words": 19,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8167,6 +9130,7 @@
       "timestamp": "2026-06-01 19:55",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8175,6 +9139,7 @@
       "timestamp": "2025-07-28 20:19",
       "words": 64,
       "links": 2,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -8183,6 +9148,7 @@
       "timestamp": "2026-01-14 19:18",
       "words": 15,
       "links": 1,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -8191,6 +9157,7 @@
       "timestamp": "2026-02-18 13:58",
       "words": 30,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8199,6 +9166,7 @@
       "timestamp": "2026-02-16 12:27",
       "words": 26,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8207,6 +9175,7 @@
       "timestamp": "2025-11-15 18:02",
       "words": 11,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8215,6 +9184,7 @@
       "timestamp": "2025-10-29 13:57",
       "words": 34,
       "links": 3,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -8223,6 +9193,7 @@
       "timestamp": "2025-07-31 14:01",
       "words": 55,
       "links": 2,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -8231,6 +9202,7 @@
       "timestamp": "2026-03-09 NO_TIME",
       "words": 23,
       "links": 2,
+      "backlinks": 0,
       "tags": [
         "beak_morphology",
         "bmp4",
@@ -8245,6 +9217,7 @@
       "timestamp": "2025-11-15 17:23",
       "words": 16,
       "links": 1,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -8253,6 +9226,7 @@
       "timestamp": "2025-12-08 21:51",
       "words": 28,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8261,6 +9235,7 @@
       "timestamp": "2026-03-27 10:42",
       "words": 18,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8269,6 +9244,7 @@
       "timestamp": "2026-03-12 11:35",
       "words": 21,
       "links": 2,
+      "backlinks": 0,
       "tags": [
         "tool"
       ]
@@ -8279,6 +9255,7 @@
       "timestamp": "2026-04-15 NO_TIME",
       "words": 41,
       "links": 3,
+      "backlinks": 0,
       "tags": [
         "finches",
         "geospiza_fortis",
@@ -8292,6 +9269,7 @@
       "timestamp": "2026-03-06 10:12",
       "words": 47,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8300,6 +9278,7 @@
       "timestamp": "2026-05-20 10:31",
       "words": 31,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8308,6 +9287,7 @@
       "timestamp": "2025-09-07 21:23",
       "words": 31,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8316,6 +9296,7 @@
       "timestamp": "2025-11-19 20:02",
       "words": 55,
       "links": 3,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -8324,6 +9305,7 @@
       "timestamp": "2025-11-22 13:54",
       "words": 0,
       "links": 0,
+      "backlinks": 7,
       "tags": []
     },
     {
@@ -8332,6 +9314,7 @@
       "timestamp": "2026-01-28 08:30",
       "words": 39,
       "links": 2,
+      "backlinks": 1,
       "tags": [
         "climate",
         "finches",
@@ -8344,6 +9327,7 @@
       "timestamp": "2026-01-13 19:37",
       "words": 0,
       "links": 0,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -8352,6 +9336,7 @@
       "timestamp": "2026-03-18 10:58",
       "words": 30,
       "links": 3,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -8360,6 +9345,7 @@
       "timestamp": "2025-11-22 14:36",
       "words": 12,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8368,6 +9354,7 @@
       "timestamp": "2025-10-09 14:38",
       "words": 52,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8376,6 +9363,7 @@
       "timestamp": "2026-02-11 10:52",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8384,6 +9372,7 @@
       "timestamp": "2026-05-04 13:20",
       "words": 72,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8392,6 +9381,7 @@
       "timestamp": "2025-09-02 11:22",
       "words": 25,
       "links": 1,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -8400,6 +9390,7 @@
       "timestamp": "2026-04-28 09:20",
       "words": 16,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8408,6 +9399,7 @@
       "timestamp": "2026-01-12 20:21",
       "words": 0,
       "links": 0,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -8416,6 +9408,7 @@
       "timestamp": "2026-05-04 15:06",
       "words": 16,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8424,6 +9417,7 @@
       "timestamp": "2025-10-25 13:49",
       "words": 20,
       "links": 2,
+      "backlinks": 12,
       "tags": []
     },
     {
@@ -8432,6 +9426,7 @@
       "timestamp": "2025-11-15 17:57",
       "words": 45,
       "links": 5,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8440,6 +9435,7 @@
       "timestamp": "2026-03-18 11:04",
       "words": 22,
       "links": 2,
+      "backlinks": 1,
       "tags": [
         "finches",
         "geospiza_fortis"
@@ -8451,6 +9447,7 @@
       "timestamp": "2025-11-22 13:57",
       "words": 20,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8459,6 +9456,7 @@
       "timestamp": "2026-02-11 10:45",
       "words": 39,
       "links": 4,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8467,6 +9465,7 @@
       "timestamp": "2026-03-24 08:30",
       "words": 17,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8475,6 +9474,7 @@
       "timestamp": "2025-11-13 10:54",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8483,6 +9483,7 @@
       "timestamp": "2025-12-08 21:57",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8491,6 +9492,7 @@
       "timestamp": "2026-01-12 17:29",
       "words": 14,
       "links": 0,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -8499,6 +9501,7 @@
       "timestamp": "2025-10-30 08:11",
       "words": 23,
       "links": 2,
+      "backlinks": 6,
       "tags": []
     },
     {
@@ -8507,6 +9510,7 @@
       "timestamp": "2026-03-23 18:52",
       "words": 52,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8515,6 +9519,7 @@
       "timestamp": "2025-10-28 10:35",
       "words": 44,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8523,6 +9528,7 @@
       "timestamp": "2025-11-19 20:29",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8531,6 +9537,7 @@
       "timestamp": "2025-09-02 11:27",
       "words": 23,
       "links": 1,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -8539,6 +9546,7 @@
       "timestamp": "2025-11-22 13:53",
       "words": 51,
       "links": 4,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8547,6 +9555,7 @@
       "timestamp": "2026-02-05 09:43",
       "words": 14,
       "links": 1,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -8555,6 +9564,7 @@
       "timestamp": "2025-11-13 13:11",
       "words": 34,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8563,6 +9573,7 @@
       "timestamp": "2026-02-11 20:17",
       "words": 9,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8571,6 +9582,7 @@
       "timestamp": "2026-01-10 20:09",
       "words": 19,
       "links": 1,
+      "backlinks": 5,
       "tags": []
     },
     {
@@ -8579,6 +9591,7 @@
       "timestamp": "2026-05-02 15:21",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8587,6 +9600,7 @@
       "timestamp": "2026-03-04 11:10",
       "words": 108,
       "links": 2,
+      "backlinks": 0,
       "tags": [
         "admixture",
         "tool"
@@ -8598,6 +9612,7 @@
       "timestamp": "2025-10-29 14:01",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8606,6 +9621,7 @@
       "timestamp": "2025-11-17 19:05",
       "words": 11,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8614,6 +9630,7 @@
       "timestamp": "2026-01-12 20:34",
       "words": 17,
       "links": 1,
+      "backlinks": 3,
       "tags": [
         "USA",
         "person"
@@ -8625,6 +9642,7 @@
       "timestamp": "2025-11-24 13:04",
       "words": 28,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8633,6 +9651,7 @@
       "timestamp": "2025-12-27 14:30",
       "words": 12,
       "links": 1,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -8641,6 +9660,7 @@
       "timestamp": "2026-05-25 NO_TIME",
       "words": 0,
       "links": 0,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -8649,6 +9669,7 @@
       "timestamp": "2026-04-23 09:52",
       "words": 10,
       "links": 2,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -8657,6 +9678,7 @@
       "timestamp": "2025-10-29 14:07",
       "words": 23,
       "links": 2,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -8665,6 +9687,7 @@
       "timestamp": "2026-03-23 12:37",
       "words": 18,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8673,6 +9696,7 @@
       "timestamp": "2026-01-12 17:21",
       "words": 131,
       "links": 5,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -8681,6 +9705,7 @@
       "timestamp": "2025-11-18 15:26",
       "words": 59,
       "links": 5,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8689,6 +9714,7 @@
       "timestamp": "2026-01-20 18:35",
       "words": 33,
       "links": 2,
+      "backlinks": 0,
       "tags": [
         "person"
       ]
@@ -8699,6 +9725,7 @@
       "timestamp": "2026-02-02 11:50",
       "words": 18,
       "links": 2,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -8707,6 +9734,7 @@
       "timestamp": "2026-03-04 20:25",
       "words": 39,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8715,6 +9743,7 @@
       "timestamp": "2025-11-13 11:24",
       "words": 2,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8723,6 +9752,7 @@
       "timestamp": "2026-01-29 11:28",
       "words": 38,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8731,6 +9761,7 @@
       "timestamp": "2026-02-18 13:54",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8739,6 +9770,7 @@
       "timestamp": "2025-07-28 20:38",
       "words": 24,
       "links": 2,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -8747,6 +9779,7 @@
       "timestamp": "2025-08-28 10:36",
       "words": 23,
       "links": 1,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -8755,6 +9788,7 @@
       "timestamp": "2026-02-06 11:01",
       "words": 37,
       "links": 2,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -8763,6 +9797,7 @@
       "timestamp": "2026-02-24 11:21",
       "words": 70,
       "links": 2,
+      "backlinks": 0,
       "tags": [
         "ARG",
         "phylogenetic_method",
@@ -8775,6 +9810,7 @@
       "timestamp": "2026-03-23 09:00",
       "words": 46,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8783,6 +9819,7 @@
       "timestamp": "2026-05-27 20:02",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8791,6 +9828,7 @@
       "timestamp": "2025-11-20 14:39",
       "words": 21,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8799,6 +9837,7 @@
       "timestamp": "2026-03-23 08:47",
       "words": 55,
       "links": 4,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8807,6 +9846,7 @@
       "timestamp": "2026-01-13 19:36",
       "words": 40,
       "links": 4,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8815,6 +9855,7 @@
       "timestamp": "2025-11-16 14:41",
       "words": 9,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8823,6 +9864,7 @@
       "timestamp": "2025-10-09 11:42",
       "words": 385,
       "links": 40,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -8831,6 +9873,7 @@
       "timestamp": "2025-12-09 19:26",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8839,6 +9882,7 @@
       "timestamp": "2026-02-11 20:21",
       "words": 21,
       "links": 2,
+      "backlinks": 5,
       "tags": []
     },
     {
@@ -8847,6 +9891,7 @@
       "timestamp": "2025-12-08 21:59",
       "words": 56,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8855,6 +9900,7 @@
       "timestamp": "2025-09-07 21:03",
       "words": 0,
       "links": 0,
+      "backlinks": 6,
       "tags": []
     },
     {
@@ -8863,6 +9909,7 @@
       "timestamp": "2026-05-27 20:07",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8871,6 +9918,7 @@
       "timestamp": "2025-11-22 13:47",
       "words": 57,
       "links": 4,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -8879,6 +9927,7 @@
       "timestamp": "2025-09-02 11:08",
       "words": 30,
       "links": 1,
+      "backlinks": 15,
       "tags": []
     },
     {
@@ -8887,6 +9936,7 @@
       "timestamp": "2025-07-29 14:33",
       "words": 22,
       "links": 1,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -8895,6 +9945,7 @@
       "timestamp": "2025-10-28 11:02",
       "words": 46,
       "links": 4,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -8903,6 +9954,7 @@
       "timestamp": "2026-01-10 20:09",
       "words": 31,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8911,6 +9963,7 @@
       "timestamp": "2025-10-10 14:09",
       "words": 23,
       "links": 2,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -8919,6 +9972,7 @@
       "timestamp": "2025-10-25 13:25",
       "words": 18,
       "links": 2,
+      "backlinks": 19,
       "tags": []
     },
     {
@@ -8927,6 +9981,7 @@
       "timestamp": "2026-03-23 12:59",
       "words": 26,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8935,6 +9990,7 @@
       "timestamp": "2026-03-23 10:58",
       "words": 0,
       "links": 0,
+      "backlinks": 5,
       "tags": []
     },
     {
@@ -8943,6 +9999,7 @@
       "timestamp": "2026-02-11 20:15",
       "words": 11,
       "links": 1,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -8951,6 +10008,7 @@
       "timestamp": "2026-04-28 09:21",
       "words": 64,
       "links": 3,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -8959,6 +10017,7 @@
       "timestamp": "2026-05-21 13:10",
       "words": 12,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -8967,6 +10026,7 @@
       "timestamp": "2025-09-02 11:20",
       "words": 27,
       "links": 1,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -8975,6 +10035,7 @@
       "timestamp": "2025-09-07 20:50",
       "words": 39,
       "links": 1,
+      "backlinks": 9,
       "tags": []
     },
     {
@@ -8983,6 +10044,7 @@
       "timestamp": "2026-05-11 13:51",
       "words": 33,
       "links": 2,
+      "backlinks": 1,
       "tags": [
         "finches",
         "geospiza_fuliginosa",
@@ -8996,6 +10058,7 @@
       "timestamp": "2025-07-31 14:13",
       "words": 39,
       "links": 1,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -9004,6 +10067,7 @@
       "timestamp": "2026-02-10 13:04",
       "words": 20,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -9012,6 +10076,7 @@
       "timestamp": "2026-03-18 10:42",
       "words": 19,
       "links": 2,
+      "backlinks": 1,
       "tags": [
         "extinct"
       ]
@@ -9022,6 +10087,7 @@
       "timestamp": "2026-03-23 08:48",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -9030,6 +10096,7 @@
       "timestamp": "2026-02-18 11:48",
       "words": 13,
       "links": 1,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -9038,6 +10105,7 @@
       "timestamp": "2026-04-08 NO_TIME",
       "words": 116,
       "links": 3,
+      "backlinks": 0,
       "tags": [
         "evolutionary_theory"
       ]
@@ -9048,6 +10116,7 @@
       "timestamp": "2026-05-21 NO_TIME",
       "words": 151,
       "links": 7,
+      "backlinks": 0,
       "tags": [
         "finches",
         "paper",
@@ -9060,6 +10129,7 @@
       "timestamp": "2025-07-29 20:28",
       "words": 44,
       "links": 1,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -9068,6 +10138,7 @@
       "timestamp": "2025-10-09 11:55",
       "words": 11,
       "links": 0,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -9076,6 +10147,7 @@
       "timestamp": "2025-11-19 19:57",
       "words": 25,
       "links": 2,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -9084,6 +10156,7 @@
       "timestamp": "2025-11-13 11:16",
       "words": 42,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -9092,6 +10165,7 @@
       "timestamp": "2026-01-12 20:25",
       "words": 0,
       "links": 0,
+      "backlinks": 2,
       "tags": [
         "person"
       ]
@@ -9102,6 +10176,7 @@
       "timestamp": "2025-10-25 13:33",
       "words": 72,
       "links": 5,
+      "backlinks": 12,
       "tags": []
     },
     {
@@ -9110,6 +10185,7 @@
       "timestamp": "2025-10-27 11:32",
       "words": 28,
       "links": 2,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -9118,6 +10194,7 @@
       "timestamp": "2026-02-02 11:48",
       "words": 50,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -9126,6 +10203,7 @@
       "timestamp": "2025-10-25 13:29",
       "words": 11,
       "links": 1,
+      "backlinks": 6,
       "tags": []
     },
     {
@@ -9134,6 +10212,7 @@
       "timestamp": "2026-05-04 13:08",
       "words": 11,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -9142,6 +10221,7 @@
       "timestamp": "2025-12-08 22:00",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -9150,6 +10230,7 @@
       "timestamp": "2026-03-23 18:56",
       "words": 19,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -9158,6 +10239,7 @@
       "timestamp": "2026-02-18 11:45",
       "words": 19,
       "links": 1,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -9166,6 +10248,7 @@
       "timestamp": "2026-01-29 11:53",
       "words": 29,
       "links": 3,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -9174,6 +10257,7 @@
       "timestamp": "2026-01-13 20:48",
       "words": 39,
       "links": 3,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -9182,6 +10266,7 @@
       "timestamp": "2026-02-11 20:23",
       "words": 32,
       "links": 3,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -9190,6 +10275,7 @@
       "timestamp": "2026-03-20 13:38",
       "words": 21,
       "links": 2,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -9198,6 +10284,7 @@
       "timestamp": "2025-07-29 14:41",
       "words": 21,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -9206,6 +10293,7 @@
       "timestamp": "2025-11-14 09:21",
       "words": 13,
       "links": 0,
+      "backlinks": 5,
       "tags": []
     },
     {
@@ -9214,6 +10302,7 @@
       "timestamp": "2026-03-20 12:38",
       "words": 82,
       "links": 7,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -9222,6 +10311,7 @@
       "timestamp": "2026-03-20 13:38",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -9230,6 +10320,7 @@
       "timestamp": "2026-02-18 13:54",
       "words": 87,
       "links": 8,
+      "backlinks": 0,
       "tags": [
         "phylogenetic_network",
         "tool"
@@ -9241,6 +10332,7 @@
       "timestamp": "2025-09-07 21:19",
       "words": 32,
       "links": 1,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -9249,6 +10341,7 @@
       "timestamp": "2026-03-27 NO_TIME",
       "words": 0,
       "links": 0,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -9257,6 +10350,7 @@
       "timestamp": "2025-10-25 13:49",
       "words": 27,
       "links": 2,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -9265,6 +10359,7 @@
       "timestamp": "2025-10-09 11:55",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -9273,6 +10368,7 @@
       "timestamp": "2026-01-20 18:51",
       "words": 19,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -9281,6 +10377,7 @@
       "timestamp": "2026-04-13 NO_TIME",
       "words": 156,
       "links": 8,
+      "backlinks": 0,
       "tags": [
         "daphne",
         "finches",
@@ -9295,6 +10392,7 @@
       "timestamp": "2026-03-23 NO_TIME",
       "words": 109,
       "links": 8,
+      "backlinks": 0,
       "tags": [
         "beak_morphology",
         "finch_morphology",
@@ -9308,6 +10406,7 @@
       "timestamp": "2026-03-25 09:13",
       "words": 10,
       "links": 4,
+      "backlinks": 6,
       "tags": []
     },
     {
@@ -9316,6 +10415,7 @@
       "timestamp": "2025-11-19 20:33",
       "words": 45,
       "links": 3,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -9324,6 +10424,7 @@
       "timestamp": "2026-05-04 15:07",
       "words": 13,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -9332,6 +10433,7 @@
       "timestamp": "2025-07-31 14:20",
       "words": 38,
       "links": 2,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -9340,6 +10442,7 @@
       "timestamp": "2026-02-05 09:48",
       "words": 10,
       "links": 1,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -9348,6 +10451,7 @@
       "timestamp": "2025-11-13 11:04",
       "words": 19,
       "links": 2,
+      "backlinks": 16,
       "tags": []
     },
     {
@@ -9356,6 +10460,7 @@
       "timestamp": "2026-02-10 09:33",
       "words": 23,
       "links": 1,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -9364,6 +10469,7 @@
       "timestamp": "2026-01-27 10:19",
       "words": 24,
       "links": 2,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -9372,6 +10478,7 @@
       "timestamp": "2025-12-09 19:32",
       "words": 14,
       "links": 1,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -9380,6 +10487,7 @@
       "timestamp": "2026-01-12 20:29",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -9388,6 +10496,7 @@
       "timestamp": "2026-05-04 15:10",
       "words": 18,
       "links": 2,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -9396,6 +10505,7 @@
       "timestamp": "2025-07-29 20:25",
       "words": 42,
       "links": 1,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -9404,6 +10514,7 @@
       "timestamp": "2026-03-12 10:35",
       "words": 18,
       "links": 2,
+      "backlinks": 5,
       "tags": [
         "extinct"
       ]
@@ -9414,6 +10525,7 @@
       "timestamp": "2026-01-20 19:09",
       "words": 40,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -9422,6 +10534,7 @@
       "timestamp": "2025-07-28 20:06",
       "words": 61,
       "links": 2,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -9430,6 +10543,7 @@
       "timestamp": "2025-10-27 11:31",
       "words": 19,
       "links": 2,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -9438,6 +10552,7 @@
       "timestamp": "2025-10-09 14:50",
       "words": 0,
       "links": 0,
+      "backlinks": 5,
       "tags": []
     },
     {
@@ -9446,6 +10561,7 @@
       "timestamp": "2025-09-07 21:29",
       "words": 17,
       "links": 1,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -9454,6 +10570,7 @@
       "timestamp": "2025-08-04 12:28",
       "words": 51,
       "links": 2,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -9462,6 +10579,7 @@
       "timestamp": "2026-02-24 11:22",
       "words": 28,
       "links": 3,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -9470,6 +10588,7 @@
       "timestamp": "2026-02-03 NO_TIME",
       "words": 172,
       "links": 11,
+      "backlinks": 0,
       "tags": [
         "finches",
         "genovesa",
@@ -9482,6 +10601,7 @@
       "timestamp": "2026-03-18 NO_TIME",
       "words": 198,
       "links": 13,
+      "backlinks": 0,
       "tags": [
         "espanola",
         "finches",
@@ -9496,6 +10616,7 @@
       "timestamp": "2026-05-21 11:45",
       "words": 14,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -9504,6 +10625,7 @@
       "timestamp": "2026-01-20 18:31",
       "words": 29,
       "links": 2,
+      "backlinks": 1,
       "tags": [
         "usa_history"
       ]
@@ -9514,6 +10636,7 @@
       "timestamp": "2026-03-09 19:46",
       "words": 11,
       "links": 1,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -9522,6 +10645,7 @@
       "timestamp": "2026-03-09 12:41",
       "words": 48,
       "links": 4,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -9530,6 +10654,7 @@
       "timestamp": "2026-01-12 17:11",
       "words": 44,
       "links": 1,
+      "backlinks": 3,
       "tags": [
         "command"
       ]
@@ -9540,6 +10665,7 @@
       "timestamp": "2026-02-18 13:55",
       "words": 22,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -9548,6 +10674,7 @@
       "timestamp": "2025-11-19 20:26",
       "words": 0,
       "links": 0,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -9556,6 +10683,7 @@
       "timestamp": "2026-05-21 11:44",
       "words": 38,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -9564,6 +10692,7 @@
       "timestamp": "2025-11-22 14:38",
       "words": 35,
       "links": 4,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -9572,6 +10701,7 @@
       "timestamp": "2025-07-28 20:50",
       "words": 81,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -9580,6 +10710,7 @@
       "timestamp": "2026-03-20 14:53",
       "words": 42,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -9588,6 +10719,7 @@
       "timestamp": "2025-10-25 13:25",
       "words": 24,
       "links": 2,
+      "backlinks": 5,
       "tags": []
     },
     {
@@ -9596,6 +10728,7 @@
       "timestamp": "2025-09-07 21:32",
       "words": 39,
       "links": 4,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -9604,6 +10737,7 @@
       "timestamp": "2026-05-01 09:48",
       "words": 27,
       "links": 2,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -9612,6 +10746,7 @@
       "timestamp": "2026-03-23 12:47",
       "words": 25,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -9620,6 +10755,7 @@
       "timestamp": "2025-10-25 13:40",
       "words": 14,
       "links": 1,
+      "backlinks": 5,
       "tags": []
     },
     {
@@ -9628,6 +10764,7 @@
       "timestamp": "2026-01-13 19:38",
       "words": 39,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -9636,6 +10773,7 @@
       "timestamp": "2026-05-27 20:02",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -9644,6 +10782,7 @@
       "timestamp": "2025-11-18 16:12",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -9652,6 +10791,7 @@
       "timestamp": "2025-09-02 11:15",
       "words": 65,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -9660,6 +10800,7 @@
       "timestamp": "2026-01-20 18:55",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -9668,6 +10809,7 @@
       "timestamp": "2026-04-23 10:18",
       "words": 26,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -9676,6 +10818,7 @@
       "timestamp": "2025-10-09 14:35",
       "words": 33,
       "links": 2,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -9684,6 +10827,7 @@
       "timestamp": "2025-11-17 19:38",
       "words": 0,
       "links": 0,
+      "backlinks": 11,
       "tags": []
     },
     {
@@ -9692,6 +10836,7 @@
       "timestamp": "2025-10-15 13:50",
       "words": 271,
       "links": 30,
+      "backlinks": 0,
       "tags": [
         "finches"
       ]
@@ -9702,6 +10847,7 @@
       "timestamp": "2025-10-25 13:32",
       "words": 9,
       "links": 1,
+      "backlinks": 5,
       "tags": []
     },
     {
@@ -9710,6 +10856,7 @@
       "timestamp": "2026-02-10 13:03",
       "words": 36,
       "links": 3,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -9718,6 +10865,7 @@
       "timestamp": "2026-01-20 NO_TIME",
       "words": 73,
       "links": 3,
+      "backlinks": 0,
       "tags": [
         "book_note"
       ]
@@ -9728,6 +10876,7 @@
       "timestamp": "2025-12-13 16:59",
       "words": 15,
       "links": 0,
+      "backlinks": 6,
       "tags": [
         "person"
       ]
@@ -9738,6 +10887,7 @@
       "timestamp": "2026-03-05 19:58",
       "words": 0,
       "links": 0,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -9746,6 +10896,7 @@
       "timestamp": "2026-02-18 11:47",
       "words": 35,
       "links": 2,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -9754,6 +10905,7 @@
       "timestamp": "2026-02-18 14:02",
       "words": 16,
       "links": 1,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -9762,6 +10914,7 @@
       "timestamp": "2026-04-08 NO_TIME",
       "words": 73,
       "links": 2,
+      "backlinks": 0,
       "tags": [
         "finches",
         "geospiza_fortis",
@@ -9774,6 +10927,7 @@
       "timestamp": "2025-10-28 10:49",
       "words": 0,
       "links": 0,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -9782,6 +10936,7 @@
       "timestamp": "2026-02-03 09:55",
       "words": 18,
       "links": 2,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -9790,6 +10945,7 @@
       "timestamp": "2025-11-16 14:49",
       "words": 48,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -9798,6 +10954,7 @@
       "timestamp": "2025-10-29 14:04",
       "words": 0,
       "links": 0,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -9806,6 +10963,7 @@
       "timestamp": "2025-10-30 08:28",
       "words": 19,
       "links": 2,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -9814,6 +10972,7 @@
       "timestamp": "2025-11-22 13:52",
       "words": 18,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -9822,6 +10981,7 @@
       "timestamp": "2025-10-25 13:33",
       "words": 13,
       "links": 1,
+      "backlinks": 7,
       "tags": []
     },
     {
@@ -9830,6 +10990,7 @@
       "timestamp": "2025-12-09 19:28",
       "words": 36,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -9838,6 +10999,7 @@
       "timestamp": "2026-04-27 20:04",
       "words": 38,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -9846,6 +11008,7 @@
       "timestamp": "2026-05-11 13:53",
       "words": 27,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -9854,6 +11017,7 @@
       "timestamp": "2025-11-16 14:58",
       "words": 91,
       "links": 5,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -9862,6 +11026,7 @@
       "timestamp": "2025-07-28 20:46",
       "words": 66,
       "links": 2,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -9870,6 +11035,7 @@
       "timestamp": "2025-12-27 14:31",
       "words": 17,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -9878,6 +11044,7 @@
       "timestamp": "2026-01-29 11:46",
       "words": 21,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -9886,6 +11053,7 @@
       "timestamp": "2026-02-26 09:29",
       "words": 3,
       "links": 0,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -9894,6 +11062,7 @@
       "timestamp": "2025-10-10 14:09",
       "words": 34,
       "links": 2,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -9902,6 +11071,7 @@
       "timestamp": "2025-07-30 20:44",
       "words": 25,
       "links": 1,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -9910,6 +11080,7 @@
       "timestamp": "2026-03-09 11:58",
       "words": 12,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -9918,6 +11089,7 @@
       "timestamp": "2025-09-07 21:16",
       "words": 27,
       "links": 2,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -9926,6 +11098,7 @@
       "timestamp": "2026-02-10 NO_TIME",
       "words": 66,
       "links": 3,
+      "backlinks": 0,
       "tags": [
         "daphne",
         "finch_song",
@@ -9939,6 +11112,7 @@
       "timestamp": "2025-10-27 11:19",
       "words": 0,
       "links": 0,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -9947,6 +11121,7 @@
       "timestamp": "2026-03-27 10:43",
       "words": 52,
       "links": 2,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -9955,6 +11130,7 @@
       "timestamp": "2025-10-15 13:56",
       "words": 20,
       "links": 2,
+      "backlinks": 19,
       "tags": []
     },
     {
@@ -9963,6 +11139,7 @@
       "timestamp": "2026-03-20 14:50",
       "words": 37,
       "links": 4,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -9971,6 +11148,7 @@
       "timestamp": "2025-11-20 14:31",
       "words": 12,
       "links": 1,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -9979,6 +11157,7 @@
       "timestamp": "2025-07-29 14:42",
       "words": 13,
       "links": 1,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -9987,6 +11166,7 @@
       "timestamp": "2025-12-13 16:49",
       "words": 27,
       "links": 3,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -9995,6 +11175,7 @@
       "timestamp": "2025-07-30 21:15",
       "words": 38,
       "links": 1,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -10003,6 +11184,7 @@
       "timestamp": "2025-10-10 14:03",
       "words": 38,
       "links": 2,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -10011,6 +11193,7 @@
       "timestamp": "2026-01-29 NO_TIME",
       "words": 175,
       "links": 5,
+      "backlinks": 0,
       "tags": [
         "finches",
         "genovesa",
@@ -10023,6 +11206,7 @@
       "timestamp": "2026-01-10 19:37",
       "words": 15,
       "links": 1,
+      "backlinks": 2,
       "tags": [
         "person",
         "president_usa"
@@ -10034,6 +11218,7 @@
       "timestamp": "2026-03-25 09:20",
       "words": 0,
       "links": 0,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -10042,6 +11227,7 @@
       "timestamp": "2025-12-08 21:49",
       "words": 11,
       "links": 1,
+      "backlinks": 10,
       "tags": [
         "USA"
       ]
@@ -10052,6 +11238,7 @@
       "timestamp": "2025-10-29 14:11",
       "words": 19,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -10060,6 +11247,7 @@
       "timestamp": "2025-11-17 19:34",
       "words": 0,
       "links": 0,
+      "backlinks": 8,
       "tags": [
         "person"
       ]
@@ -10070,6 +11258,7 @@
       "timestamp": "2025-08-27 11:52",
       "words": 14,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -10078,6 +11267,7 @@
       "timestamp": "2026-03-04 11:11",
       "words": 12,
       "links": 1,
+      "backlinks": 3,
       "tags": []
     },
     {
@@ -10086,6 +11276,7 @@
       "timestamp": "2025-09-05 10:32",
       "words": 25,
       "links": 2,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -10094,6 +11285,7 @@
       "timestamp": "2026-01-13 20:03",
       "words": 100,
       "links": 2,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -10102,6 +11294,7 @@
       "timestamp": "2026-03-23 19:00",
       "words": 56,
       "links": 3,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -10110,6 +11303,7 @@
       "timestamp": "2026-01-12 17:24",
       "words": 20,
       "links": 1,
+      "backlinks": 2,
       "tags": []
     },
     {
@@ -10118,6 +11312,7 @@
       "timestamp": "2026-01-12 17:16",
       "words": 54,
       "links": 1,
+      "backlinks": 1,
       "tags": [
         "command"
       ]
@@ -10128,6 +11323,7 @@
       "timestamp": "2026-02-02 11:44",
       "words": 18,
       "links": 2,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -10136,6 +11332,7 @@
       "timestamp": "2026-03-12 10:24",
       "words": 18,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -10144,6 +11341,7 @@
       "timestamp": "2025-11-19 19:58",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -10152,6 +11350,7 @@
       "timestamp": "2026-02-16 12:21",
       "words": 29,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -10160,6 +11359,7 @@
       "timestamp": "2026-01-13 19:40",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -10168,6 +11368,7 @@
       "timestamp": "2025-10-29 14:10",
       "words": 0,
       "links": 0,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -10176,6 +11377,7 @@
       "timestamp": "2025-10-15 13:46",
       "words": 53,
       "links": 4,
+      "backlinks": 33,
       "tags": [
         "finches"
       ]
@@ -10186,6 +11388,7 @@
       "timestamp": "2025-09-07 21:17",
       "words": 0,
       "links": 0,
+      "backlinks": 4,
       "tags": []
     },
     {
@@ -10194,6 +11397,7 @@
       "timestamp": "2026-03-23 18:38",
       "words": 43,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -10202,6 +11406,7 @@
       "timestamp": "2026-05-21 13:10",
       "words": 12,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -10210,6 +11415,7 @@
       "timestamp": "2025-10-28 12:59",
       "words": 71,
       "links": 3,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -10218,6 +11424,7 @@
       "timestamp": "2025-09-07 21:00",
       "words": 49,
       "links": 3,
+      "backlinks": 0,
       "tags": []
     },
     {
@@ -10226,6 +11433,7 @@
       "timestamp": "2025-10-20 22:35",
       "words": 31,
       "links": 2,
+      "backlinks": 1,
       "tags": []
     },
     {
@@ -10234,6 +11442,7 @@
       "timestamp": "2026-03-23 18:49",
       "words": 12,
       "links": 1,
+      "backlinks": 1,
       "tags": []
     }
   ],

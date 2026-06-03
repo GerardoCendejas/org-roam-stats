@@ -21,6 +21,14 @@
 (defvar org-roam-stats--cache (make-hash-table :test 'equal)
   "Memory cache store for org-roam-stats nodes data to prevent re-parsing unmodified files.")
 
+(defconst org-roam-stats--package-root
+  (eval-and-compile
+    (file-name-directory (or (bound-and-true-p byte-compile-current-file)
+                             load-file-name
+                             (buffer-file-name)
+                             default-directory)))
+  "Ruta absoluta inmutable del directorio raíz de este paquete.")
+
 ;;;###autoload
 (define-minor-mode org-roam-stats-mode
   "Toggle exact creation time logging for org-roam nodes."
@@ -68,8 +76,8 @@
                     (match-string 5 base-name))
           (concat (format-time-string "%Y-%m-%d" file-mod-time) " NO_TIME"))))))
 
-(defun org-roam-stats--extract-node-data (node)
-  "Extract metrics from `org-roam-node' using an incremental file-system cache system."
+(defun org-roam-stats--extract-node-data (node backlinks-map links-map)
+  "Extract structural properties and acople backlink counters from SQLite data maps."
   (let* ((id (org-roam-node-id node))
          (title (org-roam-node-title node))
          (file (org-roam-node-file node))
@@ -77,17 +85,14 @@
          (attrs (when (and file (file-exists-p file)) (file-attributes file)))
          (mod-time (when attrs (file-attribute-modification-time attrs)))
          (cache-val (gethash id org-roam-stats--cache))
+         (backlinks-count (or (gethash id backlinks-map) 0))
+         (links-count (or (gethash id links-map) 0))
          (word-count 0)
-         (links-count 0)
          (timestamp ""))
     
     (if (and cache-val (equal (cdr (assoc 'mod-time cache-val)) mod-time))
-        (list (cons 'id id)
-              (cons 'title title)
-              (cons 'timestamp (cdr (assoc 'timestamp cache-val)))
-              (cons 'words (cdr (assoc 'words cache-val)))
-              (cons 'links (cdr (assoc 'links cache-val)))
-              (cons 'tags (or tags [])))
+        (setq timestamp (cdr (assoc 'timestamp cache-val))
+              word-count (cdr (assoc 'words cache-val)))
       
       (setq timestamp (org-roam-stats--get-node-creation-time id file mod-time))
       (when (and file attrs (= (org-roam-node-level node) 0))
@@ -97,58 +102,79 @@
           (let ((body-start (point-min)))
             (while (re-search-forward "^#\\+.*$" nil t)
               (setq body-start (match-end 0)))
-            (setq word-count (count-words body-start (point-max))))
-          (goto-char (point-min))
-          (while (re-search-forward "\\[\\[" nil t)
-            (setq links-count (1+ links-count)))))
+            (setq word-count (count-words body-start (point-max))))))
       
       (let ((new-cache-entry (list (cons 'mod-time mod-time)
                                    (cons 'timestamp timestamp)
-                                   (cons 'words word-count)
-                                   (cons 'links links-count))))
-        (puthash id new-cache-entry org-roam-stats--cache))
-      
-      (list (cons 'id id)
-            (cons 'title title)
-            (cons 'timestamp timestamp)
-            (cons 'words word-count)
-            (cons 'links links-count)
-            (cons 'tags (or tags []))))))
+                                   (cons 'words word-count))))
+        (puthash id new-cache-entry org-roam-stats--cache)))
+    
+    (list (cons 'id id)
+          (cons 'title title)
+          (cons 'timestamp timestamp)
+          (cons 'words word-count)
+          (cons 'links links-count)
+          (cons 'backlinks backlinks-count)
+          (cons 'tags (or tags [])))))
 
 ;;; ================= JSON GENERATION ENGINE =================
 
 (defun org-roam-stats-generate-json ()
   "Compile full database metrics into a single unified data.json package."
   (interactive)
-  (let* ((script-dir (file-name-directory (or load-file-name (buffer-file-name) default-directory)))
-         (web-dir (expand-file-name "web/" script-dir))
+  (let* ((web-dir (expand-file-name "web/" org-roam-stats--package-root))
          (all-nodes (org-roam-node-list))
          (nodes-json '())
-         (links-json '()))
+         ;; Query sin restricciones de tipo id
+         (backlinks-query (org-roam-db-query "SELECT dest, COUNT(source) FROM links GROUP BY dest"))
+         (backlinks-map (make-hash-table :test 'equal))
+         (links-query (org-roam-db-query "SELECT source, COUNT(dest) FROM links GROUP BY source"))
+         (links-map (make-hash-table :test 'equal)))
+    
+    (dolist (row backlinks-query)
+      (let ((dest-id (nth 0 row))
+            (count (nth 1 row)))
+        (when (stringp dest-id) (puthash dest-id count backlinks-map))))
+
+    (dolist (row links-query)
+      (let ((source-id (nth 0 row))
+            (count (nth 1 row)))
+        (when (stringp source-id) (puthash source-id count links-map))))
     
     (unless (file-directory-p web-dir) (make-directory web-dir t))
     
     (dolist (node all-nodes)
       (when (= (org-roam-node-level node) 0)
-        (push (org-roam-stats--extract-node-data node) nodes-json)))
+        (push (org-roam-stats--extract-node-data node backlinks-map links-map) nodes-json)))
     
     (let ((final-payload (list (cons 'nodes nodes-json)
-                               (cons 'links links-json)))
+                               (cons 'links '())))
           (json-encoding-pretty-print t))
       (with-temp-file (expand-file-name "data.json" web-dir)
         (insert (json-encode final-payload))))
-    (message "Org-roam Dashboard updated successfully. Compiled %d items." (length nodes-json))))
+    (message "Org-roam Dashboard updated successfully in: %s" web-dir)))
 
-;;; ================= SERVER ENGINE CONTROL (MÉTODO TRADICIONAL) =================
+;;; ================= PIPED CORE SERVLET FILE DISPATCHER =================
+
+(defservlet org-roam-stats-file text/plain (proc path query request)
+  "Stream note plain text content safely back to the web UI dashboard reader buffer by ID reference."
+  (let* ((node-id (cdr (assoc "id" query)))
+         (node (when node-id (org-roam-node-from-id node-id)))
+         (target-file (when node (org-roam-node-file node))))
+    (if (and target-file (file-exists-p target-file))
+        (with-temp-buffer
+          (insert-file-contents-literally target-file)
+          (httpd-send-file proc "text/plain; charset=utf-8" target-file))
+      (httpd-error proc 404))))
+
+;;; ================= SERVER ENGINE CONTROL =================
 
 (defun org-roam-stats-start ()
   "Start the local server using the stable native folder mapping method."
   (interactive)
+  (clrhash org-roam-stats--cache)
   (org-roam-stats-generate-json)
-  (let* ((base-dir (file-name-directory (or load-file-name
-                                            (buffer-file-name (get-buffer "org-roam-stats.el"))
-                                            default-directory)))
-         (web-path (expand-file-name "web/" base-dir)))
+  (let ((web-path (expand-file-name "web/" org-roam-stats--package-root)))
     (setq httpd-port org-roam-stats-port 
           httpd-root web-path)
     (httpd-start)
