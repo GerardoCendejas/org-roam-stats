@@ -296,24 +296,20 @@
         <span class="badge-metric orphan-alert">${node.words} w</span>
         `;
         
-        item.onclick = async () => {
+        // SEGURO TOTAL: Renderizado local instantáneo a partir de la propiedad content del JSON
+        item.onclick = () => {
 	document.querySelectorAll('#orphanNotesRadarList .list-item-node').forEach(i => i.classList.remove('selected'));
 	item.classList.add('selected');
 	document.getElementById('node-reader-title').innerText = `BUFFER: ${node.title.toUpperCase()}`;
 	
 	const readerBox = document.getElementById('emacsBufferReader');
-	readerBox.innerText = "Loading raw text buffer directly via Org-Roam API...";
 	
-	try {
-	const res = await fetch(`/org-roam-stats-file?id=${encodeURIComponent(node.id)}`);
-	if (res.ok) {
-	readerBox.innerText = await res.text();
-	} else {
-	readerBox.innerText = `Error 404: Node ID target could not be resolved by org-roam database:\n${node.id}`;
-	}
-	} catch (err) {
-	readerBox.innerText = `Error 500: Communication pipe broke:\n${err}`;
-	}
+        if (node.content && node.content.trim() !== "") {
+        readerBox.innerText = node.content;
+        } else {
+        readerBox.innerHTML = `<span style="color: #f87171; font-weight: bold;">⚠️ EMPTY BUFFER OR GHOST NODE</span>\n\n` +
+        `The node database entry is valid, but the file content is empty or the file was deleted from your disk.`;
+        }
         };
         
         container.appendChild(item);

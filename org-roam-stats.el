@@ -88,7 +88,8 @@
          (backlinks-count (or (gethash id backlinks-map) 0))
          (links-count (or (gethash id links-map) 0))
          (word-count 0)
-         (timestamp ""))
+         (timestamp "")
+         (content "")) ; Variable para almacenar texto de huérfanas
     
     (if (and cache-val (equal (cdr (assoc 'mod-time cache-val)) mod-time))
         (setq timestamp (cdr (assoc 'timestamp cache-val))
@@ -109,13 +110,20 @@
                                    (cons 'words word-count))))
         (puthash id new-cache-entry org-roam-stats--cache)))
     
+    ;; LA SOLUCIÓN INTELIGENTE: Si es una huérfana estricta en la DB, leemos e inyectamos su texto aquí
+    (when (and (= backlinks-count 0) (= links-count 0) file (file-exists-p file))
+      (with-temp-buffer
+        (insert-file-contents-literally file)
+        (setq content (buffer-substring-no-properties (point-min) (point-max)))))
+    
     (list (cons 'id id)
           (cons 'title title)
           (cons 'timestamp timestamp)
           (cons 'words word-count)
           (cons 'links links-count)
           (cons 'backlinks backlinks-count)
-          (cons 'tags (or tags [])))))
+          (cons 'tags (or tags []))
+          (cons 'content content)))) ; Se añade al payload de forma nativa
 
 ;;; ================= JSON GENERATION ENGINE =================
 
@@ -125,7 +133,6 @@
   (let* ((web-dir (expand-file-name "web/" org-roam-stats--package-root))
          (all-nodes (org-roam-node-list))
          (nodes-json '())
-         ;; Query sin restricciones de tipo id
          (backlinks-query (org-roam-db-query "SELECT dest, COUNT(source) FROM links GROUP BY dest"))
          (backlinks-map (make-hash-table :test 'equal))
          (links-query (org-roam-db-query "SELECT source, COUNT(dest) FROM links GROUP BY source"))
@@ -154,18 +161,7 @@
         (insert (json-encode final-payload))))
     (message "Org-roam Dashboard updated successfully in: %s" web-dir)))
 
-;;; ================= PIPED CORE SERVLET FILE DISPATCHER =================
-
-(defservlet org-roam-stats-file text/plain (proc path query request)
-  "Stream note plain text content safely back to the web UI dashboard reader buffer by ID reference."
-  (let* ((node-id (cdr (assoc "id" query)))
-         (node (when node-id (org-roam-node-from-id node-id)))
-         (target-file (when node (org-roam-node-file node))))
-    (if (and target-file (file-exists-p target-file))
-        (with-temp-buffer
-          (insert-file-contents-literally target-file)
-          (httpd-send-file proc "text/plain; charset=utf-8" target-file))
-      (httpd-error proc 404))))
+;; El servlet conflictivo ha sido removido por completo para evitar errores 500 del core de red.
 
 ;;; ================= SERVER ENGINE CONTROL =================
 
