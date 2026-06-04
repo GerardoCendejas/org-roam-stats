@@ -16,7 +16,7 @@
       "timestamp": "2025-09-02 11:06",
       "words": 14,
       "links": 1,
-      "backlinks": 13,
+      "backlinks": 18,
       "tags": [],
       "content": ""
     },
@@ -337,6 +337,16 @@
       "words": 35,
       "links": 3,
       "backlinks": 0,
+      "tags": [],
+      "content": ""
+    },
+    {
+      "id": "f9e1418a-3c7e-475c-be93-dc955aeab08a",
+      "title": "camarhynchus psittacula floreana suspected extinction",
+      "timestamp": "2026-06-04 09:48",
+      "words": 48,
+      "links": 2,
+      "backlinks": 1,
       "tags": [],
       "content": ""
     },
@@ -1001,7 +1011,7 @@
       "timestamp": "2025-07-28 20:57",
       "words": 45,
       "links": 3,
-      "backlinks": 24,
+      "backlinks": 25,
       "tags": [
         "NS"
       ],
@@ -1137,6 +1147,16 @@
       "title": "horotelic tempo",
       "timestamp": "2026-01-14 19:40",
       "words": 31,
+      "links": 3,
+      "backlinks": 1,
+      "tags": [],
+      "content": ""
+    },
+    {
+      "id": "eda38503-8f5b-405b-b49c-02684527000c",
+      "title": "c. pauper critically endangered",
+      "timestamp": "2026-06-04 09:52",
+      "words": 36,
       "links": 3,
       "backlinks": 1,
       "tags": [],
@@ -1365,7 +1385,7 @@
       "timestamp": "2026-05-29 19:26",
       "words": 17,
       "links": 1,
-      "backlinks": 3,
+      "backlinks": 4,
       "tags": [
         "galapagos"
       ],
@@ -1882,7 +1902,7 @@
       "timestamp": "2025-10-10 14:17",
       "words": 11,
       "links": 1,
-      "backlinks": 5,
+      "backlinks": 6,
       "tags": [],
       "content": ""
     },
@@ -2845,6 +2865,18 @@
       "content": ""
     },
     {
+      "id": "cba16aa5-abc8-4d46-bd56-9c379090071c",
+      "title": "P. downsi introduced galapagos 1997",
+      "timestamp": "2026-06-04 09:34",
+      "words": 27,
+      "links": 2,
+      "backlinks": 1,
+      "tags": [
+        "finches"
+      ],
+      "content": ""
+    },
+    {
       "id": "cb7f4458-0cf4-465c-8074-a70c8c16c8c4",
       "title": "g. magnirostris daphne established 1982",
       "timestamp": "2025-10-30 08:29",
@@ -2976,7 +3008,7 @@
       "timestamp": "2026-03-18 11:02",
       "words": 0,
       "links": 0,
-      "backlinks": 1,
+      "backlinks": 2,
       "tags": [],
       "content": ""
     },
@@ -2987,6 +3019,16 @@
       "words": 32,
       "links": 3,
       "backlinks": 2,
+      "tags": [],
+      "content": ""
+    },
+    {
+      "id": "c78580fd-7e73-45b3-8ba4-4a4783b9f59d",
+      "title": "parental care correlates hybridization",
+      "timestamp": "2026-06-04  11:40",
+      "words": 25,
+      "links": 2,
+      "backlinks": 1,
       "tags": [],
       "content": ""
     },
@@ -3238,7 +3280,7 @@
       "timestamp": "2026-02-10 09:27",
       "words": 17,
       "links": 2,
-      "backlinks": 1,
+      "backlinks": 3,
       "tags": [],
       "content": ""
     },
@@ -3714,6 +3756,16 @@
       "words": 24,
       "links": 2,
       "backlinks": 1,
+      "tags": [],
+      "content": ""
+    },
+    {
+      "id": "ba498e00-67f6-47c6-a265-efbc109704bb",
+      "title": "Philornis downsi",
+      "timestamp": "2026-06-04 09:33",
+      "words": 6,
+      "links": 0,
+      "backlinks": 2,
       "tags": [],
       "content": ""
     },
@@ -4476,7 +4528,7 @@
       "timestamp": "2025-10-25 13:52",
       "words": 0,
       "links": 0,
-      "backlinks": 4,
+      "backlinks": 5,
       "tags": [],
       "content": ""
     },
@@ -4486,7 +4538,7 @@
       "timestamp": "2025-07-28 19:43",
       "words": 22,
       "links": 1,
-      "backlinks": 23,
+      "backlinks": 24,
       "tags": [],
       "content": ""
     },
@@ -4536,7 +4588,7 @@
       "timestamp": "2026-06-03 11:25",
       "words": 20,
       "links": 1,
-      "backlinks": 1,
+      "backlinks": 2,
       "tags": [
         "daphne",
         "finches"
@@ -4738,7 +4790,7 @@
       "timestamp": "2026-02-10 09:27",
       "words": 22,
       "links": 2,
-      "backlinks": 1,
+      "backlinks": 2,
       "tags": [],
       "content": ""
     },
@@ -5112,7 +5164,7 @@
       "timestamp": "2025-10-25 13:40",
       "words": 9,
       "links": 1,
-      "backlinks": 4,
+      "backlinks": 9,
       "tags": [],
       "content": ""
     },
@@ -5203,6 +5255,16 @@
       "words": 60,
       "links": 4,
       "backlinks": 5,
+      "tags": [],
+      "content": ""
+    },
+    {
+      "id": "9bf2cef8-3159-4e8e-ad43-73bac85909b5",
+      "title": "camarhynchus psittacula floreana",
+      "timestamp": "2026-06-04 09:48",
+      "words": 18,
+      "links": 2,
+      "backlinks": 1,
       "tags": [],
       "content": ""
     },
@@ -5417,7 +5479,7 @@
       "timestamp": "2025-11-17 19:18",
       "words": 0,
       "links": 0,
-      "backlinks": 3,
+      "backlinks": 4,
       "tags": [],
       "content": ""
     },
@@ -5938,7 +6000,7 @@
       "timestamp": "2025-10-28 10:50",
       "words": 0,
       "links": 0,
-      "backlinks": 2,
+      "backlinks": 3,
       "tags": [],
       "content": ""
     },
@@ -6125,6 +6187,16 @@
       "content": ""
     },
     {
+      "id": "88874bcf-1702-4e80-936a-6021efe26ab6",
+      "title": "camarhynchus pauper",
+      "timestamp": "2026-06-04 09:37",
+      "words": 13,
+      "links": 1,
+      "backlinks": 1,
+      "tags": [],
+      "content": ""
+    },
+    {
       "id": "8846f535-ccbc-4b80-af68-6f9f58a0e8ba",
       "title": "normal mixture models species delimitation",
       "timestamp": "2026-04-17 11:38",
@@ -6261,6 +6333,16 @@
       "content": ""
     },
     {
+      "id": "870c27af-4679-4775-9754-69bd73da2b0a",
+      "title": "parental care",
+      "timestamp": "2026-06-04  11:40",
+      "words": 13,
+      "links": 1,
+      "backlinks": 1,
+      "tags": [],
+      "content": ""
+    },
+    {
       "id": "87041fc2-4e58-4278-bbc2-4b597865931b",
       "title": "working directory GIT",
       "timestamp": "2026-01-10 18:25",
@@ -6276,7 +6358,7 @@
       "timestamp": "2025-11-13 11:18",
       "words": 0,
       "links": 0,
-      "backlinks": 1,
+      "backlinks": 2,
       "tags": [],
       "content": ""
     },
@@ -6286,7 +6368,7 @@
       "timestamp": "2025-10-25 13:52",
       "words": 11,
       "links": 1,
-      "backlinks": 12,
+      "backlinks": 13,
       "tags": [],
       "content": ""
     },
@@ -6337,6 +6419,16 @@
       "words": 36,
       "links": 2,
       "backlinks": 1,
+      "tags": [],
+      "content": ""
+    },
+    {
+      "id": "854b8366-3c4b-4619-b83b-32a6021b250c",
+      "title": "camarhynchus floreana two species",
+      "timestamp": "2026-06-04 09:46",
+      "words": 37,
+      "links": 3,
+      "backlinks": 2,
       "tags": [],
       "content": ""
     },
@@ -6831,6 +6923,16 @@
       "content": ""
     },
     {
+      "id": "7bf45ac9-ba68-4461-9ac7-0ecd7ad53d80",
+      "title": "c. pauper females mate small heterospecific males",
+      "timestamp": "2026-06-04 09:54",
+      "words": 35,
+      "links": 2,
+      "backlinks": 1,
+      "tags": [],
+      "content": ""
+    },
+    {
       "id": "7bb62921-1217-4354-9c33-1c6314609876",
       "title": "posterior probability",
       "timestamp": "2025-10-20 22:27",
@@ -7301,6 +7403,16 @@
       "content": ""
     },
     {
+      "id": "738cf6d8-4e84-4610-a078-d1c0be33897e",
+      "title": "c. parvulus pauper hybridize floreana",
+      "timestamp": "2026-06-04 09:50",
+      "words": 28,
+      "links": 2,
+      "backlinks": 2,
+      "tags": [],
+      "content": ""
+    },
+    {
       "id": "73369b1d-db43-44a4-88dc-db7a438c06db",
       "title": "Grant, Peter R. and Grant, B. Rosemary, Hybridization Increases Population Variation during Adaptive Radiation",
       "timestamp": "2026-05-11 NO_TIME",
@@ -7421,6 +7533,16 @@
       "content": ""
     },
     {
+      "id": "70f68aef-da7d-454a-9433-e3fec003e34c",
+      "title": "endangered species",
+      "timestamp": "2026-06-04 09:52",
+      "words": 18,
+      "links": 2,
+      "backlinks": 2,
+      "tags": [],
+      "content": ""
+    },
+    {
       "id": "70e90655-801c-4449-b7f9-a83b0926c481",
       "title": "selection on development create constraint",
       "timestamp": "2026-04-27 20:17",
@@ -7468,7 +7590,7 @@
       "timestamp": "2025-10-15 13:47",
       "words": 15,
       "links": 1,
-      "backlinks": 30,
+      "backlinks": 31,
       "tags": [],
       "content": ""
     },
@@ -7663,6 +7785,16 @@
       "words": 36,
       "links": 2,
       "backlinks": 0,
+      "tags": [],
+      "content": ""
+    },
+    {
+      "id": "6ac8582f-3ef4-4e93-b6b1-ac1acc2ccfca",
+      "title": "tree finch",
+      "timestamp": "2026-06-04 09:20",
+      "words": 14,
+      "links": 1,
+      "backlinks": 1,
       "tags": [],
       "content": ""
     },
@@ -7945,6 +8077,16 @@
       "words": 0,
       "links": 0,
       "backlinks": 6,
+      "tags": [],
+      "content": ""
+    },
+    {
+      "id": "64f62593-e4e7-4a2a-bbb4-aff5efae8ff4",
+      "title": "camarhynchus parvulus floreana",
+      "timestamp": "2026-06-04 09:47",
+      "words": 18,
+      "links": 2,
+      "backlinks": 3,
       "tags": [],
       "content": ""
     },
@@ -8351,12 +8493,36 @@
       "content": ""
     },
     {
+      "id": "5b39ef62-9e0a-4e47-8ef7-febfbf509346",
+      "title": "g. fortis daphne directional selection small beak 2004-2005",
+      "timestamp": "2026-06-04 10:29",
+      "words": 58,
+      "links": 3,
+      "backlinks": 2,
+      "tags": [
+        "daphne",
+        "finches",
+        "geospiza_fortis"
+      ],
+      "content": ""
+    },
+    {
       "id": "5acccb90-8a57-4d1e-8805-29deb1e78900",
       "title": "GIT",
       "timestamp": "2026-01-09 13:47",
       "words": 33,
       "links": 3,
       "backlinks": 4,
+      "tags": [],
+      "content": ""
+    },
+    {
+      "id": "5aacf4a7-1183-4e40-bd38-16671408204d",
+      "title": "extinction",
+      "timestamp": "2026-06-04 09:53",
+      "words": 12,
+      "links": 1,
+      "backlinks": 1,
       "tags": [],
       "content": ""
     },
@@ -8697,6 +8863,16 @@
       "content": ""
     },
     {
+      "id": "52195869-7d6d-4c55-b907-258df14133de",
+      "title": "g. fortis magnirostris daphne character displacement",
+      "timestamp": "2026-06-04 10:33",
+      "words": 67,
+      "links": 5,
+      "backlinks": 1,
+      "tags": [],
+      "content": ""
+    },
+    {
       "id": "52161dc6-1a9e-40fd-b74a-ce06085374ac",
       "title": "g. fortis daphne father song inheritance",
       "timestamp": "2026-04-23 09:46",
@@ -8712,6 +8888,16 @@
       "timestamp": "2026-02-10 09:35",
       "words": 18,
       "links": 2,
+      "backlinks": 1,
+      "tags": [],
+      "content": ""
+    },
+    {
+      "id": "520c82b7-6de6-4e53-a8be-fd306063dbd7",
+      "title": "parapatric species more hybridization",
+      "timestamp": "2026-06-04  11:37",
+      "words": 28,
+      "links": 3,
       "backlinks": 1,
       "tags": [],
       "content": ""
@@ -9394,6 +9580,16 @@
       "content": ""
     },
     {
+      "id": "4354c34b-cfd0-4992-a9cf-08f11b6cc1d8",
+      "title": "behavioural ecological correlates hybridization birds",
+      "timestamp": "2026-06-04  11:35",
+      "words": 83,
+      "links": 6,
+      "backlinks": 0,
+      "tags": [],
+      "content": ""
+    },
+    {
       "id": "43451cb1-d854-4e34-97cc-fadffe292fbd",
       "title": "Man image God gets to know him",
       "timestamp": "2025-12-08 21:56",
@@ -9568,7 +9764,7 @@
       "timestamp": "2025-10-25 13:39",
       "words": 9,
       "links": 1,
-      "backlinks": 12,
+      "backlinks": 13,
       "tags": [],
       "content": ""
     },
@@ -9883,6 +10079,20 @@
       "content": ""
     },
     {
+      "id": "37b497e5-7e5b-4d26-a8cd-f8f745a68486",
+      "title": "Kleindorfer, Sonia and O, ’Connor Jody A. and Dudaniec, Rachael Y. and Myers, Steven A. and Robertson, Jeremy and Sulloway, Frank J., Species Collapse via Hybridization in Darwin’s Tree Finches",
+      "timestamp": "2026-06-04 NO_TIME",
+      "words": 117,
+      "links": 10,
+      "backlinks": 0,
+      "tags": [
+        "finches",
+        "floreana",
+        "paper"
+      ],
+      "content": ""
+    },
+    {
       "id": "37a0d74d-0419-4f02-a9b1-8a66ee92bc87",
       "title": "nectar",
       "timestamp": "2026-02-11 20:26",
@@ -10005,7 +10215,7 @@
       "timestamp": "2025-10-30 08:22",
       "words": 19,
       "links": 2,
-      "backlinks": 34,
+      "backlinks": 35,
       "tags": [],
       "content": ""
     },
@@ -10439,6 +10649,21 @@
       "content": ""
     },
     {
+      "id": "2d8484e3-4712-4425-a028-c5a152362570",
+      "title": "Grant, Peter R. and Grant, B. Rosemary, Evolution of Character Displacement in Darwin’s Finches",
+      "timestamp": "2026-06-04 NO_TIME",
+      "words": 50,
+      "links": 4,
+      "backlinks": 0,
+      "tags": [
+        "daphne",
+        "finches",
+        "geospiza_fortis",
+        "paper"
+      ],
+      "content": ""
+    },
+    {
       "id": "2d6de50f-9d85-445c-8b30-c27b8b3c8c8e",
       "title": "cordia",
       "timestamp": "2026-02-11 10:52",
@@ -10602,6 +10827,16 @@
       "words": 14,
       "links": 0,
       "backlinks": 2,
+      "tags": [],
+      "content": ""
+    },
+    {
+      "id": "2a71ec2f-e61a-4be8-a0c5-cf81c864176b",
+      "title": "international union for conservation of nature",
+      "timestamp": "2026-06-04 09:53",
+      "words": 0,
+      "links": 0,
+      "backlinks": 1,
       "tags": [],
       "content": ""
     },
@@ -11073,7 +11308,7 @@
       "timestamp": "2025-09-02 11:08",
       "words": 30,
       "links": 1,
-      "backlinks": 17,
+      "backlinks": 20,
       "tags": [],
       "content": ""
     },
@@ -11210,6 +11445,16 @@
         "geospiza_scandens",
         "san_cristobal"
       ],
+      "content": ""
+    },
+    {
+      "id": "1c6b2b6b-a44c-49ad-9afd-713d504a57df",
+      "title": "population size correlates hybridization",
+      "timestamp": "2026-06-04  11:37",
+      "words": 21,
+      "links": 2,
+      "backlinks": 1,
+      "tags": [],
       "content": ""
     },
     {
@@ -11799,6 +12044,16 @@
       "content": ""
     },
     {
+      "id": "116109a6-d55e-4945-9bcd-453b5ed4ad89",
+      "title": "c. pauper floreana bimodal",
+      "timestamp": "2026-06-04 09:51",
+      "words": 31,
+      "links": 2,
+      "backlinks": 1,
+      "tags": [],
+      "content": ""
+    },
+    {
       "id": "1141185b-3e0e-4741-abba-b517ff7876b3",
       "title": "PN Grant, Peter R and Grant, B Rosemary, Convergence of Darwin’s Finches through Hybridization on a Remote Galápagos Island",
       "timestamp": "2026-02-03 NO_TIME",
@@ -12228,7 +12483,7 @@
       "timestamp": "2025-10-30 08:28",
       "words": 19,
       "links": 2,
-      "backlinks": 5,
+      "backlinks": 6,
       "tags": [],
       "content": ""
     },
@@ -12428,6 +12683,16 @@
       "content": ""
     },
     {
+      "id": "062424fd-4bfd-4c56-ab96-a3ee69893728",
+      "title": "camarhynchus pauper floreana",
+      "timestamp": "2026-06-04 09:47",
+      "words": 18,
+      "links": 2,
+      "backlinks": 5,
+      "tags": [],
+      "content": ""
+    },
+    {
       "id": "05ef0e05-d15a-4272-82f0-a1b96a975d31",
       "title": "taxonomic rank",
       "timestamp": "2025-11-20 14:31",
@@ -12454,6 +12719,16 @@
       "words": 27,
       "links": 3,
       "backlinks": 0,
+      "tags": [],
+      "content": ""
+    },
+    {
+      "id": "05492c12-30e5-45f8-9217-fa558f494102",
+      "title": "endangered species correlate hybridization",
+      "timestamp": "2026-06-04  11:39",
+      "words": 23,
+      "links": 2,
+      "backlinks": 1,
       "tags": [],
       "content": ""
     },
@@ -12524,6 +12799,16 @@
       "tags": [
         "USA"
       ],
+      "content": ""
+    },
+    {
+      "id": "0459e2e4-7d7c-4e86-a17b-27db1e0d0195",
+      "title": "parapatry",
+      "timestamp": "2026-06-04  11:38",
+      "words": 22,
+      "links": 2,
+      "backlinks": 1,
+      "tags": [],
       "content": ""
     },
     {
@@ -12686,7 +12971,7 @@
       "timestamp": "2025-10-15 13:46",
       "words": 53,
       "links": 4,
-      "backlinks": 36,
+      "backlinks": 37,
       "tags": [
         "finches"
       ],

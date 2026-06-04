@@ -68,10 +68,19 @@
         (insert-file-contents org-roam-stats-log-file)
         (goto-char (point-min))
         (when (re-search-forward (concat ":ID:[ \t]+" (regexp-quote node-id)) nil t)
-          (org-back-to-heading)
-          (when (looking-at "^\\*+[ \t]+\\[\\([0-9]\\{4\\}-[0-9]\\{2\\}-[0-9]\\{2\\}[^]]*\\)\\]")
-            (setq precise-time (match-string 1))))))
+          ;; SOLUCIÓN: En vez de (org-back-to-heading), subimos al inicio del heading buscando el asterisco hacia atrás
+          (when (search-backward "* [" nil t)
+            ;; Ahora que estamos parados justo en el asterisco, aplicamos el looking-at idéntico a antes
+            (when (looking-at "^\\*+[ \t]+\\[\\([0-9]\\{4\\}-[0-9]\\{2\\}-[0-9]\\{2\\}[^]]*\\)\\]")
+              (let ((raw-time (match-string 1)))
+                (setq precise-time 
+                      (string-trim 
+                       (replace-regexp-in-string 
+                        "\\b\\(Sun\\|Mon\\|Tue\\|Wed\\|Thu\\|Fri\\|Sat\\|dom\\|lun\\|mar\\|mie\\|jue\\|vie\\|sab\\)\\b" 
+                        "" 
+                        raw-time)))))))))
     
+    ;; Tu estructura IF/ELSE original intacta
     (if precise-time
         precise-time
       (let ((base-name (file-name-base file-path)))
