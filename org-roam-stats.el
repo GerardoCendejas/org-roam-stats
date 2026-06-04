@@ -37,18 +37,26 @@
 
 (defun org-roam-stats--log-node-creation ()
   "Hook function to log the exact creation timestamp and ID of a newly created org-roam node."
-  (when (and org-roam-stats-mode
-             (org-roam-buffer-p)
-             (not (file-exists-p (buffer-file-name))))
-    (let ((node-id (org-id-get-create))
-          (timestamp (format-time-string "[%Y-%m-%d %a %H:%M]")))
-      (with-current-buffer (find-file-noselect org-roam-stats-log-file)
-        (goto-char (point-max))
-        (unless (bolp) (insert "\n"))
-        (insert (format "* %s\n  :PROPERTIES:\n  :ID:       %s\n  :END:\n" timestamp node-id))
-        (save-buffer)))))
+  (when org-roam-stats-mode
+    ;; Leemos el ID directamente del buffer que se acaba de generar para la captura
+    (let* ((node-id (org-id-get))
+           (timestamp (format-time-string "[%Y-%m-%d %a %H:%M]"))
+           (log-dir (file-name-directory (expand-file-name org-roam-stats-log-file))))
+      
+      ;; Solo registramos si logramos recuperar un ID válido (evita falsos positivos)
+      (when node-id
+        ;; Asegurar que el directorio del log exista
+        (unless (file-directory-p log-dir)
+          (make-directory log-dir t))
+        
+        (with-current-buffer (find-file-noselect org-roam-stats-log-file)
+          (goto-char (point-max))
+          (unless (bolp) (insert "\n"))
+          (insert (format "* %s\n  :PROPERTIES:\n  :ID:       %s\n  :END:\n" timestamp node-id))
+          (save-buffer))))))
 
-(add-hook 'org-roam-find-file-hook #'org-roam-stats--log-node-creation)
+;; AÑADIMOS el hook nativo de captura de nuevos nodos
+(add-hook 'org-roam-capture-new-node-hook #'org-roam-stats--log-node-creation)
 
 ;;; ================= METADATA EXTRACTION PARSER =================
 

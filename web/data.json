@@ -164,7 +164,7 @@
       "timestamp": "2026-02-02 14:27",
       "words": 19,
       "links": 2,
-      "backlinks": 3,
+      "backlinks": 5,
       "tags": [],
       "content": ""
     },
@@ -372,6 +372,20 @@
       "links": 1,
       "backlinks": 0,
       "tags": [],
+      "content": ""
+    },
+    {
+      "id": "f994fef7-0589-4cf6-abb3-fd61dabd3ce1",
+      "title": "Grant, Peter R. and Grant, B. Rosemary, The Secondary Contact Phase of Allopatric Speciation in Darwin’s Finches",
+      "timestamp": "2026-06-03 NO_TIME",
+      "words": 49,
+      "links": 3,
+      "backlinks": 0,
+      "tags": [
+        "bigbirds",
+        "finches",
+        "paper"
+      ],
       "content": ""
     },
     {
@@ -969,6 +983,16 @@
         "finches",
         "genovesa"
       ],
+      "content": ""
+    },
+    {
+      "id": "f0656b65-0ae9-4aed-ae4d-7d15de86f857",
+      "title": "conspecific gene flow",
+      "timestamp": "2026-06-03 11:16",
+      "words": 20,
+      "links": 2,
+      "backlinks": 2,
+      "tags": [],
       "content": ""
     },
     {
@@ -2118,6 +2142,16 @@
       "content": ""
     },
     {
+      "id": "d963fd16-bd0f-45fc-86d9-bce7031a841f",
+      "title": "bigbirds founder hybrid g. fortis scandens",
+      "timestamp": "2026-06-03 09:31",
+      "words": 48,
+      "links": 3,
+      "backlinks": 1,
+      "tags": [],
+      "content": ""
+    },
+    {
       "id": "d8f147f2-a4bb-42cc-9166-00cf5bdd62b9",
       "title": "galton polyhedron",
       "timestamp": "2026-03-23 09:15",
@@ -2334,6 +2368,16 @@
         "evolutionary_theory",
         "person"
       ],
+      "content": ""
+    },
+    {
+      "id": "d5f48ce1-856e-4525-b722-90ad468d1fa5",
+      "title": "g. fuliginosa daphne morphologically similar fuliginosa fortis hybrid",
+      "timestamp": "2026-06-03 11:38",
+      "words": 41,
+      "links": 3,
+      "backlinks": 1,
+      "tags": [],
       "content": ""
     },
     {
@@ -2880,6 +2924,20 @@
       "links": 2,
       "backlinks": 1,
       "tags": [],
+      "content": ""
+    },
+    {
+      "id": "c972b7da-91f1-4afe-8065-f793a6685d8a",
+      "title": "g. magnirostris daphne migration rate",
+      "timestamp": "2026-06-03 11:32",
+      "words": 49,
+      "links": 2,
+      "backlinks": 1,
+      "tags": [
+        "daphne",
+        "finches",
+        "geospiza_magnirostris"
+      ],
       "content": ""
     },
     {
@@ -3640,6 +3698,16 @@
       "content": ""
     },
     {
+      "id": "baa249e7-0204-4d70-8009-6950956f890d",
+      "title": "g. fortis daphne four song types",
+      "timestamp": "2026-06-03 09:34",
+      "words": 21,
+      "links": 2,
+      "backlinks": 1,
+      "tags": [],
+      "content": ""
+    },
+    {
       "id": "ba806205-423b-455f-be31-106be7d1bc0a",
       "title": "hmga2 beak size",
       "timestamp": "2026-03-24 09:34",
@@ -3998,7 +4066,7 @@
       "timestamp": "2025-11-14 09:09",
       "words": 0,
       "links": 0,
-      "backlinks": 2,
+      "backlinks": 3,
       "tags": [],
       "content": ""
     },
@@ -4463,6 +4531,19 @@
       "content": ""
     },
     {
+      "id": "a800fe3a-c08a-4f63-b398-865ad6ca49e6",
+      "title": "g. magnirostris daphne maximum population 2003",
+      "timestamp": "2026-06-03 11:25",
+      "words": 20,
+      "links": 1,
+      "backlinks": 1,
+      "tags": [
+        "daphne",
+        "finches"
+      ],
+      "content": ""
+    },
+    {
       "id": "a7bd647e-37fd-4279-94f7-9ada1fe36458",
       "title": "mendel one law",
       "timestamp": "2025-11-17 19:21",
@@ -4478,7 +4559,7 @@
       "timestamp": "2026-05-04 13:15",
       "words": 14,
       "links": 1,
-      "backlinks": 1,
+      "backlinks": 2,
       "tags": [],
       "content": ""
     },
@@ -4719,7 +4800,7 @@
     {
       "id": "a3723572-663d-420c-bc84-14565cdc92f9",
       "title": "BN Ochoa, Carlos, Hierarchical Evolutionary-Developmental Theory: Towards a New Theory of Evolution",
-      "timestamp": "2026-06-02 NO_TIME",
+      "timestamp": "2026-06-03 NO_TIME",
       "words": 250,
       "links": 13,
       "backlinks": 0,
@@ -5842,6 +5923,16 @@
       "content": ""
     },
     {
+      "id": "8c86146c-fbda-4c0d-ae9b-50131d6eba66",
+      "title": "heterospecific gene flow",
+      "timestamp": "2026-06-03 11:16",
+      "words": 18,
+      "links": 2,
+      "backlinks": 2,
+      "tags": [],
+      "content": ""
+    },
+    {
       "id": "8c84e80b-275b-42a9-8fdd-54957ee7f1f0",
       "title": "camarhynchus parvulus",
       "timestamp": "2025-10-28 10:50",
@@ -6510,8 +6601,8 @@
     {
       "id": "801293a6-bee0-44e7-b0ee-a62cfb4b5aad",
       "title": "Wu, Chung-I., The Genic View of the Process of Speciation",
-      "timestamp": "2026-05-04 NO_TIME",
-      "words": 351,
+      "timestamp": "2026-06-03 NO_TIME",
+      "words": 348,
       "links": 13,
       "backlinks": 0,
       "tags": [
@@ -6810,6 +6901,19 @@
       "content": ""
     },
     {
+      "id": "7b080dcb-1e1d-4620-ae92-70c314f06341",
+      "title": "Grant, Peter R. and Grant, B. Rosemary, Conspecific versus Heterospecific Gene Exchange between Populations of Darwin’s Finches",
+      "timestamp": "2026-06-03 NO_TIME",
+      "words": 138,
+      "links": 12,
+      "backlinks": 0,
+      "tags": [
+        "daphne",
+        "finches"
+      ],
+      "content": ""
+    },
+    {
       "id": "7ac7bd0b-97b3-4724-be54-637d42fd5849",
       "title": "g. scandens & fortis extensive hybridize daphne 1987",
       "timestamp": "2026-05-11 13:48",
@@ -6990,7 +7094,7 @@
       "timestamp": "2025-10-15 13:56",
       "words": 20,
       "links": 2,
-      "backlinks": 18,
+      "backlinks": 19,
       "tags": [],
       "content": ""
     },
@@ -7212,9 +7316,9 @@
       "id": "73246a8c-32ea-4965-a991-796fc8a0c167",
       "title": "bigbirds founder",
       "timestamp": "2026-03-20 14:14",
-      "words": 19,
-      "links": 2,
-      "backlinks": 1,
+      "words": 10,
+      "links": 3,
+      "backlinks": 3,
       "tags": [],
       "content": ""
     },
@@ -8051,6 +8155,16 @@
       "content": ""
     },
     {
+      "id": "5fda422c-e5d4-4cc6-942c-2fd1423c6675",
+      "title": "bigbirds song",
+      "timestamp": "2026-06-03 09:32",
+      "words": 51,
+      "links": 3,
+      "backlinks": 1,
+      "tags": [],
+      "content": ""
+    },
+    {
       "id": "5fa919cf-29a8-44ce-a34a-6825725b0bd1",
       "title": "recombination",
       "timestamp": "2026-02-24 11:23",
@@ -8155,6 +8269,16 @@
       "content": ""
     },
     {
+      "id": "5d4bf1bb-ad84-4a01-b427-e063ef02511d",
+      "title": "generation time",
+      "timestamp": "2026-06-03 11:27",
+      "words": 11,
+      "links": 1,
+      "backlinks": 1,
+      "tags": [],
+      "content": ""
+    },
+    {
       "id": "5d00dfa6-3be5-4c01-9c5e-ef62cef17140",
       "title": "g. scandens san salvador pinta dimorphic",
       "timestamp": "2026-03-23 12:37",
@@ -8252,7 +8376,7 @@
       "timestamp": "2025-10-25 14:02",
       "words": 22,
       "links": 2,
-      "backlinks": 14,
+      "backlinks": 15,
       "tags": [],
       "content": ""
     },
@@ -8502,10 +8626,12 @@
       "id": "54fb90f3-c53f-4b4e-8635-c4445d6fca58",
       "title": "typostrophic theory",
       "timestamp": "2025-11-13 18:38",
-      "words": 65,
-      "links": 6,
+      "words": 10,
+      "links": 7,
       "backlinks": 3,
-      "tags": [],
+      "tags": [
+        "typostrophysm"
+      ],
       "content": ""
     },
     {
@@ -8673,7 +8799,7 @@
     {
       "id": "4febe593-e603-489f-9bfe-178042ef51ef",
       "title": "Waddington, C. H., Canalization of Development and the Inheritance of Acquired Characters",
-      "timestamp": "2026-04-27 NO_TIME",
+      "timestamp": "2026-06-03 NO_TIME",
       "words": 201,
       "links": 6,
       "backlinks": 0,
@@ -8740,6 +8866,16 @@
       "words": 33,
       "links": 3,
       "backlinks": 1,
+      "tags": [],
+      "content": ""
+    },
+    {
+      "id": "4db5cc6b-b61c-4054-95a1-cb0aa4ae0d8a",
+      "title": "galapagos finches generation time",
+      "timestamp": "2026-06-03 11:27",
+      "words": 47,
+      "links": 4,
+      "backlinks": 2,
       "tags": [],
       "content": ""
     },
@@ -8823,6 +8959,16 @@
       "words": 15,
       "links": 1,
       "backlinks": 3,
+      "tags": [],
+      "content": ""
+    },
+    {
+      "id": "4cc19149-61b3-4808-9cc8-980ef5f7b587",
+      "title": "g. fortis daphne hybridize g. scandens",
+      "timestamp": "2026-06-03 11:39",
+      "words": 22,
+      "links": 2,
+      "backlinks": 1,
       "tags": [],
       "content": ""
     },
@@ -9007,6 +9153,20 @@
       "links": 2,
       "backlinks": 1,
       "tags": [],
+      "content": ""
+    },
+    {
+      "id": "4799f86f-04de-4b9f-abea-6fcc52095888",
+      "title": "g. scandens daphne migration rate",
+      "timestamp": "2026-06-03 11:30",
+      "words": 28,
+      "links": 1,
+      "backlinks": 1,
+      "tags": [
+        "daphne",
+        "finches",
+        "geospiza_scandens"
+      ],
       "content": ""
     },
     {
@@ -9359,6 +9519,20 @@
       "content": ""
     },
     {
+      "id": "3f487d90-f86b-448b-afbf-3bc0ff3ebe4e",
+      "title": "13 hybrids g. fortis & g. scandens daphne",
+      "timestamp": "2026-06-03 11:40",
+      "words": 21,
+      "links": 1,
+      "backlinks": 1,
+      "tags": [
+        "daphne",
+        "finches",
+        "hybridization"
+      ],
+      "content": ""
+    },
+    {
       "id": "3f3eca64-eab7-4459-9729-76ad9e9acd44",
       "title": "MCRA",
       "timestamp": "2025-07-28 20:37",
@@ -9394,7 +9568,7 @@
       "timestamp": "2025-10-25 13:39",
       "words": 9,
       "links": 1,
-      "backlinks": 10,
+      "backlinks": 12,
       "tags": [],
       "content": ""
     },
@@ -9468,7 +9642,7 @@
       "timestamp": "2025-10-25 13:56",
       "words": 14,
       "links": 1,
-      "backlinks": 9,
+      "backlinks": 8,
       "tags": [],
       "content": ""
     },
@@ -9831,7 +10005,7 @@
       "timestamp": "2025-10-30 08:22",
       "words": 19,
       "links": 2,
-      "backlinks": 29,
+      "backlinks": 34,
       "tags": [],
       "content": ""
     },
@@ -10285,6 +10459,20 @@
       "content": ""
     },
     {
+      "id": "2d3bc604-4a9e-48eb-8ab1-82facb9246bf",
+      "title": "g. fortis daphne migration rate",
+      "timestamp": "2026-06-03 11:29",
+      "words": 26,
+      "links": 1,
+      "backlinks": 1,
+      "tags": [
+        "daphne",
+        "finches",
+        "geospiza_fortis"
+      ],
+      "content": ""
+    },
+    {
       "id": "2cae17c7-1960-48a0-93fa-b10e443c4066",
       "title": "introgressed sequence methods",
       "timestamp": "2025-09-02 11:22",
@@ -10421,9 +10609,9 @@
       "id": "2a52175e-cb23-474b-a101-2fa28d7d2aad",
       "title": "bigbirds lineage",
       "timestamp": "2025-10-30 08:11",
-      "words": 23,
-      "links": 2,
-      "backlinks": 6,
+      "words": 10,
+      "links": 3,
+      "backlinks": 8,
       "tags": [],
       "content": ""
     },
@@ -10885,7 +11073,7 @@
       "timestamp": "2025-09-02 11:08",
       "words": 30,
       "links": 1,
-      "backlinks": 15,
+      "backlinks": 17,
       "tags": [],
       "content": ""
     },
@@ -10935,7 +11123,7 @@
       "timestamp": "2025-10-25 13:25",
       "words": 18,
       "links": 2,
-      "backlinks": 19,
+      "backlinks": 20,
       "tags": [],
       "content": ""
     },
@@ -11429,6 +11617,16 @@
       "content": ""
     },
     {
+      "id": "15862c0e-49b6-42a2-a512-547c913fb7dd",
+      "title": "conspecific gene flow less frequent than heterospecific daphne",
+      "timestamp": "2026-06-03 11:41",
+      "words": 10,
+      "links": 4,
+      "backlinks": 1,
+      "tags": [],
+      "content": ""
+    },
+    {
       "id": "153e3132-7e20-40cd-89b5-03b1eb405076",
       "title": "parsimony anc state recons",
       "timestamp": "2025-07-31 14:20",
@@ -11454,7 +11652,7 @@
       "timestamp": "2025-11-13 11:04",
       "words": 19,
       "links": 2,
-      "backlinks": 17,
+      "backlinks": 20,
       "tags": [],
       "content": ""
     },
@@ -11730,6 +11928,16 @@
       "timestamp": "2025-07-28 20:50",
       "words": 81,
       "links": 3,
+      "backlinks": 1,
+      "tags": [],
+      "content": ""
+    },
+    {
+      "id": "0e650f38-5226-4688-973a-5710a5d8ec1c",
+      "title": "g. fortis daphne type iii song",
+      "timestamp": "2026-06-03 09:33",
+      "words": 15,
+      "links": 1,
       "backlinks": 1,
       "tags": [],
       "content": ""
@@ -12020,7 +12228,7 @@
       "timestamp": "2025-10-30 08:28",
       "words": 19,
       "links": 2,
-      "backlinks": 3,
+      "backlinks": 5,
       "tags": [],
       "content": ""
     },
@@ -12302,7 +12510,7 @@
       "timestamp": "2026-03-25 09:20",
       "words": 0,
       "links": 0,
-      "backlinks": 3,
+      "backlinks": 5,
       "tags": [],
       "content": ""
     },
@@ -12478,7 +12686,7 @@
       "timestamp": "2025-10-15 13:46",
       "words": 53,
       "links": 4,
-      "backlinks": 34,
+      "backlinks": 36,
       "tags": [
         "finches"
       ],
