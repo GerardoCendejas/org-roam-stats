@@ -278,6 +278,8 @@
 	function renderOrphanRadarPane() {
         const container = document.getElementById('orphanNotesRadarList');
         container.innerHTML = "";
+        document.getElementById('emacsBufferReader').innerText = "=== Select a note from the left panel to audit its contents raw text ===";
+        document.getElementById('node-reader-title').innerText = "Note Content Viewer";
 
         const nodes = getFilteredNodes();
         const orphans = nodes.filter(isStrictOrphan);
@@ -403,7 +405,10 @@
           options: {
 	  responsive: true,
 	  maintainAspectRatio: false,
-	  plugins: { legend: { display: false } },
+	  plugins: {
+	  legend: { display: false },
+	  tooltip: { callbacks: { title: ctx => { const item = ctx[0].dataset.data[ctx[0].dataIndex]; return `${item.x}:00`; }, label: ctx => { const item = ctx.dataset.data[ctx.dataIndex]; return `${item.v} note${item.v !== 1 ? 's' : ''}`; } } }
+	  },
 	  scales: {
 	  x: { type: 'linear', min: -0.5, max: 23.5, ticks: { stepSize: 3, callback: v => v+":00" }, grid: { display: false } },
 	  y: { type: 'category', labels: dayLabels, offset: true, grid: { display: false } }
@@ -467,7 +472,8 @@
             rebuildCanvasChartElement('timeRadarChart', {
             type: 'radar',
             data: { labels: Array.from({length: 24}, (_,i)=>i+":00"), datasets: [{ data: hourlyMap, backgroundColor: 'rgba(16, 185, 129, 0.1)', borderColor: '#10b981', fill: true }] },
-            options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } } }
+		options: { animation: true, responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { r: { ticks: { backdropColor: 'transparent', color: '#64748b' }, grid: { color: '#334155' }, pointLabels: { color: '#94a3b8' } } } }
+		
             });
 
             renderWordCloud(nodes);
