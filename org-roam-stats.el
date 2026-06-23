@@ -7,7 +7,7 @@
 ;; Author: Gerardo Cendejas Mendoza <gc597@cornell.edu>
 ;; Maintainer: Gerardo Cendejas Mendoza <gc597@cornell.edu>
 ;; Version: 0.1.0
-;; Package-Requires: ((emacs "27.1") (transient "0.3.0"))
+;; Package-Requires: ((emacs "27.1") (org-roam "2.0") (simple-httpd "1.6") (json "1.5"))
 ;; Keywords: hypermedia, tools, reveal, slides
 ;; URL: https://github.com/GerardoCendejas/ox-reveal-layouts
 
@@ -63,7 +63,7 @@
                              load-file-name
                              (buffer-file-name)
                              default-directory)))
-  "Ruta absoluta inmutable del directorio raíz de este paquete.")
+  "Absolute path of the package installation.")
 
 ;;;###autoload
 (define-minor-mode org-roam-stats-mode
@@ -98,9 +98,7 @@
         (insert-file-contents org-roam-stats-log-file)
         (goto-char (point-min))
         (when (re-search-forward (concat ":ID:[ \t]+" (regexp-quote node-id)) nil t)
-          ;; SOLUCIÓN: En vez de (org-back-to-heading), subimos al inicio del heading buscando el asterisco hacia atrás
           (when (search-backward "* [" nil t)
-            ;; Ahora que estamos parados justo en el asterisco, aplicamos el looking-at idéntico a antes
             (when (looking-at "^\\*+[ \t]+\\[\\([0-9]\\{4\\}-[0-9]\\{2\\}-[0-9]\\{2\\}[^]]*\\)\\]")
               (let ((raw-time (match-string 1)))
                 (setq precise-time 
@@ -110,7 +108,7 @@
                         "" 
                         raw-time)))))))))
     
-    ;; Tu estructura IF/ELSE original intacta
+    ;; If no precise time found, fallback to filename parsing or file modification time (For org-roam nodes created before the logging with org-roam-stats-mode)
     (if precise-time
         precise-time
       (let ((base-name (file-name-base file-path)))
@@ -136,7 +134,7 @@
          (links-count (or (gethash id links-map) 0))
          (word-count 0)
          (timestamp "")
-         (content "")) ; Variable para almacenar texto de huérfanas
+         (content "")) ; Will show the content of orphaned nodes in the dashboard if they have no links or backlinks))
     
     (if (and cache-val (equal (cdr (assoc 'mod-time cache-val)) mod-time))
         (setq timestamp (cdr (assoc 'timestamp cache-val))
@@ -157,7 +155,7 @@
                                    (cons 'words word-count))))
         (puthash id new-cache-entry org-roam-stats--cache)))
     
-    ;; LA SOLUCIÓN INTELIGENTE: Si es una huérfana estricta en la DB, leemos e inyectamos su texto aquí
+    ;; If the node has no links or backlinks, and it is a top-level node, we will include its content in the dashboard for context.
     (when (and (= backlinks-count 0) (= links-count 0) file (file-exists-p file))
       (with-temp-buffer
         (insert-file-contents-literally file)
@@ -170,12 +168,13 @@
           (cons 'links links-count)
           (cons 'backlinks backlinks-count)
           (cons 'tags (or tags []))
-          (cons 'content content)))) ; Se añade al payload de forma nativa
+          (cons 'content content))))
 
 ;;; ================= JSON GENERATION ENGINE =================
 
 (defun org-roam-stats-generate-json ()
   "Compile full database metrics into a single unified data.json package."
+  ;; First time generation will be slower, but subsequent runs will be faster due to caching.
   (interactive)
   (let* ((web-dir (expand-file-name "web/" org-roam-stats--package-root))
          (all-nodes (org-roam-node-list))
@@ -207,8 +206,6 @@
       (with-temp-file (expand-file-name "data.json" web-dir)
         (insert (json-encode final-payload))))
     (message "Org-roam Dashboard updated successfully in: %s" web-dir)))
-
-;; El servlet conflictivo ha sido removido por completo para evitar errores 500 del core de red.
 
 ;;; ================= SERVER ENGINE CONTROL =================
 
