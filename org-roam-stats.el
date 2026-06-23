@@ -214,6 +214,7 @@
   (interactive)
   (clrhash org-roam-stats--cache)
   (org-roam-stats-generate-json)
+  (httpd-stop)
   (let ((web-path (expand-file-name "web/" org-roam-stats--package-root)))
     (setq httpd-port org-roam-stats-port 
           httpd-root web-path)
