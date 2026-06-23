@@ -1,8 +1,44 @@
 ;;; org-roam-stats.el --- Personal Knowledge Management Dashboard -*- lexical-binding: t; -*-
 
+;; SPDX-License-Identifier: GPL-3.0-or-later
+
+;; Copyright (C) 2025 Gerardo Cendejas Mendoza
+
+;; Author: Gerardo Cendejas Mendoza <gc597@cornell.edu>
+;; Maintainer: Gerardo Cendejas Mendoza <gc597@cornell.edu>
+;; Version: 0.1.0
+;; Package-Requires: ((emacs "27.1") (transient "0.3.0"))
+;; Keywords: hypermedia, tools, reveal, slides
+;; URL: https://github.com/GerardoCendejas/ox-reveal-layouts
+
+;; License: GPL-3.0-or-later
+
+;; This program is free software; you can redistribute it and/or modify
+;; it under the terms of the GNU General Public License as published by
+;; the Free Software Foundation, either version 3 of the License, or
+;; (at your option) any later version.
+
+;; This program is distributed in the hope that it will be useful,
+;; but WITHOUT ANY WARRANTY; without even the implied warranty of
+;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+;; GNU General Public License for more details.
+
+;; You should have received a copy of the GNU General Public License
+;; along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+;;; Commentary:
+;;  This package provides a set of predefined layouts for use with ox-reveal presentations.
+;;  It includes a transient menu for easy insertion of these layouts into your org-mode files.
+
+;;; Code:
+
+; Required packages
+
 (require 'simple-httpd)
 (require 'json)
 (require 'org-roam)
+
+; Custom group and variables
 
 (defgroup org-roam-stats nil
   "Customizations for org-roam-stats dashboard."
@@ -35,17 +71,19 @@
   :global t
   :group 'org-roam-stats)
 
+;; Hook function to log node creation
+
 (defun org-roam-stats--log-node-creation ()
   "Hook function to log the exact creation timestamp and ID of a newly created org-roam node."
   (when org-roam-stats-mode
-    ;; Leemos el ID directamente del buffer que se acaba de generar para la captura
+    ;; Read the node ID and current timestamp, then append to the log file
     (let* ((node-id (org-id-get))
            (timestamp (format-time-string "[%Y-%m-%d %a %H:%M]"))
            (log-dir (file-name-directory (expand-file-name org-roam-stats-log-file))))
       
-      ;; Solo registramos si logramos recuperar un ID válido (evita falsos positivos)
+      ;; Only log if we have a valid node ID
       (when node-id
-        ;; Asegurar que el directorio del log exista
+        ;; Ensure the log directory exists
         (unless (file-directory-p log-dir)
           (make-directory log-dir t))
         
@@ -55,7 +93,7 @@
           (insert (format "* %s\n  :PROPERTIES:\n  :ID:       %s\n  :END:\n" timestamp node-id))
           (save-buffer))))))
 
-;; AÑADIMOS el hook nativo de captura de nuevos nodos
+;; Add the hook to org-roam-capture-new-node-hook
 (add-hook 'org-roam-capture-new-node-hook #'org-roam-stats--log-node-creation)
 
 ;;; ================= METADATA EXTRACTION PARSER =================
