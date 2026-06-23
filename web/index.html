@@ -61,7 +61,7 @@
 
     <div class="container">
       <div class="header">
-        <h1>Org-Roam System Analytics Suite</h1>
+        <h1>Org-Roam Statistics Dashboard</h1>
         <div id="filter-status-banner" class="filter-banner">
           Active Filter: <span id="active-tag-name">None</span>
           <button class="clear-filter-btn" onclick="clearTagFilter()">Clear Filter</button>
@@ -86,9 +86,9 @@
           <div class="metric-val" id="meta-top-tag">None</div>
           <div class="metric-lbl">Dominant Filetag</div>
         </div>
-        <div class="metric-card" id="card-velocity" onclick="switchActiveViewport('timeline-view')">
-          <div class="metric-val" id="meta-velocity">0</div>
-          <div class="metric-lbl">Velocity (Notes/Mo)</div>
+        <div class="metric-card" id="card-speed" onclick="switchActiveViewport('timeline-view')">
+          <div class="metric-val" id="meta-speed">0</div>
+          <div class="metric-lbl">Speed (Notes/Mo)</div>
         </div>
         <div class="metric-card alert-card" id="card-orphans" onclick="switchActiveViewport('orphan-view')">
           <div class="metric-val alert-text" id="meta-orphan-count">0</div>
@@ -100,7 +100,7 @@
         <button class="tab-link active" onclick="activateTabEvent(event, 'summary-view')">Summary Dashboard</button>
         <button class="tab-link" onclick="activateTabEvent(event, 'structural-view')">Density & Formatting</button>
         <button class="tab-link" onclick="activateTabEvent(event, 'semantic-view')">Semantic & Tags Explorer</button>
-        <button class="tab-link" onclick="activateTabEvent(event, 'timeline-view')">Temporal Velocity</button>
+        <button class="tab-link" onclick="activateTabEvent(event, 'timeline-view')">Temporal Speed</button>
         <button class="tab-link" style="color: #fca5a5;" onclick="activateTabEvent(event, 'orphan-view')">Orphan Radar</button>
       </div>
 
@@ -245,7 +245,7 @@
         document.getElementById('meta-top-tag').innerText = rankedTags.length ? `#${rankedTags[0][0]}` : "None";
 
         const uniqueMonths = new Set(nodes.map(n => n.timestamp.substring(0, 7)));
-        document.getElementById('meta-velocity').innerText = nodes.length ? (nodes.length / Math.max(uniqueMonths.size, 1)).toFixed(1) : 0;
+        document.getElementById('meta-speed').innerText = nodes.length ? (nodes.length / Math.max(uniqueMonths.size, 1)).toFixed(1) : 0;
 
         const orphans = nodes.filter(isStrictOrphan);
         document.getElementById('meta-orphan-count').innerText = orphans.length;
@@ -283,7 +283,7 @@
         const orphans = nodes.filter(isStrictOrphan);
 
         if(!orphans.length) {
-        container.innerHTML = "<div style='color:#10b981; padding:1.5rem; text-align:center; font-weight:bold;'>🎉 Perfect Knowledge Architecture! Zero strict orphan nodes detected.</div>";
+        container.innerHTML = "<div style='color:#10b981; padding:1.5rem; text-align:center; font-weight:bold;'>🎉 Zero strict orphan nodes detected.</div>";
         document.getElementById('emacsBufferReader').innerText = "All clear.";
         return;
         }
@@ -443,7 +443,7 @@
 			 options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } } }
 			 });
 
-			 // 5. VELOCITY DRILL DOWNS
+			 // 5. SPEED DRILL DOWNS
 			 const monthlyMap = {}, weekdayMap = new Array(7).fill(0), hourlyMap = new Array(24).fill(0);
 			 timelineData.forEach(n => {
             const mKey = n.parsedDate.toLocaleString('default', { month: 'short', year: '2-digit' });
