@@ -69,32 +69,24 @@
 (define-minor-mode org-roam-stats-mode
   "Toggle exact creation time logging for org-roam nodes."
   :global t
-  :group 'org-roam-stats)
-
-;; Hook function to log node creation
+  :group 'org-roam-stats
+  (if org-roam-stats-mode
+      (add-hook 'org-roam-capture-new-node-hook #'org-roam-stats--log-node-creation)
+    (remove-hook 'org-roam-capture-new-node-hook #'org-roam-stats--log-node-creation)))
 
 (defun org-roam-stats--log-node-creation ()
   "Hook function to log the exact creation timestamp and ID of a newly created org-roam node."
-  (when org-roam-stats-mode
-    ;; Read the node ID and current timestamp, then append to the log file
-    (let* ((node-id (org-id-get))
-           (timestamp (format-time-string "[%Y-%m-%d %a %H:%M]"))
-           (log-dir (file-name-directory (expand-file-name org-roam-stats-log-file))))
-      
-      ;; Only log if we have a valid node ID
-      (when node-id
-        ;; Ensure the log directory exists
-        (unless (file-directory-p log-dir)
-          (make-directory log-dir t))
-        
-        (with-current-buffer (find-file-noselect org-roam-stats-log-file)
-          (goto-char (point-max))
-          (unless (bolp) (insert "\n"))
-          (insert (format "* %s\n  :PROPERTIES:\n  :ID:       %s\n  :END:\n" timestamp node-id))
-          (save-buffer))))))
-
-;; Add the hook to org-roam-capture-new-node-hook
-(add-hook 'org-roam-capture-new-node-hook #'org-roam-stats--log-node-creation)
+  (let* ((node-id (org-id-get))
+         (timestamp (format-time-string "[%Y-%m-%d %a %H:%M]"))
+         (log-dir (file-name-directory (expand-file-name org-roam-stats-log-file))))
+    (when node-id
+      (unless (file-directory-p log-dir)
+        (make-directory log-dir t))
+      (with-current-buffer (find-file-noselect org-roam-stats-log-file)
+        (goto-char (point-max))
+        (unless (bolp) (insert "\n"))
+        (insert (format "* %s\n  :PROPERTIES:\n  :ID:       %s\n  :END:\n" timestamp node-id))
+        (save-buffer)))))
 
 ;;; ================= METADATA EXTRACTION PARSER =================
 
