@@ -5,6 +5,7 @@
 ;; Copyright (C) 2025 Gerardo Cendejas Mendoza
 
 ;; Author: Gerardo Cendejas Mendoza <gc597@cornell.edu>
+;; Assisted-by: Claude:claude-sonnet-4-6
 ;; Maintainer: Gerardo Cendejas Mendoza <gc597@cornell.edu>
 ;; Version: 0.1.0
 ;; Package-Requires: ((emacs "27.1") (org-roam "2.0") (simple-httpd "1.6") (json "1.5"))
@@ -91,7 +92,10 @@
 ;;; ================= METADATA EXTRACTION PARSER =================
 
 (defun org-roam-stats--get-node-creation-time (node-id file-path file-mod-time)
-  "Extract creation time. Prioritizes log, then filename ID, falls back to file date."
+  "Extract creation time for node.
+Argument NODE-ID Node ID.
+Argument FILE-PATH path for node file.
+Argument FILE-MOD-TIME Timestamp of the file (for when the log has no info)."
   (let ((precise-time nil))
     (when (file-exists-p org-roam-stats-log-file)
       (with-temp-buffer
@@ -101,11 +105,11 @@
           (when (search-backward "* [" nil t)
             (when (looking-at "^\\*+[ \t]+\\[\\([0-9]\\{4\\}-[0-9]\\{2\\}-[0-9]\\{2\\}[^]]*\\)\\]")
               (let ((raw-time (match-string 1)))
-                (setq precise-time 
-                      (string-trim 
-                       (replace-regexp-in-string 
-                        "\\b\\(Sun\\|Mon\\|Tue\\|Wed\\|Thu\\|Fri\\|Sat\\|dom\\|lun\\|mar\\|mie\\|jue\\|vie\\|sab\\)\\b" 
-                        "" 
+                (setq precise-time
+                      (string-trim
+                       (replace-regexp-in-string
+                        "\\b\\(Sun\\|Mon\\|Tue\\|Wed\\|Thu\\|Fri\\|Sat\\|dom\\|lun\\|mar\\|mie\\|jue\\|vie\\|sab\\)\\b"
+                        ""
                         raw-time)))))))))
     
     ;; If no precise time found, fallback to filename parsing or file modification time (For org-roam nodes created before the logging with org-roam-stats-mode)
@@ -122,7 +126,10 @@
           (concat (format-time-string "%Y-%m-%d" file-mod-time) " NO_TIME"))))))
 
 (defun org-roam-stats--extract-node-data (node backlinks-map links-map)
-  "Extract structural properties and acople backlink counters from SQLite data maps."
+  "Extract properties for a node.
+Argument NODE org-roam node.
+Argument BACKLINKS-MAP info about backlinks of nodes.
+Argument LINKS-MAP links between nodes."
   (let* ((id (org-roam-node-id node))
          (title (org-roam-node-title node))
          (file (org-roam-node-file node))
@@ -216,7 +223,7 @@
   (org-roam-stats-generate-json)
   (httpd-stop)
   (let ((web-path (expand-file-name "web/" org-roam-stats--package-root)))
-    (setq httpd-port org-roam-stats-port 
+    (setq httpd-port org-roam-stats-port
           httpd-root web-path)
     (httpd-start)
     (browse-url (format "http://localhost:%d/index.html" org-roam-stats-port))))
