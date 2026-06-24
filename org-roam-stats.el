@@ -8,9 +8,9 @@
 ;; Assisted-by: Claude:claude-sonnet-4-6
 ;; Maintainer: Gerardo Cendejas Mendoza <gc597@cornell.edu>
 ;; Version: 0.1.0
-;; Package-Requires: ((emacs "27.1") (org-roam "2.0") (simple-httpd "1.6") (json "1.5"))
-;; Keywords: hypermedia, tools, reveal, slides
-;; URL: https://github.com/GerardoCendejas/ox-reveal-layouts
+;; Package-Requires: ((emacs "27.1") (org-roam "2.0") (simple-httpd "1.6"))
+;; Keywords: org-roam, notes, statistics, dashboard
+;; URL: https://github.com/GerardoCendejas/org-roam-stats
 
 ;; License: GPL-3.0-or-later
 
@@ -28,18 +28,20 @@
 ;; along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 ;;; Commentary:
-;;  This package provides a set of predefined layouts for use with ox-reveal presentations.
-;;  It includes a transient menu for easy insertion of these layouts into your org-mode files.
+;;  Org-roam-stats provides a browser-based dashboard for your org-roam notes.
+;;  It tracks note creation over time, identifies orphaned nodes, and supports
+;;  filtering by file tags.  Enable `org-roam-stats-mode' to log creation
+;;  timestamps, then call `org-roam-stats-start' to open the dashboard.
 
 ;;; Code:
 
-; Required packages
+;; Required packages
 
 (require 'simple-httpd)
 (require 'json)
 (require 'org-roam)
 
-; Custom group and variables
+;; Custom group and variables
 
 (defgroup org-roam-stats nil
   "Customizations for org-roam-stats dashboard."
@@ -216,8 +218,9 @@ Argument LINKS-MAP links between nodes."
 
 ;;; ================= SERVER ENGINE CONTROL =================
 
+;;;###autoload
 (defun org-roam-stats-start ()
-  "Start the local server using the stable native folder mapping method."
+  "Start the local server and open the org-roam-stats dashboard in a browser."
   (interactive)
   (clrhash org-roam-stats--cache)
   (org-roam-stats-generate-json)
