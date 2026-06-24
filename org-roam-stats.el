@@ -58,7 +58,7 @@
   :group 'org-roam-stats)
 
 (defvar org-roam-stats--cache (make-hash-table :test 'equal)
-  "Memory cache store for org-roam-stats nodes data to prevent re-parsing unmodified files.")
+  "Memory cache to prevent re-parsing unmodified files.")
 
 (defconst org-roam-stats--package-root
   (file-name-directory (or load-file-name buffer-file-name))
@@ -74,7 +74,8 @@
     (remove-hook 'org-roam-capture-new-node-hook #'org-roam-stats--log-node-creation)))
 
 (defun org-roam-stats--log-node-creation ()
-  "Hook function to log the exact creation timestamp and ID of a newly created org-roam node."
+  "Hook function to log the exact creation timestamp and ID
+of a newly created org-roam node."
   (let* ((node-id (org-id-get))
          (timestamp (format-time-string "[%Y-%m-%d %a %H:%M]"))
          (log-dir (file-name-directory (expand-file-name org-roam-stats-log-file))))
