@@ -45,7 +45,7 @@
   "Customizations for org-roam-stats dashboard."
   :group 'org-roam)
 
-(defcustom org-roam-stats-log-file "~/.emacs.d/org/roam-creation-log.org"
+(defcustom org-roam-stats-log-file (locate-user-emacs-file "org-roam-stats-log.org")
   "Path to the file where exact creation timestamps of org-roam nodes are recorded."
   :type 'file
   :group 'org-roam-stats)
