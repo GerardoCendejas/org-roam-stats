@@ -9,7 +9,7 @@
 ;; Maintainer: Gerardo Cendejas Mendoza <gc597@cornell.edu>
 ;; Version: 0.1.0
 ;; Package-Requires: ((emacs "27.1") (org-roam "2.0") (simple-httpd "1.6"))
-;; Keywords: org-roam, notes, statistics, dashboard
+;; Keywords: outlines, tools
 ;; URL: https://github.com/GerardoCendejas/org-roam-stats
 
 ;; License: GPL-3.0-or-later
@@ -61,11 +61,7 @@
   "Memory cache store for org-roam-stats nodes data to prevent re-parsing unmodified files.")
 
 (defconst org-roam-stats--package-root
-  (eval-and-compile
-    (file-name-directory (or (bound-and-true-p byte-compile-current-file)
-                             load-file-name
-                             (buffer-file-name)
-                             default-directory)))
+  (file-name-directory (or load-file-name buffer-file-name))
   "Absolute path of the package installation.")
 
 ;;;###autoload
