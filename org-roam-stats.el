@@ -74,8 +74,7 @@
     (remove-hook 'org-roam-capture-new-node-hook #'org-roam-stats--log-node-creation)))
 
 (defun org-roam-stats--log-node-creation ()
-  "Hook function to log the exact creation timestamp and ID
-of a newly created org-roam node."
+  "Hook function to log the exact creation timestamp and ID of a newly created org-roam node."
   (let* ((node-id (org-id-get))
          (timestamp (format-time-string "[%Y-%m-%d %a %H:%M]"))
          (log-dir (file-name-directory (expand-file-name org-roam-stats-log-file))))
