@@ -47,11 +47,6 @@
   "Customizations for org-roam-stats dashboard."
   :group 'org-roam)
 
-(defcustom org-roam-stats-log-file (locate-user-emacs-file "org-roam-stats-log.org")
-  "Path to the file where exact creation timestamps of org-roam nodes are recorded."
-  :type 'file
-  :group 'org-roam-stats)
-
 (defcustom org-roam-stats-port 8089
   "Unique local port dedicated for the org-roam-stats web server."
   :type 'integer
@@ -74,46 +69,25 @@
     (remove-hook 'org-roam-capture-new-node-hook #'org-roam-stats--log-node-creation)))
 
 (defun org-roam-stats--log-node-creation ()
-  "Log the exact creation timestamp and ID of a newly created org-roam node."
-  (let* ((node-id (org-id-get))
-         (timestamp (format-time-string "[%Y-%m-%d %a %H:%M]"))
-         (log-dir (file-name-directory (expand-file-name org-roam-stats-log-file))))
-    (when node-id
-      (unless (file-directory-p log-dir)
-        (make-directory log-dir t))
-      (with-current-buffer (find-file-noselect org-roam-stats-log-file)
-        (goto-char (point-max))
-        (unless (bolp) (insert "\n"))
-        (insert (format "* %s\n  :PROPERTIES:\n  :ID:       %s\n  :END:\n" timestamp node-id))
-        (save-buffer)))))
+  "Stamp a newly created org-roam node with its creation time."
+  (when (org-id-get)
+    (org-entry-put (point) "CREATED" (format-time-string "[%Y-%m-%d %a %H:%M]"))))
 
 ;;; ================= METADATA EXTRACTION PARSER =================
 
-(defun org-roam-stats--get-node-creation-time (node-id file-path file-mod-time)
-  "Extract creation time for node.
-Argument NODE-ID Node ID.
-Argument FILE-PATH path for node file.
-Argument FILE-MOD-TIME Timestamp of the file (for when the log has no info)."
-  (let ((precise-time nil))
-    (when (file-exists-p org-roam-stats-log-file)
-      (with-temp-buffer
-        (insert-file-contents org-roam-stats-log-file)
-        (goto-char (point-min))
-        (when (re-search-forward (concat ":ID:[ \t]+" (regexp-quote node-id)) nil t)
-          (when (search-backward "* [" nil t)
-            (when (looking-at "^\\*+[ \t]+\\[\\([0-9]\\{4\\}-[0-9]\\{2\\}-[0-9]\\{2\\}[^]]*\\)\\]")
-              (let ((raw-time (match-string 1)))
-                (setq precise-time
-                      (string-trim
-                       (replace-regexp-in-string
-                        "\\b\\(Sun\\|Mon\\|Tue\\|Wed\\|Thu\\|Fri\\|Sat\\|dom\\|lun\\|mar\\|mie\\|jue\\|vie\\|sab\\)\\b"
-                        ""
-                        raw-time)))))))))
-    
-    ;; If no precise time found, fallback to filename parsing or file modification time (For org-roam nodes created before the logging with org-roam-stats-mode)
-    (if precise-time
-        precise-time
-      (let ((base-name (file-name-base file-path)))
+(defun org-roam-stats--get-node-creation-time (node file-mod-time)
+  "Return the creation timestamp string for NODE.
+Prefers its CREATED property, falling back to a timestamp encoded
+in its filename, then to FILE-MOD-TIME.
+Argument NODE org-roam node.
+Argument FILE-MOD-TIME mtime used when NODE predates org-roam-stats-mode."
+  (let* ((file (org-roam-node-file node))
+         (created (org-roam-with-file file nil
+                    (goto-char (org-roam-node-point node))
+                    (org-entry-get (point) "CREATED"))))
+    (if created
+        (format-time-string "%Y-%m-%d %H:%M" (org-time-string-to-time created))
+      (let ((base-name (file-name-base file)))
         (if (string-match "^\\([0-9]\\{4\\}\\)\\([0-9]\\{2\\}\\)\\([0-9]\\{2\\}\\)\\([0-9]\\{2\\}\\)\\([0-9]\\{2\\}\\)\\([0-9]\\{2\\}\\)-" base-name)
             (format "%s-%s-%s %s:%s"
                     (match-string 1 base-name)
@@ -145,7 +119,7 @@ Argument LINKS-MAP links between nodes."
         (setq timestamp (cdr (assoc 'timestamp cache-val))
               word-count (cdr (assoc 'words cache-val)))
       
-      (setq timestamp (org-roam-stats--get-node-creation-time id file mod-time))
+      (setq timestamp (org-roam-stats--get-node-creation-time node mod-time))
       (when (and file attrs (= (org-roam-node-level node) 0))
         (with-temp-buffer
           (insert-file-contents file)

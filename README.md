@@ -37,9 +37,7 @@ git clone https://github.com/GerardoCendejas/org-roam-stats.git
        :load-path "~/.emacs.d/lisp/org-roam-stats/"  ; Adjust path as needed
        :bind (("C-c m o" . org-roam-stats-open)) ; Or the keybinding of your choice
        :config
-       (org-roam-stats-mode 1) ; This enables the minor mode for automatic logging of note creation timestamps.
-       :custom
-       (org-roam-stats-log-file "~/.emacs.d/org-roam-stats-log.org")) ; Path to the log file for note creation timestamps (if dont want the default)
+       (org-roam-stats-mode 1)) ; This enables the minor mode for automatic logging of note creation timestamps.
 
 ```
 
@@ -48,7 +46,6 @@ git clone https://github.com/GerardoCendejas/org-roam-stats.git
 You can customize the package via `M-x customize-group org-roam-stats`.
 
 - `org-roam-stats-port`: Port for the local HTTP server (default `8089`).
-- `org-roam-stats-log-file`: Path to the org file where creation timestamps are logged.
 
 ## Usage
 
