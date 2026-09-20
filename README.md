@@ -1,5 +1,7 @@
 # org-roam-stats: A visual dashboard for org-roam knowledge management.
 
+[![MELPA](https://melpa.org/packages/org-roam-stats-badge.svg)](https://melpa.org/#/org-roam-stats)
+
 ![org-roam-stats](media/general.gif)
 
 **Table of Contents**
@@ -15,11 +17,27 @@ It is designed for researchers, writers, and anyone who wants to understand the 
 
 ## Installation
 
+### Use-package
+
+Using `use-package` (Recommended). You should add something like this to your `init.el`, this are the keybindings that I find useful, but feel free to change them.
+
+```emacs-lisp
+
+;; org-roam-stats ;;
+(use-package org-roam-stats
+  :ensure t
+  :bind (("C-c n S" . org-roam-stats-start))
+  :init
+  :config
+  (org-roam-stats-mode 1))
+  
+```
+
 ### From source 
 
 #### Clone repo
 
-`org-roam-stats` is not yet on MELPA, but you can use it from the GitHub repo:
+`org-roam-stats` is NOW ON MELPA, but you can use it from the GitHub repo:
 
 ```bash
 
