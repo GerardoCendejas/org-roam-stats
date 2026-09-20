@@ -1,6 +1,7 @@
 # org-roam-stats: A visual dashboard for org-roam knowledge management.
 
 [![MELPA](https://melpa.org/packages/org-roam-stats-badge.svg)](https://melpa.org/#/org-roam-stats)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22865537.svg)](https://doi.org/10.5281/zenodo.22865537)
 
 ![org-roam-stats](media/general.gif)
 
